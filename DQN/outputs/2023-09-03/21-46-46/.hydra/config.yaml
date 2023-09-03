@@ -1,0 +1,16 @@
+exp_name: 20 bits
+use_wandb: true
+model_name: dqn
+length: 20
+lr: 0.001
+num_episodes: 30000
+hidden_dim: 128
+gamma: 0.99
+epsilon: 0.01
+target_update: 10
+buffer_size: 10000
+batch_size: 64
+model_save_dir: save_model
+max_steps: 100
+eval: false
+log_frequency: 500

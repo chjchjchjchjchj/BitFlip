@@ -8,9 +8,9 @@ class BitFlip(gym.Env):
         super(BitFlip, self).__init__()
         self.length = length
         self.action_space = spaces.Discrete(self.length)
-        # self.action_space = spaces.Box(low=0, high=self.length)
         self.observation_space = spaces.Box(0, 1, [self.length], dtype=np.float32)
-        # self.observation_space = spaces.Discrete()
+        self.goal = np.random.randint(2, size=(self.length))
+        self.state = np.random.randint(2, size=(self.length))
 
     def reset(self):
         self.goal = np.random.randint(2, size=(self.length))
@@ -29,5 +29,6 @@ class BitFlip(gym.Env):
         return self.state, reward, done, None
     
     def render(self):
-        print(self.state)
+        # print(self.state)
+        print(f"Current State: {self.state}")
     
