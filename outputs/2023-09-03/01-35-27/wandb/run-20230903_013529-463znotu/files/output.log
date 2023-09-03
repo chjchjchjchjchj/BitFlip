@@ -1,0 +1,65 @@
+/root/miniconda3/envs/ling/lib/python3.9/site-packages/gym/logger.py:30: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))
+Iteration 0:   0%|                                                                                                         | 0/50 [00:00<?, ?it/s]/root/autodl-tmp/ling/DQN.py:70: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at /opt/conda/conda-bld/pytorch_1682343997789/work/torch/csrc/utils/tensor_new.cpp:245.)
+  state = torch.tensor([state], dtype=torch.float32).to(self.device)
+Iteration 0:   8%|█████▋                                                                 | 4/50 [00:02<00:20,  2.21it/s, episode=40, return=1.000]
+Model saved at save_model/model_episode_9.pt
+Model saved at save_model/model_episode_19.pt
+Model saved at save_model/model_episode_29.pt
+Model saved at save_model/model_episode_39.pt
+Iteration 0:  10%|███████                                                                | 5/50 [00:02<00:25,  1.80it/s, episode=50, return=1.000]
+Iteration 1:   6%|████▎                                                                  | 3/50 [00:01<00:19,  2.35it/s, episode=80, return=1.000]
+Model saved at save_model/model_episode_9.pt
+Model saved at save_model/model_episode_19.pt
+Model saved at save_model/model_episode_29.pt
+Iteration 1:  10%|███████                                                               | 5/50 [00:01<00:17,  2.50it/s, episode=100, return=1.000]
+Iteration 2:   4%|██▊                                                                   | 2/50 [00:00<00:14,  3.38it/s, episode=120, return=1.000]
+Model saved at save_model/model_episode_49.pt
+Model saved at save_model/model_episode_9.pt
+Model saved at save_model/model_episode_19.pt
+Iteration 2:  10%|███████                                                               | 5/50 [00:01<00:17,  2.54it/s, episode=150, return=1.000]
+Iteration 3:   8%|█████▌                                                                | 4/50 [00:01<00:12,  3.64it/s, episode=190, return=1.000]
+Model saved at save_model/model_episode_39.pt
+Model saved at save_model/model_episode_49.pt
+Model saved at save_model/model_episode_9.pt
+Model saved at save_model/model_episode_19.pt
+Model saved at save_model/model_episode_29.pt
+Model saved at save_model/model_episode_39.pt
+Iteration 3:  10%|███████                                                               | 5/50 [00:01<00:12,  3.71it/s, episode=200, return=1.000]
+Iteration 4:  10%|███████                                                               | 5/50 [00:01<00:12,  3.58it/s, episode=250, return=1.000]
+Iteration 5:   0%|                                                                                                         | 0/50 [00:00<?, ?it/s]
+Model saved at save_model/model_episode_9.pt
+Model saved at save_model/model_episode_19.pt
+Model saved at save_model/model_episode_29.pt
+Model saved at save_model/model_episode_39.pt
+Iteration 5:  10%|███████                                                               | 5/50 [00:01<00:15,  2.92it/s, episode=300, return=1.000]
+Iteration 6:   2%|█▍                                                                    | 1/50 [00:00<00:08,  5.54it/s, episode=310, return=1.000]
+Model saved at save_model/model_episode_9.pt
+Model saved at save_model/model_episode_19.pt
+Model saved at save_model/model_episode_29.pt
+Model saved at save_model/model_episode_39.pt
+Model saved at save_model/model_episode_49.pt
+Model saved at save_model/model_episode_9.pt
+Model saved at save_model/model_episode_19.pt
+Iteration 6:  10%|███████                                                               | 5/50 [00:01<00:09,  4.54it/s, episode=350, return=1.000]
+Iteration 7:   4%|██▊                                                                   | 2/50 [00:00<00:15,  3.17it/s, episode=370, return=1.000]
+Model saved at save_model/model_episode_39.pt
+Model saved at save_model/model_episode_49.pt
+Model saved at save_model/model_episode_9.pt
+Model saved at save_model/model_episode_19.pt
+Iteration 7:  10%|███████                                                               | 5/50 [00:01<00:15,  2.98it/s, episode=400, return=1.000]
+Iteration 8:   6%|████▏                                                                 | 3/50 [00:01<00:15,  2.95it/s, episode=430, return=1.000]
+Model saved at save_model/model_episode_39.pt
+Model saved at save_model/model_episode_49.pt
+Model saved at save_model/model_episode_9.pt
+Model saved at save_model/model_episode_19.pt
+Model saved at save_model/model_episode_29.pt
+Iteration 8:  10%|███████                                                               | 5/50 [00:01<00:15,  2.91it/s, episode=450, return=1.000]
+Iteration 9:   6%|████▏                                                                 | 3/50 [00:01<00:16,  2.87it/s, episode=480, return=1.000]
+Model saved at save_model/model_episode_49.pt
+Model saved at save_model/model_episode_9.pt
+Model saved at save_model/model_episode_19.pt
+Model saved at save_model/model_episode_29.pt
+Model saved at save_model/model_episode_39.pt
+
+Iteration 9:  10%|███████                                                               | 5/50 [00:01<00:13,  3.44it/s, episode=500, return=1.000]

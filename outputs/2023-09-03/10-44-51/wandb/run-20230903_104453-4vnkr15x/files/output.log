@@ -1,0 +1,13 @@
+/root/miniconda3/envs/ling/lib/python3.9/site-packages/gym/logger.py:30: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))
+Iteration 0:   0%|                                                                                                         | 0/50 [00:00<?, ?it/s]/root/autodl-tmp/ling/DQN.py:70: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at /opt/conda/conda-bld/pytorch_1682343997789/work/torch/csrc/utils/tensor_new.cpp:245.)
+  state = torch.tensor([state], dtype=torch.float32).to(self.device)
+Iteration 0:   2%|█▎                                                                  | 1/50 [10:04<8:13:17, 604.03s/it, episode=10, return=1.000]
+
+Iteration 0:   4%|██▋                                                                 | 2/50 [16:15<6:13:40, 467.09s/it, episode=20, return=1.000]
+
+Iteration 0:   6%|████                                                                | 3/50 [23:21<5:51:14, 448.39s/it, episode=30, return=1.000]
+
+Iteration 0:   8%|█████▍                                                              | 4/50 [32:38<6:16:45, 491.42s/it, episode=40, return=1.000]
+Iteration 0:  10%|██████▊                                                             | 5/50 [38:40<5:48:06, 464.13s/it, episode=50, return=1.000]
+Iteration 1:   0%|                                                                                                         | 0/50 [00:00<?, ?it/s]
