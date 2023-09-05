@@ -17,6 +17,18 @@ import wandb
 import omegaconf
 from DQN import *
 from my_env import BitFlip
+import json
+
+def save_results_to_json(log_episodes, win_rate, epsilon_array):
+    if not os.path.exists('results'):
+        os.makedirs('results')
+    results = {
+        "log_episodes": log_episodes,
+        "win_rate": win_rate,
+        "epsilon_array": epsilon_array
+    }
+    with open('results.json', 'w') as json_file:
+        json.dump(results, json_file)
 
 def set_seed(seed, env):
     torch.manual_seed(seed)
@@ -48,26 +60,32 @@ def main(args):
     batch_size = args.batch_size
     eval = args.eval
     log_frequency = args.log_frequency
-    max_steps = args.max_steps if args.max_steps > args.length else args.length
-
+    # max_steps = args.length if args.max_steps > args.length else args.max_steps
+    max_steps = args.length
+    minimal_epsilon = args.minimal_epsilon
+    delta_epsilon = args.delta_epsilon
+    reward_type = args.env_reward_type
     device = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
     # device = torch.device('cpu')
     env_name = "BitFlip"
-    env = BitFlip(length=length)
+    env = BitFlip(length=length, reward_type=reward_type)
 
     # env_name = 'CartPole-v0'
     # env = gym.make(env_name)
 
     set_seed(10, env=env)
-    minimal_size = 500
+    minimal_size = args.minimal_size
+    assert minimal_size >= batch_size
     replay_buffer = ReplayBuffer(buffer_size)
     state_dim = env.observation_space.shape[0]
     action_dim = env.action_space.n
     checkpoint_dir = os.path.join(os.getcwd(), 'checkpoint')
-    agent = DQN(state_dim=state_dim, hidden_dim=hidden_dim, action_dim=action_dim, learning_rate=lr, gamma=gamma, epsilon=epsilon, target_update=target_update, device=device, length=length, policy_type="goal", checkpoint_dir=checkpoint_dir)
+    agent = DQN(state_dim=state_dim, hidden_dim=hidden_dim, action_dim=action_dim, learning_rate=lr, gamma=gamma, epsilon=epsilon, target_update=target_update, device=device, length=length, policy_type="goal", checkpoint_dir=checkpoint_dir, minimal_epsilon=minimal_epsilon, delta_epsilon=delta_epsilon)
 
     win_rate = []
     log_episodes = []
+    epsilon_array = []
+
     success = 0
     for episode in tqdm(range(num_episodes)):
         episode_return = 0
@@ -100,16 +118,23 @@ def main(args):
                 agent.save_model()
             win_rate.append(success / log_frequency)
             log_episodes.append(episode)
+            epsilon_array.append(agent.epsilon)
             success = 0
+            print(f"win_rate={win_rate}")
+            print(f"epsilon_array={epsilon_array}")
             wandb.log({
                 "win_rate": success / log_frequency,
                 "episode": episode
             })
+            save_results_to_json(log_episodes, win_rate, epsilon_array)
     
-    plt.title(f"DQN in {length} bits")
+    figure = plt.figure()
+    plt.title(f"DQNwithGOAL in {length} bits, minimal_size={minimal_size}")
     plt.ylabel("Win Rate")
     plt.xlabel("Episodes")
-    plt.ylim([0, 1.3])
+    plt.ylim([0, 1.1])
+    plt.plot(log_episodes, win_rate)
+    plt.show()
 
     save_plot_dir = os.path.join(os.getcwd(), 'plots')
     if not os.path.exists(save_plot_dir):
@@ -117,66 +142,7 @@ def main(args):
     save_win_rate_path = os.path.join(save_plot_dir, 'win_rate.pdf')
     plt.savefig(save_win_rate_path)
 
-                        
-    # return_list = []
-    # for i in range(10):
-    #     with tqdm(total=int(num_episodes / 10), desc=f'Iteration {i}') as pbar:
-    #         for i_episode in range(int(num_episodes / 10)):
-    #             episode_return = 0
-    #             state, goal = env.reset()
-    #             # state = env.reset()
-    #             done = False
-    #             while not done:
-    #                 action = agent.take_action(state=state, goal=goal)
-    #                 # next_state, reward, done = env.step(action)
-    #                 next_state, reward, done, _ = env.step(action)
-    #                 replay_buffer.add(state, action, reward, next_state, done)
-    #                 state = next_state
-    #                 episode_return += reward
-
-    #                 if replay_buffer.size() > minimal_size:
-    #                     b_s, b_a, b_r, b_ns, b_d = replay_buffer.sample(batch_size)
-    #                     transition_dict = {
-    #                         'states': b_s,
-    #                         'actions': b_a,
-    #                         'next_states': b_ns,
-    #                         'rewards': b_r,
-    #                         'dones': b_d
-    #                     }
-    #                     agent.update(transition_dict)
-
-    #             wandb.log({
-    #                 "return": episode_return
-    #             })
-
-    #             return_list.append(episode_return)
-    #             if (i_episode + 1) % 10 == 0:
-    #                 pbar.set_postfix(
-    #                     {
-    #                         'episode': '%d' % (num_episodes / 10 * i + i_episode + 1),
-    #                         'return': '%.3f' % np.mean(return_list[-10:])
-    #                     }
-    #                 )
-    #                 pbar.update(1)
-    #                 if episode_return > some_threshold:
-    #                     save_model(agent.q_net, i_episode, args.model_save_dir)
-
-
-    #     episodes_list = list(range(len(return_list)))
-    #     plt.plot(episodes_list, return_list)
-    #     plt.xlabel('Episodes')
-    #     plt.ylabel('Returns')
-    #     plt.title('DQN on {}'.format(env_name))
-    #     plt.savefig('DQN on {}(bf).pdf'.format(env_name))
-    #     plt.show()
-
-    #     mv_return = rl_utils.moving_average(return_list, 9)
-    #     plt.plot(episodes_list, mv_return)
-    #     plt.xlabel('Episodes')
-    #     plt.ylabel('Returns')
-    #     plt.title('DQN on {}'.format(env_name))
-    #     plt.savefig('DQN on {}(m).pdf'.format(env_name))
-    #     plt.show()
+                    
 
 if __name__ == "__main__":
     main()   

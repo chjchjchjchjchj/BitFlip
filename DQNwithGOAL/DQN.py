@@ -64,7 +64,7 @@ def save_model(model, episode, save_dir):
 
 
 class DQN:
-    def __init__(self, state_dim, hidden_dim, action_dim, learning_rate, gamma, epsilon, target_update, device, length, policy_type='vanila', checkpoint_dir="save_model", name=None):
+    def __init__(self, state_dim, hidden_dim, action_dim, learning_rate, gamma, epsilon, target_update, device, length, policy_type='vanila', checkpoint_dir="save_model", name=None, minimal_epsilon=0.1, delta_epsilon=1e-5):
         """
         policy_type = {'vanila', 'goal'}
         """
@@ -83,6 +83,8 @@ class DQN:
         self.length = length
         self.cnt = 0
         self.type = policy_type
+        self.delta_epsilon = delta_epsilon
+        self.minimal_epsilon = minimal_epsilon
 
 
     def take_action(self, state, goal=None):
@@ -96,6 +98,13 @@ class DQN:
             state = torch.tensor([state], dtype=torch.float32).to(self.device)
             action = self.q_net(state).argmax().item()
         return action
+
+    def update_epsilon(self):
+        # self.epsilon -= self.delta_epsilon if self.epsilon > self.minimal_epsilon else self.minimal_epsilon
+        if self.epsilon > self.minimal_epsilon:
+            self.epsilon -= self.delta_epsilon
+        else:
+            self.epsilon = self.minimal_epsilon
 
     def learn(self, transition_dict):
         states = torch.tensor(transition_dict['states'], dtype=torch.float32).to(self.device)
@@ -119,6 +128,8 @@ class DQN:
         dqn_loss.backward()
         # dqn_loss.backward(retain_graph=True)
         self.optimizer.step()
+
+        self.update_epsilon()
 
         if self.cnt % self.target_update == 0:
             self.target_q_net.load_state_dict(self.q_net.state_dict())
