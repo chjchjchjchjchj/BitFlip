@@ -1,0 +1,133 @@
+/root/miniconda3/envs/ling/lib/python3.9/site-packages/gym/logger.py:30: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))
+  0%|                                                                                             | 0/30000 [00:00<?, ?it/s]/root/BitFlip/DQNwithHer/DQNwithHER.py:102: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at /opt/conda/conda-bld/pytorch_1682343997789/work/torch/csrc/utils/tensor_new.cpp:245.)
+  state = torch.tensor([state], dtype=torch.float32).to(self.device)
+win_rate=[0.0]
+epsilon_array=[0.9]
+log_episodes=[0]
+
+
+
+  2%|█▎                                                                                 | 478/30000 [00:08<07:40, 64.10it/s]
+Saving checkpoint at /root/BitFlip/DQNwithHer/outputs/2023-09-06/02-04-12/checkpoint/q_net.pth
+Saving checkpoint at /root/BitFlip/DQNwithHer/outputs/2023-09-06/02-04-12/checkpoint/target_q_net.pth
+win_rate=[0.0, 0.016]
+epsilon_array=[0.9, 0.863960000000164]
+
+
+
+
+  3%|██▊                                                                                | 997/30000 [00:16<07:22, 65.55it/s]
+win_rate=[0.0, 0.016, 0.014]
+epsilon_array=[0.9, 0.863960000000164, 0.8274000000003304]
+
+
+
+
+  5%|███▉                                                                              | 1454/30000 [00:24<09:24, 50.54it/s]
+win_rate=[0.0, 0.016, 0.014, 0.002]
+epsilon_array=[0.9, 0.863960000000164, 0.8274000000003304, 0.7902600000004995]
+
+
+
+
+  6%|█████▎                                                                            | 1948/30000 [00:32<07:51, 59.48it/s]
+Saving checkpoint at /root/BitFlip/DQNwithHer/outputs/2023-09-06/02-04-12/checkpoint/q_net.pth
+Saving checkpoint at /root/BitFlip/DQNwithHer/outputs/2023-09-06/02-04-12/checkpoint/target_q_net.pth
+win_rate=[0.0, 0.016, 0.014, 0.002, 0.006]
+epsilon_array=[0.9, 0.863960000000164, 0.8274000000003304, 0.7902600000004995, 0.7533400000006675]
+
+
+
+
+  8%|██████▋                                                                           | 2436/30000 [00:41<07:59, 57.49it/s]
+win_rate=[0.0, 0.016, 0.014, 0.002, 0.006, 0.006]
+epsilon_array=[0.9, 0.863960000000164, 0.8274000000003304, 0.7902600000004995, 0.7533400000006675, 0.7164400000008354]
+
+
+
+
+ 10%|███████▉                                                                          | 2909/30000 [00:48<06:55, 65.25it/s]
+win_rate=[0.0, 0.016, 0.014, 0.002, 0.006, 0.006, 0.006]
+epsilon_array=[0.9, 0.863960000000164, 0.8274000000003304, 0.7902600000004995, 0.7533400000006675, 0.7164400000008354, 0.6806800000009982]
+
+
+
+
+ 11%|█████████▎                                                                        | 3417/30000 [00:56<06:59, 63.39it/s]
+win_rate=[0.0, 0.016, 0.014, 0.002, 0.006, 0.006, 0.006, 0.004]
+epsilon_array=[0.9, 0.863960000000164, 0.8274000000003304, 0.7902600000004995, 0.7533400000006675, 0.7164400000008354, 0.6806800000009982, 0.6457600000011571]
+
+
+
+
+ 13%|██████████▊                                                                       | 3940/30000 [01:04<06:42, 64.74it/s]
+win_rate=[0.0, 0.016, 0.014, 0.002, 0.006, 0.006, 0.006, 0.004, 0.002]
+epsilon_array=[0.9, 0.863960000000164, 0.8274000000003304, 0.7902600000004995, 0.7533400000006675, 0.7164400000008354, 0.6806800000009982, 0.6457600000011571, 0.6111400000013146]
+
+
+
+
+ 15%|████████████▏                                                                     | 4447/30000 [01:13<07:12, 59.02it/s]
+Saving checkpoint at /root/BitFlip/DQNwithHer/outputs/2023-09-06/02-04-12/checkpoint/q_net.pth
+Saving checkpoint at /root/BitFlip/DQNwithHer/outputs/2023-09-06/02-04-12/checkpoint/target_q_net.pth
+win_rate=[0.0, 0.016, 0.014, 0.002, 0.006, 0.006, 0.006, 0.004, 0.002, 0.004]
+epsilon_array=[0.9, 0.863960000000164, 0.8274000000003304, 0.7902600000004995, 0.7533400000006675, 0.7164400000008354, 0.6806800000009982, 0.6457600000011571, 0.6111400000013146, 0.5759200000014749]
+
+
+
+
+ 17%|█████████████▌                                                                    | 4960/30000 [01:21<06:09, 67.70it/s]
+win_rate=[0.0, 0.016, 0.014, 0.002, 0.006, 0.006, 0.006, 0.004, 0.002, 0.004, 0.004]
+epsilon_array=[0.9, 0.863960000000164, 0.8274000000003304, 0.7902600000004995, 0.7533400000006675, 0.7164400000008354, 0.6806800000009982, 0.6457600000011571, 0.6111400000013146, 0.5759200000014749, 0.5423000000016279]
+
+
+
+
+ 18%|██████████████▉                                                                   | 5444/30000 [01:28<06:41, 61.15it/s]
+win_rate=[0.0, 0.016, 0.014, 0.002, 0.006, 0.006, 0.006, 0.004, 0.002, 0.004, 0.004, 0.002]
+epsilon_array=[0.9, 0.863960000000164, 0.8274000000003304, 0.7902600000004995, 0.7533400000006675, 0.7164400000008354, 0.6806800000009982, 0.6457600000011571, 0.6111400000013146, 0.5759200000014749, 0.5423000000016279, 0.5090000000017795]
+
+
+
+
+ 20%|████████████████▍                                                                 | 5996/30000 [01:36<05:38, 70.94it/s]
+Saving checkpoint at /root/BitFlip/DQNwithHer/outputs/2023-09-06/02-04-12/checkpoint/q_net.pth
+Saving checkpoint at /root/BitFlip/DQNwithHer/outputs/2023-09-06/02-04-12/checkpoint/target_q_net.pth
+win_rate=[0.0, 0.016, 0.014, 0.002, 0.006, 0.006, 0.006, 0.004, 0.002, 0.004, 0.004, 0.002, 0.012]
+epsilon_array=[0.9, 0.863960000000164, 0.8274000000003304, 0.7902600000004995, 0.7533400000006675, 0.7164400000008354, 0.6806800000009982, 0.6457600000011571, 0.6111400000013146, 0.5759200000014749, 0.5423000000016279, 0.5090000000017795, 0.47670000000179713]
+
+
+
+ 21%|█████████████████▌                                                                | 6424/30000 [01:42<05:40, 69.26it/s]
+win_rate=[0.0, 0.016, 0.014, 0.002, 0.006, 0.006, 0.006, 0.004, 0.002, 0.004, 0.004, 0.002, 0.012, 0.01]
+epsilon_array=[0.9, 0.863960000000164, 0.8274000000003304, 0.7902600000004995, 0.7533400000006675, 0.7164400000008354, 0.6806800000009982, 0.6457600000011571, 0.6111400000013146, 0.5759200000014749, 0.5423000000016279, 0.5090000000017795, 0.47670000000179713, 0.44544000000176587]
+
+
+ 23%|██████████████████▌                                                               | 6800/30000 [01:48<06:11, 62.50it/s]
+Traceback (most recent call last):
+  File "/root/BitFlip/DQNwithHer/main.py", line 180, in <module>
+    main()
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/hydra/main.py", line 94, in decorated_main
+    _run_hydra(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/hydra/_internal/utils.py", line 394, in _run_hydra
+    _run_app(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/hydra/_internal/utils.py", line 457, in _run_app
+    run_and_report(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/hydra/_internal/utils.py", line 220, in run_and_report
+    return func()
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/hydra/_internal/utils.py", line 458, in <lambda>
+    lambda: hydra.run(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/hydra/_internal/hydra.py", line 119, in run
+    ret = run_job(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/hydra/core/utils.py", line 186, in run_job
+    ret.return_value = task_function(task_cfg)
+  File "/root/BitFlip/DQNwithHer/main.py", line 146, in main
+    agent.learn(transition_dict)
+  File "/root/BitFlip/DQNwithHer/DQNwithHER.py", line 132, in learn
+    dqn_loss.backward()
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/torch/_tensor.py", line 487, in backward
+    torch.autograd.backward(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/torch/autograd/__init__.py", line 200, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

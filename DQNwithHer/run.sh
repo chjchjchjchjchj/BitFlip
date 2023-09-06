@@ -18,7 +18,5 @@ model=DQNwithHER
 #     python main.py minimal_size=128 length=$length use_wandb=false
 # done
 
-
-python main.py minimal_size=128 length=6 use_wandb=false 
-python main.py minimal_size=128 length=7 use_wandb=false
-python main.py minimal_size=128 length=8 use_wandb=false
+cd /root/BitFlip/DQNwithHer
+CUDA_VISIBLE_DEVICES=1 python main.py minimal_size=64 length=8 use_wandb=true epsilon=0.9 delta_epsilon=1e-5 lr=1e-4

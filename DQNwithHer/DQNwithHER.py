@@ -75,7 +75,8 @@ class DQNwithHER:
         elif policy_type == 'vanila':
             self.q_net = Qnet(state_dim=state_dim, hidden_dim=hidden_dim, action_dim=action_dim, name="q_net", checkpoint_dir=checkpoint_dir).to(device)
             self.target_q_net = Qnet(state_dim=state_dim, hidden_dim=hidden_dim, action_dim=action_dim, name="target_q_net", checkpoint_dir=checkpoint_dir).to(device)
-        self.optimizer = torch.optim.Adam(self.q_net.parameters(), lr=learning_rate)
+        # self.optimizer = torch.optim.Adam(self.q_net.parameters(), lr=learning_rate)
+        self.optimizer = torch.optim.RMSprop(self.q_net.parameters(), lr=learning_rate)
         self.gamma = gamma
         self.epsilon = epsilon
         self.target_update = target_update
@@ -86,6 +87,7 @@ class DQNwithHER:
         self.HER_buffer = ReplayBuffer(capacity=HER_buffer_size)
         self.delta_epsilon = delta_epsilon
         self.minimal_epsilon = minimal_epsilon
+        self.loss = nn.MSELoss()
 
         assert self.epsilon >= self.minimal_epsilon
 
@@ -126,7 +128,8 @@ class DQNwithHER:
         q_values = q_values.cuda()
         max_next_q_values = self.target_q_net(next_states).max(1)[0].view(-1, 1)
         q_targets = rewards + self.gamma * max_next_q_values * (1 - dones)
-        dqn_loss = torch.mean(F.mse_loss(q_values, q_targets))
+        # dqn_loss = torch.mean(F.mse_loss(q_values, q_targets))
+        dqn_loss = self.loss(q_values, q_targets)
         self.optimizer.zero_grad()
         dqn_loss.backward()
         # dqn_loss.backward(retain_graph=True)

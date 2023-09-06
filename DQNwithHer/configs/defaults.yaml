@@ -17,7 +17,12 @@ eval: False
 log_frequency: 500
 minimal_size: 64
 env_reward_type: default
-policy_type: vanila
+policy_type: goal
 minimal_epsilon: 0.1
 epsilon: 0.5
-delta_epsilon: 0.001
+delta_epsilon: 0.00001
+
+reward_success: 1
+reward_fail: -1
+
+step_is_fast: false

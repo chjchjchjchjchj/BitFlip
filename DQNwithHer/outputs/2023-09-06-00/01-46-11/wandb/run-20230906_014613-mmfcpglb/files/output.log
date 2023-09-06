@@ -1,0 +1,68 @@
+/root/miniconda3/envs/ling/lib/python3.9/site-packages/gym/logger.py:30: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))
+  0%|                                                                                             | 0/30000 [00:00<?, ?it/s]/root/BitFlip/DQNwithHer/DQNwithHER.py:102: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at /opt/conda/conda-bld/pytorch_1682343997789/work/torch/csrc/utils/tensor_new.cpp:245.)
+  state = torch.tensor([state], dtype=torch.float32).to(self.device)
+win_rate=[0.0]
+epsilon_array=[0.9]
+log_episodes=[0]
+
+
+
+
+
+
+
+  2%|█▍                                                                                 | 504/30000 [00:17<19:14, 25.56it/s]
+Saving checkpoint at /root/BitFlip/DQNwithHer/outputs/2023-09-06/01-46-11/checkpoint/q_net.pth
+Saving checkpoint at /root/BitFlip/DQNwithHer/outputs/2023-09-06/01-46-11/checkpoint/target_q_net.pth
+win_rate=[0.0, 0.028]
+epsilon_array=[0.9, 0.8270300000003321]
+
+
+
+
+
+
+
+
+  3%|██▋                                                                                | 977/30000 [00:33<16:56, 28.55it/s]
+win_rate=[0.0, 0.028, 0.016]
+epsilon_array=[0.9, 0.8270300000003321, 0.7509200000006785]
+
+
+
+
+
+
+
+
+
+  5%|████                                                                              | 1464/30000 [00:50<16:56, 28.06it/s]
+win_rate=[0.0, 0.028, 0.016, 0.016]
+epsilon_array=[0.9, 0.8270300000003321, 0.7509200000006785, 0.6748800000010245]
+
+
+
+  6%|████▌                                                                             | 1651/30000 [00:57<16:33, 28.54it/s]
+Traceback (most recent call last):
+  File "/root/BitFlip/DQNwithHer/main.py", line 180, in <module>
+    main()
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/hydra/main.py", line 94, in decorated_main
+    _run_hydra(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/hydra/_internal/utils.py", line 394, in _run_hydra
+    _run_app(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/hydra/_internal/utils.py", line 457, in _run_app
+    run_and_report(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/hydra/_internal/utils.py", line 220, in run_and_report
+    return func()
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/hydra/_internal/utils.py", line 458, in <lambda>
+    lambda: hydra.run(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/hydra/_internal/hydra.py", line 119, in run
+    ret = run_job(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/hydra/core/utils.py", line 186, in run_job
+    ret.return_value = task_function(task_cfg)
+  File "/root/BitFlip/DQNwithHer/main.py", line 112, in main
+    agent.learn(transition_dict)
+  File "/root/BitFlip/DQNwithHer/DQNwithHER.py", line 119, in learn
+    dones = torch.tensor(transition_dict['dones'], dtype=torch.float32).view(-1, 1).to(self.device)
+KeyboardInterrupt

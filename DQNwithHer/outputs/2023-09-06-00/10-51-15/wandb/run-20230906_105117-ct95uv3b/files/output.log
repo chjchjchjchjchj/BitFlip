@@ -1,0 +1,22 @@
+/root/miniconda3/envs/ling/lib/python3.9/site-packages/gym/logger.py:30: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))
+  0%|                                                                                                              | 0/30000 [00:00<?, ?it/s]/root/BitFlip/DQNwithHer/DQNwithHER.py:102: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at /opt/conda/conda-bld/pytorch_1682343997789/work/torch/csrc/utils/tensor_new.cpp:245.)
+  state = torch.tensor([state], dtype=torch.float32).to(self.device)
+win_rate=[0.0]
+epsilon_array=[0.9]
+log_episodes=[0]
+  0%|                                                                                                      | 8/30000 [00:00<52:31,  9.52it/s]
+Error executing job with overrides: ['minimal_size=64', 'length=8', 'use_wandb=true', 'epsilon=0.9', 'delta_epsilon=1e-5', 'lr=1e-4']
+Traceback (most recent call last):
+  File "/root/BitFlip/DQNwithHer/main.py", line 112, in main
+    agent.learn(transition_dict)
+  File "/root/BitFlip/DQNwithHer/DQNwithHER.py", line 131, in learn
+    dqn_loss = nn.MSELoss(q_values, q_targets)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/torch/nn/modules/loss.py", line 533, in __init__
+    super().__init__(size_average, reduce, reduction)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/torch/nn/modules/loss.py", line 23, in __init__
+    self.reduction: str = _Reduction.legacy_get_string(size_average, reduce)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/torch/nn/_reduction.py", line 35, in legacy_get_string
+    if size_average and reduce:
+RuntimeError: Boolean value of Tensor with more than one value is ambiguous
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

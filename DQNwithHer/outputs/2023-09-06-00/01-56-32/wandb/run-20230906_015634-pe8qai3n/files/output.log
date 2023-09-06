@@ -1,0 +1,18 @@
+/root/miniconda3/envs/ling/lib/python3.9/site-packages/gym/logger.py:30: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))
+  0%|                                                                                             | 0/30000 [00:00<?, ?it/s]/root/BitFlip/DQNwithHer/DQNwithHER.py:102: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at /opt/conda/conda-bld/pytorch_1682343997789/work/torch/csrc/utils/tensor_new.cpp:245.)
+  state = torch.tensor([state], dtype=torch.float32).to(self.device)
+win_rate=[0.0]
+epsilon_array=[0.9]
+log_episodes=[0]
+  0%|                                                                                   | 8/30000 [00:00<1:01:22,  8.15it/s]
+Error executing job with overrides: ['minimal_size=64', 'length=8', 'use_wandb=true', 'epsilon=0.9', 'delta_epsilon=1e-5', 'lr=1e-4']
+Traceback (most recent call last):
+  File "/root/BitFlip/DQNwithHer/main.py", line 113, in main
+    b_s, b_a, b_r, b_ns, b_d, b_g = agent.HER_buffer.sample(batch_size)
+  File "/root/BitFlip/DQNwithHer/DQNwithHER.py", line 26, in sample
+    transition = random.sample(self.buffer, batch_size)
+  File "/root/miniconda3/envs/ling/lib/python3.9/random.py", line 449, in sample
+    raise ValueError("Sample larger than population or is negative")
+ValueError: Sample larger than population or is negative
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

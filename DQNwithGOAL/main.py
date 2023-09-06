@@ -65,10 +65,13 @@ def main(args):
     minimal_epsilon = args.minimal_epsilon
     delta_epsilon = args.delta_epsilon
     reward_type = args.env_reward_type
+    reward_success = args.reward_success
+    reward_fail = args.reward_fail
     device = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
     # device = torch.device('cpu')
     env_name = "BitFlip"
-    env = BitFlip(length=length, reward_type=reward_type)
+    env = BitFlip(length=length, reward_type=reward_type, reward_success=reward_success, reward_fail=reward_fail)
+
 
     # env_name = 'CartPole-v0'
     # env = gym.make(env_name)
@@ -124,7 +127,8 @@ def main(args):
             print(f"epsilon_array={epsilon_array}")
             wandb.log({
                 "win_rate": success / log_frequency,
-                "episode": episode
+                "episode": episode,
+                "epsilon": agent.epsilon,
             })
             save_results_to_json(log_episodes, win_rate, epsilon_array)
     

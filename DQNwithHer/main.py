@@ -18,6 +18,7 @@ import omegaconf
 from DQNwithHER import *
 from my_env import BitFlip
 import json
+import cProfile
 
 def save_results_to_json(log_episodes, win_rate, epsilon_array):
     if not os.path.exists('results'):
@@ -63,11 +64,12 @@ def main(args):
     minimal_epsilon = args.minimal_epsilon
     delta_epsilon = args.delta_epsilon
     reward_type = args.env_reward_type
-
+    reward_success = args.reward_success
+    reward_fail = args.reward_fail
     device = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
     # device = torch.device('cpu')
     env_name = "BitFlip"
-    env = BitFlip(length=length, reward_type="default")
+    env = BitFlip(length=length, reward_type="default", reward_success=reward_success, reward_fail=reward_fail)
 
 
     set_seed(10, env=env)
@@ -114,10 +116,24 @@ def main(args):
 
         if not done:
             new_goal = np.copy(state)
-            for step in range(max_steps):
-                transition = transitions[step]
-                if np.array_equal(new_goal, transition["next_state"]):
-                    agent.store_experience(transition["state"], transition["action"], 1.0, transition["next_state"], True, new_goal)
+            if not np.array_equal(new_goal, goal):
+                for step in range(max_steps):
+                    transition = transitions[step]
+                    if np.array_equal(new_goal, transition["next_state"]):
+                        agent.store_experience(transition["state"], transition["action"], 1.0, transition["next_state"], True, new_goal)
+                        if agent.HER_buffer.size() > minimal_size:
+                            b_s, b_a, b_r, b_ns, b_d, b_g = agent.HER_buffer.sample(batch_size)
+                            transition_dict = {
+                                'states': b_s,
+                                'actions': b_a,
+                                'rewards': b_r,
+                                'next_states': b_ns,
+                                'dones': b_d,
+                                'goals': b_g
+                            }
+                            agent.learn(transition_dict)
+                        break
+                    agent.store_experience(transition["state"], transition["action"], transition["reward"], transition["next_state"], False, new_goal)
                     if agent.HER_buffer.size() > minimal_size:
                         b_s, b_a, b_r, b_ns, b_d, b_g = agent.HER_buffer.sample(batch_size)
                         transition_dict = {
@@ -129,22 +145,6 @@ def main(args):
                             'goals': b_g
                         }
                         agent.learn(transition_dict)
-                    break
-                agent.store_experience(transition["state"], transition["action"], transition["reward"], transition["next_state"], False, new_goal)
-                if agent.HER_buffer.size() > minimal_size:
-                    b_s, b_a, b_r, b_ns, b_d, b_g = agent.HER_buffer.sample(batch_size)
-                    transition_dict = {
-                        'states': b_s,
-                        'actions': b_a,
-                        'rewards': b_r,
-                        'next_states': b_ns,
-                        'dones': b_d,
-                        'goals': b_g
-                    }
-                    agent.learn(transition_dict)
-
-
-
         
         if episode % log_frequency == 0:
             if len(win_rate) > 0 and (success / log_frequency) > win_rate[-1]:
@@ -155,6 +155,7 @@ def main(args):
             success = 0
             print(f"win_rate={win_rate}")
             print(f"epsilon_array={epsilon_array}")
+            print(f"log_episodes={log_episodes}")
             wandb.log({
                 "win_rate": success / log_frequency,
                 "episode": episode,
@@ -163,7 +164,7 @@ def main(args):
             save_results_to_json(log_episodes, win_rate, epsilon_array)
     
     figure = plt.figure()
-    plt.title(f"DQNwithHER in {length} bits,minimal_size={minimal_size},initial_e={epsilon_array[0]}")
+    plt.title(f"DQNwithHER in {length} bits,minimal_size={minimal_size},initial_e={epsilon_array[0]},reward=({reward_success},{reward_fail})")
     plt.ylabel("Win Rate")
     plt.xlabel("Episodes")
     plt.ylim([0, 1.1])
@@ -178,3 +179,4 @@ def main(args):
 
 if __name__ == "__main__":
     main()   
+    # cProfile.run(main())
