@@ -152,7 +152,6 @@ def main(args):
             win_rate.append(success / log_frequency)
             log_episodes.append(episode)
             epsilon_array.append(agent.epsilon)
-            success = 0
             print(f"win_rate={win_rate}")
             print(f"epsilon_array={epsilon_array}")
             print(f"log_episodes={log_episodes}")
@@ -161,6 +160,7 @@ def main(args):
                 "episode": episode,
                 "epsilon": agent.epsilon
             })
+            success = 0
             save_results_to_json(log_episodes, win_rate, epsilon_array)
     
     figure = plt.figure()

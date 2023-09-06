@@ -118,13 +118,13 @@ def main(args):
             win_rate.append(success / log_frequency)
             epsilon_array.append(agent.epsilon)
             log_episodes.append(episode)
-            success = 0
             print(f"win_rate={win_rate}")
             print(f"epsilon_array={epsilon_array}")
             wandb.log({
                 "win_rate": success / log_frequency,
                 "episode": episode
             })
+            success = 0
             save_results_to_json(log_episodes, win_rate, epsilon_array)
     
     figure = plt.figure()

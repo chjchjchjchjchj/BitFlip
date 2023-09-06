@@ -18,6 +18,7 @@ import omegaconf
 from DQN import *
 from my_env import BitFlip
 import json
+from tensorboardX import SummaryWriter
 
 def save_results_to_json(log_episodes, win_rate, epsilon_array):
     if not os.path.exists('results'):
@@ -40,7 +41,7 @@ def set_seed(seed, env):
 def main(args):
     if not args.use_wandb:
         os.environ["WANDB_DISABLED"] = "true"
-
+    
     wandb_project = "BitFlip_dqn_with_goal" #@param {"type": "string"}
     wandb_run_name = args.exp_name
     # ipdb.set_trace()
@@ -68,6 +69,8 @@ def main(args):
     reward_success = args.reward_success
     reward_fail = args.reward_fail
     device = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
+    log_dir = "logs/"
+    writer = SummaryWriter(log_dir=log_dir)
     # device = torch.device('cpu')
     env_name = "BitFlip"
     env = BitFlip(length=length, reward_type=reward_type, reward_success=reward_success, reward_fail=reward_fail)
@@ -122,7 +125,6 @@ def main(args):
             win_rate.append(success / log_frequency)
             log_episodes.append(episode)
             epsilon_array.append(agent.epsilon)
-            success = 0
             print(f"win_rate={win_rate}")
             print(f"epsilon_array={epsilon_array}")
             wandb.log({
@@ -130,7 +132,10 @@ def main(args):
                 "episode": episode,
                 "epsilon": agent.epsilon,
             })
+            writer.add_scalar('win_rate', success / log_frequency, global_step=episode)
+            writer.add_scalar('epsilon', agent.epsilon, global_step=episode)
             save_results_to_json(log_episodes, win_rate, epsilon_array)
+            success = 0
     
     figure = plt.figure()
     plt.title(f"DQNwithGOAL in {length} bits, minimal_size={minimal_size}")

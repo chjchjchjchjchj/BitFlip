@@ -79,6 +79,7 @@ def main(args):
 
     win_rate = []
     log_episodes = []
+    epsilon_array = []
     success = 0
     for episode in tqdm(range(num_episodes)):
         episode_return = 0
@@ -110,14 +111,16 @@ def main(args):
             if len(win_rate) > 0 and (success / log_frequency) > win_rate[-1]:
                 agent.save_model()
             win_rate.append(success / log_frequency)
+            epsilon_array.append(agent.epsilon)
             log_episodes.append(episode)
-            success = 0
             print(f"win_rate={win_rate}")
+            print(f"epsilon_array={epsilon_array}")
             wandb.log({
                 "win_rate": success / log_frequency,
                 "episode": episode
             })
-            save_results_to_json(log_episodes, win_rate)
+            success = 0
+            save_results_to_json(log_episodes, win_rate, epsilon_array)
     
     figure = plt.figure()
     plt.title(f"DQN in {length} bits, minimal_size={minimal_size}")
