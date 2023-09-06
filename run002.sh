@@ -72,14 +72,21 @@ CUDA_VISIBLE_DEVICES=3 python main.py length=8 epsilon=0.9 delta_epsilon=1e-5 ta
 
 
 cd /root/BitFlip/DQNwithGOAL
-CUDA_VISIBLE_DEVICES=0 python main.py length=4 epsilon=0.9 delta_epsilon=1e-5 target_update=50 use_wandb=false reward_success=100 reward_fail=-1
-CUDA_VISIBLE_DEVICES=1 python main.py length=4 epsilon=0.9 delta_epsilon=1e-5 target_update=50 use_wandb=false reward_success=1 reward_fail=-1
-CUDA_VISIBLE_DEVICES=2 python main.py length=4 epsilon=0.9 delta_epsilon=1e-5 target_update=50 use_wandb=false reward_success=0 reward_fail=-1
-CUDA_VISIBLE_DEVICES=3 python main.py length=4 epsilon=0.9 delta_epsilon=1e-5 target_update=50 use_wandb=false reward_success=1 reward_fail=0
+CUDA_VISIBLE_DEVICES=0 python main.py length=4 epsilon=0.9 delta_epsilon=1e-5 target_update=50 use_wandb=true reward_success=100 reward_fail=-1
+CUDA_VISIBLE_DEVICES=1 python main.py length=4 epsilon=0.9 delta_epsilon=1e-5 target_update=50 use_wandb=true reward_success=1 reward_fail=-1
+CUDA_VISIBLE_DEVICES=2 python main.py length=4 epsilon=0.9 delta_epsilon=1e-5 target_update=50 use_wandb=true reward_success=0 reward_fail=-1
+CUDA_VISIBLE_DEVICES=3 python main.py length=4 epsilon=0.9 delta_epsilon=1e-5 target_update=50 use_wandb=true reward_success=1 reward_fail=0
 
 cd /root/BitFlip/DQNwithGOAL
 CUDA_VISIBLE_DEVICES=0 python main.py length=8 epsilon=0.9 delta_epsilon=1e-5 target_update=50 use_wandb=false reward_success=100 reward_fail=-1
 CUDA_VISIBLE_DEVICES=1 python main.py length=8 epsilon=0.9 delta_epsilon=1e-5 target_update=50 use_wandb=false reward_success=1 reward_fail=-1
 CUDA_VISIBLE_DEVICES=2 python main.py length=8 epsilon=0.9 delta_epsilon=1e-5 target_update=50 use_wandb=false reward_success=0 reward_fail=-1
 CUDA_VISIBLE_DEVICES=3 python main.py length=8 epsilon=0.9 delta_epsilon=1e-5 target_update=50 use_wandb=false reward_success=1 reward_fail=0
+
+
+cd /root/BitFlip/DQNwithGOAL
+CUDA_VISIBLE_DEVICES=0 python main.py length=20 epsilon=0.9 delta_epsilon=1e-5 target_update=50 use_wandb=true reward_success=100 reward_fail=-1
+CUDA_VISIBLE_DEVICES=1 python main.py length=20 epsilon=0.9 delta_epsilon=1e-5 target_update=50 use_wandb=true reward_success=1 reward_fail=-1
+CUDA_VISIBLE_DEVICES=2 python main.py length=20 epsilon=0.9 delta_epsilon=1e-5 target_update=50 use_wandb=true reward_success=0 reward_fail=-1
+CUDA_VISIBLE_DEVICES=3 python main.py length=20 epsilon=0.9 delta_epsilon=1e-5 target_update=50 use_wandb=true reward_success=1 reward_fail=0
 

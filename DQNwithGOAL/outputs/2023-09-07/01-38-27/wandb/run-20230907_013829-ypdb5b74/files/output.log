@@ -1,0 +1,255 @@
+/root/miniconda3/envs/ling/lib/python3.9/site-packages/gym/logger.py:30: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))
+  0%|                                                                                             | 0/30000 [00:00<?, ?it/s]/root/BitFlip/DQNwithGOAL/DQN.py:98: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at /opt/conda/conda-bld/pytorch_1682343997789/work/torch/csrc/utils/tensor_new.cpp:245.)
+  state = torch.tensor([state], dtype=torch.float32).to(self.device)
+win_rate=[0.0]
+epsilon_array=[0.9]
+
+
+
+
+  1%|█▏                                                                                 | 425/30000 [00:10<11:45, 41.94it/s]
+Saving checkpoint at /root/BitFlip/DQNwithGOAL/outputs/2023-09-07/01-38-27/checkpoint/q_net.pth
+Saving checkpoint at /root/BitFlip/DQNwithGOAL/outputs/2023-09-07/01-38-27/checkpoint/target_q_net.pth
+win_rate=[0.0, 0.024]
+
+
+
+
+
+
+
+
+  3%|██▋                                                                                | 990/30000 [00:26<14:38, 33.03it/s]
+win_rate=[0.0, 0.024, 0.022]
+
+
+
+
+
+
+
+  5%|████▏                                                                             | 1512/30000 [00:41<13:48, 34.38it/s]
+Saving checkpoint at /root/BitFlip/DQNwithGOAL/outputs/2023-09-07/01-38-27/checkpoint/q_net.pth
+Saving checkpoint at /root/BitFlip/DQNwithGOAL/outputs/2023-09-07/01-38-27/checkpoint/target_q_net.pth
+win_rate=[0.0, 0.024, 0.022, 0.06]
+
+
+
+
+
+
+  7%|█████▎                                                                            | 1964/30000 [00:52<12:41, 36.82it/s]
+Saving checkpoint at /root/BitFlip/DQNwithGOAL/outputs/2023-09-07/01-38-27/checkpoint/q_net.pth
+Saving checkpoint at /root/BitFlip/DQNwithGOAL/outputs/2023-09-07/01-38-27/checkpoint/target_q_net.pth
+win_rate=[0.0, 0.024, 0.022, 0.06, 0.062]
+
+
+
+
+
+
+
+
+  8%|██████▊                                                                           | 2497/30000 [01:09<13:42, 33.44it/s]
+Saving checkpoint at /root/BitFlip/DQNwithGOAL/outputs/2023-09-07/01-38-27/checkpoint/q_net.pth
+Saving checkpoint at /root/BitFlip/DQNwithGOAL/outputs/2023-09-07/01-38-27/checkpoint/target_q_net.pth
+win_rate=[0.0, 0.024, 0.022, 0.06, 0.062, 0.12]
+
+
+
+
+
+
+
+ 10%|████████▏                                                                         | 2982/30000 [01:23<13:19, 33.77it/s]
+Saving checkpoint at /root/BitFlip/DQNwithGOAL/outputs/2023-09-07/01-38-27/checkpoint/q_net.pth
+Saving checkpoint at /root/BitFlip/DQNwithGOAL/outputs/2023-09-07/01-38-27/checkpoint/target_q_net.pth
+win_rate=[0.0, 0.024, 0.022, 0.06, 0.062, 0.12, 0.16]
+
+
+
+
+
+
+
+ 11%|█████████▍                                                                        | 3449/30000 [01:36<14:18, 30.94it/s]
+Saving checkpoint at /root/BitFlip/DQNwithGOAL/outputs/2023-09-07/01-38-27/checkpoint/q_net.pth
+Saving checkpoint at /root/BitFlip/DQNwithGOAL/outputs/2023-09-07/01-38-27/checkpoint/target_q_net.pth
+win_rate=[0.0, 0.024, 0.022, 0.06, 0.062, 0.12, 0.16, 0.242]
+
+
+
+
+
+
+
+ 13%|██████████▊                                                                       | 3954/30000 [01:51<11:51, 36.60it/s]
+Saving checkpoint at /root/BitFlip/DQNwithGOAL/outputs/2023-09-07/01-38-27/checkpoint/q_net.pth
+Saving checkpoint at /root/BitFlip/DQNwithGOAL/outputs/2023-09-07/01-38-27/checkpoint/target_q_net.pth
+win_rate=[0.0, 0.024, 0.022, 0.06, 0.062, 0.12, 0.16, 0.242, 0.35]
+
+
+
+
+
+
+
+ 15%|████████████▏                                                                     | 4454/30000 [02:05<11:07, 38.27it/s]
+Saving checkpoint at /root/BitFlip/DQNwithGOAL/outputs/2023-09-07/01-38-27/checkpoint/q_net.pth
+Saving checkpoint at /root/BitFlip/DQNwithGOAL/outputs/2023-09-07/01-38-27/checkpoint/target_q_net.pth
+win_rate=[0.0, 0.024, 0.022, 0.06, 0.062, 0.12, 0.16, 0.242, 0.35, 0.37]
+
+
+
+
+
+
+
+ 17%|█████████████▌                                                                    | 4965/30000 [02:19<10:32, 39.59it/s]
+Saving checkpoint at /root/BitFlip/DQNwithGOAL/outputs/2023-09-07/01-38-27/checkpoint/q_net.pth
+Saving checkpoint at /root/BitFlip/DQNwithGOAL/outputs/2023-09-07/01-38-27/checkpoint/target_q_net.pth
+win_rate=[0.0, 0.024, 0.022, 0.06, 0.062, 0.12, 0.16, 0.242, 0.35, 0.37, 0.418]
+
+
+
+
+
+
+ 18%|██████████████▉                                                                   | 5463/30000 [02:31<08:14, 49.63it/s]
+Saving checkpoint at /root/BitFlip/DQNwithGOAL/outputs/2023-09-07/01-38-27/checkpoint/q_net.pth
+Saving checkpoint at /root/BitFlip/DQNwithGOAL/outputs/2023-09-07/01-38-27/checkpoint/target_q_net.pth
+win_rate=[0.0, 0.024, 0.022, 0.06, 0.062, 0.12, 0.16, 0.242, 0.35, 0.37, 0.418, 0.46]
+
+
+
+
+
+
+ 20%|████████████████▎                                                                 | 5978/30000 [02:43<09:25, 42.45it/s]
+Saving checkpoint at /root/BitFlip/DQNwithGOAL/outputs/2023-09-07/01-38-27/checkpoint/q_net.pth
+Saving checkpoint at /root/BitFlip/DQNwithGOAL/outputs/2023-09-07/01-38-27/checkpoint/target_q_net.pth
+win_rate=[0.0, 0.024, 0.022, 0.06, 0.062, 0.12, 0.16, 0.242, 0.35, 0.37, 0.418, 0.46, 0.546]
+
+
+
+
+
+
+ 22%|█████████████████▋                                                                | 6480/30000 [02:55<10:13, 38.35it/s]
+win_rate=[0.0, 0.024, 0.022, 0.06, 0.062, 0.12, 0.16, 0.242, 0.35, 0.37, 0.418, 0.46, 0.546, 0.524]
+
+
+
+
+
+
+ 23%|███████████████████▏                                                              | 7013/30000 [03:07<07:31, 50.92it/s]
+Saving checkpoint at /root/BitFlip/DQNwithGOAL/outputs/2023-09-07/01-38-27/checkpoint/q_net.pth
+Saving checkpoint at /root/BitFlip/DQNwithGOAL/outputs/2023-09-07/01-38-27/checkpoint/target_q_net.pth
+win_rate=[0.0, 0.024, 0.022, 0.06, 0.062, 0.12, 0.16, 0.242, 0.35, 0.37, 0.418, 0.46, 0.546, 0.524, 0.59]
+
+
+
+
+
+ 25%|████████████████████▎                                                             | 7448/30000 [03:17<09:52, 38.08it/s]
+Saving checkpoint at /root/BitFlip/DQNwithGOAL/outputs/2023-09-07/01-38-27/checkpoint/q_net.pth
+Saving checkpoint at /root/BitFlip/DQNwithGOAL/outputs/2023-09-07/01-38-27/checkpoint/target_q_net.pth
+win_rate=[0.0, 0.024, 0.022, 0.06, 0.062, 0.12, 0.16, 0.242, 0.35, 0.37, 0.418, 0.46, 0.546, 0.524, 0.59, 0.666]
+
+
+
+
+
+
+ 27%|█████████████████████▊                                                            | 7964/30000 [03:29<08:10, 44.95it/s]
+Saving checkpoint at /root/BitFlip/DQNwithGOAL/outputs/2023-09-07/01-38-27/checkpoint/q_net.pth
+Saving checkpoint at /root/BitFlip/DQNwithGOAL/outputs/2023-09-07/01-38-27/checkpoint/target_q_net.pth
+win_rate=[0.0, 0.024, 0.022, 0.06, 0.062, 0.12, 0.16, 0.242, 0.35, 0.37, 0.418, 0.46, 0.546, 0.524, 0.59, 0.666, 0.688]
+
+
+
+
+
+
+ 28%|███████████████████████▎                                                          | 8519/30000 [03:41<06:41, 53.55it/s]
+Saving checkpoint at /root/BitFlip/DQNwithGOAL/outputs/2023-09-07/01-38-27/checkpoint/q_net.pth
+Saving checkpoint at /root/BitFlip/DQNwithGOAL/outputs/2023-09-07/01-38-27/checkpoint/target_q_net.pth
+win_rate=[0.0, 0.024, 0.022, 0.06, 0.062, 0.12, 0.16, 0.242, 0.35, 0.37, 0.418, 0.46, 0.546, 0.524, 0.59, 0.666, 0.688, 0.726]
+
+
+
+
+
+ 30%|████████████████████████▌                                                         | 8985/30000 [03:51<07:28, 46.84it/s]
+Saving checkpoint at /root/BitFlip/DQNwithGOAL/outputs/2023-09-07/01-38-27/checkpoint/q_net.pth
+Saving checkpoint at /root/BitFlip/DQNwithGOAL/outputs/2023-09-07/01-38-27/checkpoint/target_q_net.pth
+win_rate=[0.0, 0.024, 0.022, 0.06, 0.062, 0.12, 0.16, 0.242, 0.35, 0.37, 0.418, 0.46, 0.546, 0.524, 0.59, 0.666, 0.688, 0.726, 0.73]
+
+
+
+
+
+
+ 32%|█████████████████████████▉                                                        | 9487/30000 [04:03<07:22, 46.40it/s]
+Saving checkpoint at /root/BitFlip/DQNwithGOAL/outputs/2023-09-07/01-38-27/checkpoint/q_net.pth
+Saving checkpoint at /root/BitFlip/DQNwithGOAL/outputs/2023-09-07/01-38-27/checkpoint/target_q_net.pth
+win_rate=[0.0, 0.024, 0.022, 0.06, 0.062, 0.12, 0.16, 0.242, 0.35, 0.37, 0.418, 0.46, 0.546, 0.524, 0.59, 0.666, 0.688, 0.726, 0.73, 0.814]
+
+
+
+
+
+ 33%|███████████████████████████▏                                                      | 9967/30000 [04:13<06:41, 49.87it/s]
+Saving checkpoint at /root/BitFlip/DQNwithGOAL/outputs/2023-09-07/01-38-27/checkpoint/q_net.pth
+Saving checkpoint at /root/BitFlip/DQNwithGOAL/outputs/2023-09-07/01-38-27/checkpoint/target_q_net.pth
+win_rate=[0.0, 0.024, 0.022, 0.06, 0.062, 0.12, 0.16, 0.242, 0.35, 0.37, 0.418, 0.46, 0.546, 0.524, 0.59, 0.666, 0.688, 0.726, 0.73, 0.814, 0.818]
+
+
+
+
+ 35%|████████████████████████████                                                     | 10412/30000 [04:21<05:34, 58.54it/s]
+Saving checkpoint at /root/BitFlip/DQNwithGOAL/outputs/2023-09-07/01-38-27/checkpoint/q_net.pth
+Saving checkpoint at /root/BitFlip/DQNwithGOAL/outputs/2023-09-07/01-38-27/checkpoint/target_q_net.pth
+win_rate=[0.0, 0.024, 0.022, 0.06, 0.062, 0.12, 0.16, 0.242, 0.35, 0.37, 0.418, 0.46, 0.546, 0.524, 0.59, 0.666, 0.688, 0.726, 0.73, 0.814, 0.818, 0.85]
+
+
+
+
+
+
+ 37%|█████████████████████████████▋                                                   | 11005/30000 [04:33<06:48, 46.47it/s]
+Saving checkpoint at /root/BitFlip/DQNwithGOAL/outputs/2023-09-07/01-38-27/checkpoint/q_net.pth
+Saving checkpoint at /root/BitFlip/DQNwithGOAL/outputs/2023-09-07/01-38-27/checkpoint/target_q_net.pth
+win_rate=[0.0, 0.024, 0.022, 0.06, 0.062, 0.12, 0.16, 0.242, 0.35, 0.37, 0.418, 0.46, 0.546, 0.524, 0.59, 0.666, 0.688, 0.726, 0.73, 0.814, 0.818, 0.85, 0.896]
+
+
+
+
+
+ 38%|██████████████████████████████▉                                                  | 11461/30000 [04:43<05:55, 52.22it/s]
+Saving checkpoint at /root/BitFlip/DQNwithGOAL/outputs/2023-09-07/01-38-27/checkpoint/q_net.pth
+Saving checkpoint at /root/BitFlip/DQNwithGOAL/outputs/2023-09-07/01-38-27/checkpoint/target_q_net.pth
+win_rate=[0.0, 0.024, 0.022, 0.06, 0.062, 0.12, 0.16, 0.242, 0.35, 0.37, 0.418, 0.46, 0.546, 0.524, 0.59, 0.666, 0.688, 0.726, 0.73, 0.814, 0.818, 0.85, 0.896, 0.916]
+
+
+
+
+
+ 40%|████████████████████████████████▍                                                | 11991/30000 [04:53<04:42, 63.77it/s]
+Saving checkpoint at /root/BitFlip/DQNwithGOAL/outputs/2023-09-07/01-38-27/checkpoint/q_net.pth
+Saving checkpoint at /root/BitFlip/DQNwithGOAL/outputs/2023-09-07/01-38-27/checkpoint/target_q_net.pth
+win_rate=[0.0, 0.024, 0.022, 0.06, 0.062, 0.12, 0.16, 0.242, 0.35, 0.37, 0.418, 0.46, 0.546, 0.524, 0.59, 0.666, 0.688, 0.726, 0.73, 0.814, 0.818, 0.85, 0.896, 0.916, 0.948]
+
+
+
+
+ 41%|█████████████████████████████████▌                                               | 12429/30000 [05:01<04:39, 62.96it/s]
+Saving checkpoint at /root/BitFlip/DQNwithGOAL/outputs/2023-09-07/01-38-27/checkpoint/q_net.pth
+Saving checkpoint at /root/BitFlip/DQNwithGOAL/outputs/2023-09-07/01-38-27/checkpoint/target_q_net.pth
+win_rate=[0.0, 0.024, 0.022, 0.06, 0.062, 0.12, 0.16, 0.242, 0.35, 0.37, 0.418, 0.46, 0.546, 0.524, 0.59, 0.666, 0.688, 0.726, 0.73, 0.814, 0.818, 0.85, 0.896, 0.916, 0.948, 0.968]
+
+
+
+

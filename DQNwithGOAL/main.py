@@ -42,7 +42,7 @@ def main(args):
     if not args.use_wandb:
         os.environ["WANDB_DISABLED"] = "true"
     
-    wandb_project = "BitFlip_dqn_with_goal" #@param {"type": "string"}
+    wandb_project = "BitFlip" #@param {"type": "string"}
     wandb_run_name = args.exp_name
     # ipdb.set_trace()
     args_dict = omegaconf.OmegaConf.to_container(args, resolve=True)
@@ -68,9 +68,10 @@ def main(args):
     reward_type = args.env_reward_type
     reward_success = args.reward_success
     reward_fail = args.reward_fail
+    model_name = args.model_name
     device = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
     log_dir = "logs/"
-    writer = SummaryWriter(log_dir=log_dir)
+    writer = SummaryWriter(log_dir=log_dir, comment=f"bits={args.length},model={model_name},reward={(reward_success,reward_fail)},init_e={args.epsilon}")
     # device = torch.device('cpu')
     env_name = "BitFlip"
     env = BitFlip(length=length, reward_type=reward_type, reward_success=reward_success, reward_fail=reward_fail)

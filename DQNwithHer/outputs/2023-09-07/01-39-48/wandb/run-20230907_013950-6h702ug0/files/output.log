@@ -1,0 +1,136 @@
+/root/miniconda3/envs/ling/lib/python3.9/site-packages/gym/logger.py:30: UserWarning: [33mWARN: Box bound precision lowered by casting to float32
+  warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))
+  0%|                                                                                             | 0/30000 [00:00<?, ?it/s]/root/BitFlip/DQNwithHer/DQNwithHER.py:103: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at /opt/conda/conda-bld/pytorch_1682343997789/work/torch/csrc/utils/tensor_new.cpp:245.)
+  state = torch.tensor([state], dtype=torch.float32).to(self.device)
+  0%|                                                                                    | 23/30000 [00:02<36:00, 13.87it/s]
+win_rate=[0.0]
+epsilon_array=[0.9]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  2%|█▍                                                                                 | 514/30000 [00:36<41:56, 11.71it/s]
+Saving checkpoint at /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-48/checkpoint/q_net.pth
+Saving checkpoint at /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-48/checkpoint/target_q_net.pth
+win_rate=[0.0, 0.028]
+epsilon_array=[0.9, 0.8254200000003394]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  3%|██▊                                                                               | 1015/30000 [01:16<37:59, 12.71it/s]
+win_rate=[0.0, 0.028, 0.016]
+epsilon_array=[0.9, 0.8254200000003394, 0.749270000000686]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  5%|████                                                                              | 1503/30000 [01:54<38:52, 12.22it/s]
+win_rate=[0.0, 0.028, 0.016, 0.012]
+epsilon_array=[0.9, 0.8254200000003394, 0.749270000000686, 0.6733700000010314]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  7%|█████▍                                                                            | 2007/30000 [02:34<36:13, 12.88it/s]
+win_rate=[0.0, 0.028, 0.016, 0.012, 0.01]
+epsilon_array=[0.9, 0.8254200000003394, 0.749270000000686, 0.6733700000010314, 0.5981500000013737]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  8%|██████▉                                                                           | 2519/30000 [03:15<34:02, 13.46it/s]
+win_rate=[0.0, 0.028, 0.016, 0.012, 0.01, 0.004]
+epsilon_array=[0.9, 0.8254200000003394, 0.749270000000686, 0.6733700000010314, 0.5981500000013737, 0.5237000000017126]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

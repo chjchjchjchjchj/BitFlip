@@ -42,7 +42,8 @@ def main(args):
     if not args.use_wandb:
         os.environ["WANDB_DISABLED"] = "true"
 
-    wandb_project = "BitFlip_dqn_with_her" #@param {"type": "string"}
+    # wandb_project = "BitFlip_dqn_with_her" #@param {"type": "string"}
+    wandb_project = "BitFlip" #@param {"type": "string"}
     wandb_run_name = args.exp_name
     # ipdb.set_trace()
     args_dict = omegaconf.OmegaConf.to_container(args, resolve=True)

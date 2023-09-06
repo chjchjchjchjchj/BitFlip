@@ -1,0 +1,1146 @@
+2023-09-07 01:07:25,726 INFO    StreamThr :135730 [internal.py:wandb_internal():86] W&B internal server running at pid: 135730, started at: 2023-09-07 01:07:25.725056
+2023-09-07 01:07:25,729 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status
+2023-09-07 01:07:25,732 INFO    WriterThread:135730 [datastore.py:open_for_write():85] open: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/run-tx53isjk.wandb
+2023-09-07 01:07:25,735 DEBUG   SenderThread:135730 [sender.py:send():379] send: header
+2023-09-07 01:07:25,762 DEBUG   SenderThread:135730 [sender.py:send():379] send: run
+2023-09-07 01:07:26,489 INFO    SenderThread:135730 [dir_watcher.py:__init__():211] watching files in: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files
+2023-09-07 01:07:26,489 INFO    SenderThread:135730 [sender.py:_start_run_threads():1121] run started: tx53isjk with start time 1694020045.724194
+2023-09-07 01:07:26,501 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: summary_record
+2023-09-07 01:07:26,501 INFO    SenderThread:135730 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-07 01:07:26,508 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: check_version
+2023-09-07 01:07:26,508 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: check_version
+2023-09-07 01:07:26,916 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: run_start
+2023-09-07 01:07:26,932 DEBUG   HandlerThread:135730 [system_info.py:__init__():31] System info init
+2023-09-07 01:07:26,932 DEBUG   HandlerThread:135730 [system_info.py:__init__():46] System info init done
+2023-09-07 01:07:26,932 INFO    HandlerThread:135730 [system_monitor.py:start():181] Starting system monitor
+2023-09-07 01:07:26,933 INFO    SystemMonitor:135730 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-09-07 01:07:26,934 INFO    HandlerThread:135730 [system_monitor.py:probe():201] Collecting system info
+2023-09-07 01:07:26,935 INFO    SystemMonitor:135730 [interfaces.py:start():190] Started cpu monitoring
+2023-09-07 01:07:26,936 INFO    SystemMonitor:135730 [interfaces.py:start():190] Started disk monitoring
+2023-09-07 01:07:26,937 INFO    SystemMonitor:135730 [interfaces.py:start():190] Started gpu monitoring
+2023-09-07 01:07:26,939 INFO    SystemMonitor:135730 [interfaces.py:start():190] Started memory monitoring
+2023-09-07 01:07:26,943 INFO    SystemMonitor:135730 [interfaces.py:start():190] Started network monitoring
+2023-09-07 01:07:26,985 DEBUG   HandlerThread:135730 [system_info.py:probe():195] Probing system
+2023-09-07 01:07:26,998 DEBUG   HandlerThread:135730 [system_info.py:_probe_git():180] Probing git
+2023-09-07 01:07:27,016 DEBUG   HandlerThread:135730 [system_info.py:_probe_git():188] Probing git done
+2023-09-07 01:07:27,016 DEBUG   HandlerThread:135730 [system_info.py:probe():240] Probing system done
+2023-09-07 01:07:27,016 DEBUG   HandlerThread:135730 [system_monitor.py:probe():210] {'os': 'Linux-5.4.0-132-generic-x86_64-with-glibc2.35', 'python': '3.9.17', 'heartbeatAt': '2023-09-06T17:07:26.986009', 'startedAt': '2023-09-06T17:07:25.714275', 'docker': None, 'cuda': None, 'args': ('length=4', 'epsilon=0.9', 'delta_epsilon=1e-5', 'target_update=50', 'use_wandb=true', 'reward_success=100', 'reward_fail=0', 'exp_name=dqn_100_0'), 'state': 'running', 'program': '/root/BitFlip/DQN/main.py', 'codePath': 'DQN/main.py', 'git': {'remote': 'git@github.com:chjchjchjchjchj/BitFlip.git', 'commit': '9b206e2fe233ae059e46287a86a690b023553a9a'}, 'email': 'chjchjchjchjchj2001@gmail.com', 'root': '/root/BitFlip', 'host': 'autodl-container-b06911993c-7c1fab7a', 'username': 'root', 'executable': '/root/miniconda3/envs/ling/bin/python', 'cpu_count': 64, 'cpu_count_logical': 128, 'cpu_freq': {'current': 1191.7417578125, 'min': 800.0, 'max': 3500.0}, 'cpu_freq_per_core': [{'current': 861.352, 'min': 800.0, 'max': 3500.0}, {'current': 842.117, 'min': 800.0, 'max': 3500.0}, {'current': 829.229, 'min': 800.0, 'max': 3500.0}, {'current': 800.09, 'min': 800.0, 'max': 3500.0}, {'current': 800.0, 'min': 800.0, 'max': 3500.0}, {'current': 800.0, 'min': 800.0, 'max': 3500.0}, {'current': 800.0, 'min': 800.0, 'max': 3500.0}, {'current': 1809.427, 'min': 800.0, 'max': 3500.0}, {'current': 800.1, 'min': 800.0, 'max': 3500.0}, {'current': 800.965, 'min': 800.0, 'max': 3500.0}, {'current': 800.057, 'min': 800.0, 'max': 3500.0}, {'current': 829.053, 'min': 800.0, 'max': 3500.0}, {'current': 2227.134, 'min': 800.0, 'max': 3500.0}, {'current': 800.956, 'min': 800.0, 'max': 3500.0}, {'current': 869.749, 'min': 800.0, 'max': 3500.0}, {'current': 2542.802, 'min': 800.0, 'max': 3500.0}, {'current': 800.321, 'min': 800.0, 'max': 3500.0}, {'current': 1000.0, 'min': 800.0, 'max': 3500.0}, {'current': 799.285, 'min': 800.0, 'max': 3500.0}, {'current': 1575.325, 'min': 800.0, 'max': 3500.0}, {'current': 1102.4, 'min': 800.0, 'max': 3500.0}, {'current': 950.895, 'min': 800.0, 'max': 3500.0}, {'current': 857.178, 'min': 800.0, 'max': 3500.0}, {'current': 843.631, 'min': 800.0, 'max': 3500.0}, {'current': 799.958, 'min': 800.0, 'max': 3500.0}, {'current': 800.641, 'min': 800.0, 'max': 3500.0}, {'current': 973.107, 'min': 800.0, 'max': 3500.0}, {'current': 3144.146, 'min': 800.0, 'max': 3500.0}, {'current': 916.317, 'min': 800.0, 'max': 3500.0}, {'current': 1592.581, 'min': 800.0, 'max': 3500.0}, {'current': 800.725, 'min': 800.0, 'max': 3500.0}, {'current': 800.319, 'min': 800.0, 'max': 3500.0}, {'current': 800.593, 'min': 800.0, 'max': 3500.0}, {'current': 872.421, 'min': 800.0, 'max': 3500.0}, {'current': 800.931, 'min': 800.0, 'max': 3500.0}, {'current': 867.752, 'min': 800.0, 'max': 3500.0}, {'current': 2600.009, 'min': 800.0, 'max': 3500.0}, {'current': 1610.483, 'min': 800.0, 'max': 3500.0}, {'current': 1885.918, 'min': 800.0, 'max': 3500.0}, {'current': 2600.0, 'min': 800.0, 'max': 3500.0}, {'current': 1056.387, 'min': 800.0, 'max': 3500.0}, {'current': 1787.803, 'min': 800.0, 'max': 3500.0}, {'current': 800.625, 'min': 800.0, 'max': 3500.0}, {'current': 2600.016, 'min': 800.0, 'max': 3500.0}, {'current': 1811.929, 'min': 800.0, 'max': 3500.0}, {'current': 800.618, 'min': 800.0, 'max': 3500.0}, {'current': 2468.732, 'min': 800.0, 'max': 3500.0}, {'current': 800.918, 'min': 800.0, 'max': 3500.0}, {'current': 3123.701, 'min': 800.0, 'max': 3500.0}, {'current': 801.15, 'min': 800.0, 'max': 3500.0}, {'current': 2584.718, 'min': 800.0, 'max': 3500.0}, {'current': 2209.349, 'min': 800.0, 'max': 3500.0}, {'current': 800.643, 'min': 800.0, 'max': 3500.0}, {'current': 2600.016, 'min': 800.0, 'max': 3500.0}, {'current': 1761.71, 'min': 800.0, 'max': 3500.0}, {'current': 1764.905, 'min': 800.0, 'max': 3500.0}, {'current': 2422.46, 'min': 800.0, 'max': 3500.0}, {'current': 800.853, 'min': 800.0, 'max': 3500.0}, {'current': 800.858, 'min': 800.0, 'max': 3500.0}, {'current': 2601.816, 'min': 800.0, 'max': 3500.0}, {'current': 2601.849, 'min': 800.0, 'max': 3500.0}, {'current': 800.15, 'min': 800.0, 'max': 3500.0}, {'current': 800.933, 'min': 800.0, 'max': 3500.0}, {'current': 828.427, 'min': 800.0, 'max': 3500.0}, {'current': 900.0, 'min': 800.0, 'max': 3500.0}, {'current': 800.025, 'min': 800.0, 'max': 3500.0}, {'current': 896.118, 'min': 800.0, 'max': 3500.0}, {'current': 800.0, 'min': 800.0, 'max': 3500.0}, {'current': 800.162, 'min': 800.0, 'max': 3500.0}, {'current': 800.1, 'min': 800.0, 'max': 3500.0}, {'current': 799.829, 'min': 800.0, 'max': 3500.0}, {'current': 1326.346, 'min': 800.0, 'max': 3500.0}, {'current': 801.702, 'min': 800.0, 'max': 3500.0}, {'current': 821.775, 'min': 800.0, 'max': 3500.0}, {'current': 800.0, 'min': 800.0, 'max': 3500.0}, {'current': 831.084, 'min': 800.0, 'max': 3500.0}, {'current': 2257.242, 'min': 800.0, 'max': 3500.0}, {'current': 801.808, 'min': 800.0, 'max': 3500.0}, {'current': 839.001, 'min': 800.0, 'max': 3500.0}, {'current': 2578.506, 'min': 800.0, 'max': 3500.0}, {'current': 1410.543, 'min': 800.0, 'max': 3500.0}, {'current': 1116.523, 'min': 800.0, 'max': 3500.0}, {'current': 800.0, 'min': 800.0, 'max': 3500.0}, {'current': 2119.688, 'min': 800.0, 'max': 3500.0}, {'current': 800.0, 'min': 800.0, 'max': 3500.0}, {'current': 822.431, 'min': 800.0, 'max': 3500.0}, {'current': 826.471, 'min': 800.0, 'max': 3500.0}, {'current': 800.0, 'min': 800.0, 'max': 3500.0}, {'current': 800.0, 'min': 800.0, 'max': 3500.0}, {'current': 800.922, 'min': 800.0, 'max': 3500.0}, {'current': 1170.671, 'min': 800.0, 'max': 3500.0}, {'current': 3100.0, 'min': 800.0, 'max': 3500.0}, {'current': 1031.683, 'min': 800.0, 'max': 3500.0}, {'current': 1890.167, 'min': 800.0, 'max': 3500.0}, {'current': 803.483, 'min': 800.0, 'max': 3500.0}, {'current': 800.819, 'min': 800.0, 'max': 3500.0}, {'current': 800.87, 'min': 800.0, 'max': 3500.0}, {'current': 802.078, 'min': 800.0, 'max': 3500.0}, {'current': 800.418, 'min': 800.0, 'max': 3500.0}, {'current': 838.109, 'min': 800.0, 'max': 3500.0}, {'current': 2602.677, 'min': 800.0, 'max': 3500.0}, {'current': 994.711, 'min': 800.0, 'max': 3500.0}, {'current': 2594.001, 'min': 800.0, 'max': 3500.0}, {'current': 2600.021, 'min': 800.0, 'max': 3500.0}, {'current': 1385.596, 'min': 800.0, 'max': 3500.0}, {'current': 2295.482, 'min': 800.0, 'max': 3500.0}, {'current': 801.307, 'min': 800.0, 'max': 3500.0}, {'current': 2602.786, 'min': 800.0, 'max': 3500.0}, {'current': 2600.228, 'min': 800.0, 'max': 3500.0}, {'current': 800.892, 'min': 800.0, 'max': 3500.0}, {'current': 2131.588, 'min': 800.0, 'max': 3500.0}, {'current': 800.436, 'min': 800.0, 'max': 3500.0}, {'current': 2988.133, 'min': 800.0, 'max': 3500.0}, {'current': 800.915, 'min': 800.0, 'max': 3500.0}, {'current': 1554.962, 'min': 800.0, 'max': 3500.0}, {'current': 2082.005, 'min': 800.0, 'max': 3500.0}, {'current': 801.346, 'min': 800.0, 'max': 3500.0}, {'current': 2600.0, 'min': 800.0, 'max': 3500.0}, {'current': 1737.653, 'min': 800.0, 'max': 3500.0}, {'current': 1741.246, 'min': 800.0, 'max': 3500.0}, {'current': 1509.252, 'min': 800.0, 'max': 3500.0}, {'current': 800.452, 'min': 800.0, 'max': 3500.0}, {'current': 800.903, 'min': 800.0, 'max': 3500.0}, {'current': 1811.371, 'min': 800.0, 'max': 3500.0}, {'current': 1838.078, 'min': 800.0, 'max': 3500.0}, {'current': 800.504, 'min': 800.0, 'max': 3500.0}, {'current': 800.884, 'min': 800.0, 'max': 3500.0}, {'current': 829.418, 'min': 800.0, 'max': 3500.0}], 'disk': {'total': 30.0, 'used': 11.500274658203125}, 'gpu': 'NVIDIA GeForce RTX 3090', 'gpu_count': 4, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}, {'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}, {'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}, {'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}], 'memory': {'total': 377.53807830810547}}
+2023-09-07 01:07:27,017 INFO    HandlerThread:135730 [system_monitor.py:probe():211] Finished collecting system info
+2023-09-07 01:07:27,017 INFO    HandlerThread:135730 [system_monitor.py:probe():214] Publishing system info
+2023-09-07 01:07:27,017 DEBUG   HandlerThread:135730 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-09-07 01:07:27,017 DEBUG   HandlerThread:135730 [system_info.py:_save_pip():67] Saving pip packages done
+2023-09-07 01:07:27,017 DEBUG   HandlerThread:135730 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-09-07 01:07:27,021 ERROR   HandlerThread:135730 [system_info.py:_save_conda():85] Error saving conda packages: [Errno 2] No such file or directory: 'conda'
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/sdk/internal/system/system_info.py", line 81, in _save_conda
+    subprocess.call(
+  File "/root/miniconda3/envs/ling/lib/python3.9/subprocess.py", line 349, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "/root/miniconda3/envs/ling/lib/python3.9/subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/root/miniconda3/envs/ling/lib/python3.9/subprocess.py", line 1837, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'conda'
+2023-09-07 01:07:27,022 DEBUG   HandlerThread:135730 [system_info.py:_save_conda():86] Saving conda packages done
+2023-09-07 01:07:27,024 INFO    HandlerThread:135730 [system_monitor.py:probe():216] Finished publishing system info
+2023-09-07 01:07:27,031 DEBUG   SenderThread:135730 [sender.py:send():379] send: files
+2023-09-07 01:07:27,031 INFO    SenderThread:135730 [sender.py:_save_file():1375] saving file wandb-metadata.json with policy now
+2023-09-07 01:07:27,044 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-07 01:07:27,044 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: stop_status
+2023-09-07 01:07:27,495 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_created():271] file/dir created: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/conda-environment.yaml
+2023-09-07 01:07:27,496 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_created():271] file/dir created: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/wandb-metadata.json
+2023-09-07 01:07:27,496 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_created():271] file/dir created: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/requirements.txt
+2023-09-07 01:07:27,497 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_created():271] file/dir created: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/wandb-summary.json
+2023-09-07 01:07:27,552 DEBUG   SenderThread:135730 [sender.py:send():379] send: telemetry
+2023-09-07 01:07:27,628 ERROR   wandb-upload_0:135730 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip_with_dqn/tx53isjk/wandb-metadata.json?Expires=1694106447&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=ouHMB3tvTLkeTpvJFtMKUuW0l9X0QB1cOppC7pg7ymxSF9dg7ZO0Yd26dtOi4DV%2FLO2jRk%2FaMJ2MXedf%2FKdNNoafdPWK1EDrgfgaG4DbtHynObX80rBlcb7st2UNnSzu5y2IabsQUlZkVK1L8i5m2RcSDad4XH%2BBB8REffMjAvYU8epj5qi7uhTcQtW1XkwW6oLpKjqgykp5Ew83e1E%2BahTrVUksD0Sb1DQPo%2BZQxzuyMsVQTRrgMHeY5Zl19IPh94OOI8C9B%2F7enXnos9px6gYXdO%2BlSV%2FZNaUMBFuLfvSxgg6UkwLUDyZJyV6jY%2BxQ2XEYQdt7H2EU%2F9UWaoKfwQ%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 01:07:27,628 ERROR   wandb-upload_0:135730 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '15203'}
+2023-09-07 01:07:27,628 ERROR   wandb-upload_0:135730 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 01:07:28,395 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-07 01:07:28,401 DEBUG   SenderThread:135730 [sender.py:send():379] send: history
+2023-09-07 01:07:28,401 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: summary_record
+2023-09-07 01:07:28,402 INFO    SenderThread:135730 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-07 01:07:28,491 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/wandb-summary.json
+2023-09-07 01:07:28,491 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_created():271] file/dir created: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:07:28,937 ERROR   wandb-upload_0:135730 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip_with_dqn/tx53isjk/wandb-metadata.json?Expires=1694106447&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=ouHMB3tvTLkeTpvJFtMKUuW0l9X0QB1cOppC7pg7ymxSF9dg7ZO0Yd26dtOi4DV%2FLO2jRk%2FaMJ2MXedf%2FKdNNoafdPWK1EDrgfgaG4DbtHynObX80rBlcb7st2UNnSzu5y2IabsQUlZkVK1L8i5m2RcSDad4XH%2BBB8REffMjAvYU8epj5qi7uhTcQtW1XkwW6oLpKjqgykp5Ew83e1E%2BahTrVUksD0Sb1DQPo%2BZQxzuyMsVQTRrgMHeY5Zl19IPh94OOI8C9B%2F7enXnos9px6gYXdO%2BlSV%2FZNaUMBFuLfvSxgg6UkwLUDyZJyV6jY%2BxQ2XEYQdt7H2EU%2F9UWaoKfwQ%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 01:07:28,937 ERROR   wandb-upload_0:135730 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '15203'}
+2023-09-07 01:07:28,938 ERROR   wandb-upload_0:135730 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 01:07:30,492 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:07:30,940 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:07:31,467 ERROR   wandb-upload_0:135730 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip_with_dqn/tx53isjk/wandb-metadata.json?Expires=1694106447&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=ouHMB3tvTLkeTpvJFtMKUuW0l9X0QB1cOppC7pg7ymxSF9dg7ZO0Yd26dtOi4DV%2FLO2jRk%2FaMJ2MXedf%2FKdNNoafdPWK1EDrgfgaG4DbtHynObX80rBlcb7st2UNnSzu5y2IabsQUlZkVK1L8i5m2RcSDad4XH%2BBB8REffMjAvYU8epj5qi7uhTcQtW1XkwW6oLpKjqgykp5Ew83e1E%2BahTrVUksD0Sb1DQPo%2BZQxzuyMsVQTRrgMHeY5Zl19IPh94OOI8C9B%2F7enXnos9px6gYXdO%2BlSV%2FZNaUMBFuLfvSxgg6UkwLUDyZJyV6jY%2BxQ2XEYQdt7H2EU%2F9UWaoKfwQ%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 01:07:31,468 ERROR   wandb-upload_0:135730 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '15203'}
+2023-09-07 01:07:31,468 ERROR   wandb-upload_0:135730 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 01:07:31,468 INFO    wandb-upload_0:135730 [retry.py:__call__():172] Retry attempt failed:
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connectionpool.py", line 714, in urlopen
+    httplib_response = self._make_request(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connectionpool.py", line 403, in _make_request
+    self._validate_conn(conn)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connectionpool.py", line 1053, in _validate_conn
+    conn.connect()
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connection.py", line 419, in connect
+    self.sock = ssl_wrap_socket(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/root/miniconda3/envs/ling/lib/python3.9/ssl.py", line 501, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/root/miniconda3/envs/ling/lib/python3.9/ssl.py", line 1041, in _create
+    self.do_handshake()
+  File "/root/miniconda3/envs/ling/lib/python3.9/ssl.py", line 1310, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connectionpool.py", line 798, in urlopen
+    retries = retries.increment(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/util/retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/packages/six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connectionpool.py", line 714, in urlopen
+    httplib_response = self._make_request(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connectionpool.py", line 403, in _make_request
+    self._validate_conn(conn)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connectionpool.py", line 1053, in _validate_conn
+    conn.connect()
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connection.py", line 419, in connect
+    self.sock = ssl_wrap_socket(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/root/miniconda3/envs/ling/lib/python3.9/ssl.py", line 501, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/root/miniconda3/envs/ling/lib/python3.9/ssl.py", line 1041, in _create
+    self.do_handshake()
+  File "/root/miniconda3/envs/ling/lib/python3.9/ssl.py", line 1310, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 2491, in upload_file
+    response = self._upload_file_session.put(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/sessions.py", line 649, in put
+    return self.request("PUT", url, data=data, **kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/adapters.py", line 501, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 2520, in upload_file
+    raise _e.with_traceback(sys.exc_info()[2])
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 2491, in upload_file
+    response = self._upload_file_session.put(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/sessions.py", line 649, in put
+    return self.request("PUT", url, data=data, **kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/adapters.py", line 501, in send
+    raise ConnectionError(err, request=request)
+wandb.sdk.lib.retry.TransientError: None
+2023-09-07 01:07:32,235 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-07 01:07:32,237 DEBUG   SenderThread:135730 [sender.py:send():379] send: history
+2023-09-07 01:07:32,238 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: summary_record
+2023-09-07 01:07:32,239 INFO    SenderThread:135730 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-07 01:07:32,493 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/wandb-summary.json
+2023-09-07 01:07:32,494 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:07:34,494 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:07:35,997 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:07:36,041 ERROR   wandb-upload_0:135730 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip_with_dqn/tx53isjk/wandb-metadata.json?Expires=1694106447&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=ouHMB3tvTLkeTpvJFtMKUuW0l9X0QB1cOppC7pg7ymxSF9dg7ZO0Yd26dtOi4DV%2FLO2jRk%2FaMJ2MXedf%2FKdNNoafdPWK1EDrgfgaG4DbtHynObX80rBlcb7st2UNnSzu5y2IabsQUlZkVK1L8i5m2RcSDad4XH%2BBB8REffMjAvYU8epj5qi7uhTcQtW1XkwW6oLpKjqgykp5Ew83e1E%2BahTrVUksD0Sb1DQPo%2BZQxzuyMsVQTRrgMHeY5Zl19IPh94OOI8C9B%2F7enXnos9px6gYXdO%2BlSV%2FZNaUMBFuLfvSxgg6UkwLUDyZJyV6jY%2BxQ2XEYQdt7H2EU%2F9UWaoKfwQ%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 01:07:36,042 ERROR   wandb-upload_0:135730 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '15203'}
+2023-09-07 01:07:36,042 ERROR   wandb-upload_0:135730 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 01:07:36,496 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:07:36,776 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-07 01:07:36,777 DEBUG   SenderThread:135730 [sender.py:send():379] send: history
+2023-09-07 01:07:36,778 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: summary_record
+2023-09-07 01:07:36,779 INFO    SenderThread:135730 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-07 01:07:37,497 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/wandb-summary.json
+2023-09-07 01:07:38,497 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:07:40,498 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:07:41,055 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:07:42,045 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-07 01:07:42,046 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: stop_status
+2023-09-07 01:07:42,097 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-07 01:07:42,326 DEBUG   SenderThread:135730 [sender.py:send():379] send: history
+2023-09-07 01:07:42,327 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: summary_record
+2023-09-07 01:07:42,328 INFO    SenderThread:135730 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-07 01:07:42,499 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/wandb-summary.json
+2023-09-07 01:07:42,500 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:07:44,182 ERROR   wandb-upload_0:135730 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip_with_dqn/tx53isjk/wandb-metadata.json?Expires=1694106447&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=ouHMB3tvTLkeTpvJFtMKUuW0l9X0QB1cOppC7pg7ymxSF9dg7ZO0Yd26dtOi4DV%2FLO2jRk%2FaMJ2MXedf%2FKdNNoafdPWK1EDrgfgaG4DbtHynObX80rBlcb7st2UNnSzu5y2IabsQUlZkVK1L8i5m2RcSDad4XH%2BBB8REffMjAvYU8epj5qi7uhTcQtW1XkwW6oLpKjqgykp5Ew83e1E%2BahTrVUksD0Sb1DQPo%2BZQxzuyMsVQTRrgMHeY5Zl19IPh94OOI8C9B%2F7enXnos9px6gYXdO%2BlSV%2FZNaUMBFuLfvSxgg6UkwLUDyZJyV6jY%2BxQ2XEYQdt7H2EU%2F9UWaoKfwQ%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 01:07:44,182 ERROR   wandb-upload_0:135730 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '15203'}
+2023-09-07 01:07:44,182 ERROR   wandb-upload_0:135730 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 01:07:44,500 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:07:46,056 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:07:46,157 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-07 01:07:46,158 DEBUG   SenderThread:135730 [sender.py:send():379] send: history
+2023-09-07 01:07:46,159 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: summary_record
+2023-09-07 01:07:46,160 INFO    SenderThread:135730 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-07 01:07:46,501 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/wandb-summary.json
+2023-09-07 01:07:46,502 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:07:48,502 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:07:50,326 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-07 01:07:50,327 DEBUG   SenderThread:135730 [sender.py:send():379] send: history
+2023-09-07 01:07:50,328 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: summary_record
+2023-09-07 01:07:50,329 INFO    SenderThread:135730 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-07 01:07:50,504 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/wandb-summary.json
+2023-09-07 01:07:50,504 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:07:51,074 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:07:52,505 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:07:54,507 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:07:54,767 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-07 01:07:54,770 DEBUG   SenderThread:135730 [sender.py:send():379] send: history
+2023-09-07 01:07:54,770 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: summary_record
+2023-09-07 01:07:54,772 INFO    SenderThread:135730 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-07 01:07:55,507 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/wandb-summary.json
+2023-09-07 01:07:56,185 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:07:56,508 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:07:57,044 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-07 01:07:57,221 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: stop_status
+2023-09-07 01:07:57,508 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/config.yaml
+2023-09-07 01:07:58,514 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:07:59,661 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-07 01:07:59,663 DEBUG   SenderThread:135730 [sender.py:send():379] send: history
+2023-09-07 01:07:59,663 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: summary_record
+2023-09-07 01:07:59,664 INFO    SenderThread:135730 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-07 01:08:00,515 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/wandb-summary.json
+2023-09-07 01:08:00,516 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:08:02,315 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:08:02,516 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:08:03,029 ERROR   wandb-upload_0:135730 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip_with_dqn/tx53isjk/wandb-metadata.json?Expires=1694106447&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=ouHMB3tvTLkeTpvJFtMKUuW0l9X0QB1cOppC7pg7ymxSF9dg7ZO0Yd26dtOi4DV%2FLO2jRk%2FaMJ2MXedf%2FKdNNoafdPWK1EDrgfgaG4DbtHynObX80rBlcb7st2UNnSzu5y2IabsQUlZkVK1L8i5m2RcSDad4XH%2BBB8REffMjAvYU8epj5qi7uhTcQtW1XkwW6oLpKjqgykp5Ew83e1E%2BahTrVUksD0Sb1DQPo%2BZQxzuyMsVQTRrgMHeY5Zl19IPh94OOI8C9B%2F7enXnos9px6gYXdO%2BlSV%2FZNaUMBFuLfvSxgg6UkwLUDyZJyV6jY%2BxQ2XEYQdt7H2EU%2F9UWaoKfwQ%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 01:08:03,030 ERROR   wandb-upload_0:135730 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '15203'}
+2023-09-07 01:08:03,030 ERROR   wandb-upload_0:135730 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 01:08:04,517 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:08:04,913 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-07 01:08:04,913 DEBUG   SenderThread:135730 [sender.py:send():379] send: history
+2023-09-07 01:08:04,914 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: summary_record
+2023-09-07 01:08:04,914 INFO    SenderThread:135730 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-07 01:08:05,518 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/wandb-summary.json
+2023-09-07 01:08:06,518 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:08:07,364 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:08:08,520 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:08:09,906 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-07 01:08:09,909 DEBUG   SenderThread:135730 [sender.py:send():379] send: history
+2023-09-07 01:08:09,909 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: summary_record
+2023-09-07 01:08:09,909 INFO    SenderThread:135730 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-07 01:08:10,521 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/wandb-summary.json
+2023-09-07 01:08:10,521 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:08:12,044 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-07 01:08:12,044 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: stop_status
+2023-09-07 01:08:12,467 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:08:12,522 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:08:14,523 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:08:15,654 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-07 01:08:15,657 DEBUG   SenderThread:135730 [sender.py:send():379] send: history
+2023-09-07 01:08:15,657 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: summary_record
+2023-09-07 01:08:15,658 INFO    SenderThread:135730 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-07 01:08:16,524 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/wandb-summary.json
+2023-09-07 01:08:16,525 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:08:17,510 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:08:18,526 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:08:20,527 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:08:21,738 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-07 01:08:21,740 DEBUG   SenderThread:135730 [sender.py:send():379] send: history
+2023-09-07 01:08:21,740 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: summary_record
+2023-09-07 01:08:21,742 INFO    SenderThread:135730 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-07 01:08:22,528 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/wandb-summary.json
+2023-09-07 01:08:22,529 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:08:22,558 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:08:24,529 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:08:26,531 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:08:26,943 DEBUG   SystemMonitor:135730 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-09-07 01:08:26,951 DEBUG   SenderThread:135730 [sender.py:send():379] send: stats
+2023-09-07 01:08:27,044 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-07 01:08:27,045 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: stop_status
+2023-09-07 01:08:27,578 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:08:27,939 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-07 01:08:27,941 DEBUG   SenderThread:135730 [sender.py:send():379] send: history
+2023-09-07 01:08:27,941 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: summary_record
+2023-09-07 01:08:27,942 INFO    SenderThread:135730 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-07 01:08:28,537 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/wandb-summary.json
+2023-09-07 01:08:28,538 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:08:30,538 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:08:32,539 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:08:32,599 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:08:33,965 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-07 01:08:33,967 DEBUG   SenderThread:135730 [sender.py:send():379] send: history
+2023-09-07 01:08:33,968 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: summary_record
+2023-09-07 01:08:33,968 INFO    SenderThread:135730 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-07 01:08:34,541 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/wandb-summary.json
+2023-09-07 01:08:34,542 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:08:35,542 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:08:36,543 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:08:37,109 ERROR   wandb-upload_0:135730 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip_with_dqn/tx53isjk/wandb-metadata.json?Expires=1694106447&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=ouHMB3tvTLkeTpvJFtMKUuW0l9X0QB1cOppC7pg7ymxSF9dg7ZO0Yd26dtOi4DV%2FLO2jRk%2FaMJ2MXedf%2FKdNNoafdPWK1EDrgfgaG4DbtHynObX80rBlcb7st2UNnSzu5y2IabsQUlZkVK1L8i5m2RcSDad4XH%2BBB8REffMjAvYU8epj5qi7uhTcQtW1XkwW6oLpKjqgykp5Ew83e1E%2BahTrVUksD0Sb1DQPo%2BZQxzuyMsVQTRrgMHeY5Zl19IPh94OOI8C9B%2F7enXnos9px6gYXdO%2BlSV%2FZNaUMBFuLfvSxgg6UkwLUDyZJyV6jY%2BxQ2XEYQdt7H2EU%2F9UWaoKfwQ%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 01:08:37,109 ERROR   wandb-upload_0:135730 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '15203'}
+2023-09-07 01:08:37,109 ERROR   wandb-upload_0:135730 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 01:08:37,690 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:08:38,544 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:08:39,245 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-07 01:08:39,248 DEBUG   SenderThread:135730 [sender.py:send():379] send: history
+2023-09-07 01:08:39,248 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: summary_record
+2023-09-07 01:08:39,249 INFO    SenderThread:135730 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-07 01:08:39,545 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/wandb-summary.json
+2023-09-07 01:08:40,545 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:08:41,546 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:08:42,044 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-07 01:08:42,045 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: stop_status
+2023-09-07 01:08:42,547 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:08:42,753 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:08:43,741 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-07 01:08:43,744 DEBUG   SenderThread:135730 [sender.py:send():379] send: history
+2023-09-07 01:08:43,745 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: summary_record
+2023-09-07 01:08:43,746 INFO    SenderThread:135730 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-07 01:08:44,549 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/wandb-summary.json
+2023-09-07 01:08:44,550 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:08:45,549 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:08:46,550 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:08:47,784 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:08:48,551 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:08:48,714 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-07 01:08:48,716 DEBUG   SenderThread:135730 [sender.py:send():379] send: history
+2023-09-07 01:08:48,716 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: summary_record
+2023-09-07 01:08:48,717 INFO    SenderThread:135730 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-07 01:08:49,552 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/wandb-summary.json
+2023-09-07 01:08:50,553 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:08:51,553 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:08:52,554 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:08:52,855 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:08:54,096 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-07 01:08:54,098 DEBUG   SenderThread:135730 [sender.py:send():379] send: history
+2023-09-07 01:08:54,098 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: summary_record
+2023-09-07 01:08:54,099 INFO    SenderThread:135730 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-07 01:08:54,555 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/wandb-summary.json
+2023-09-07 01:08:54,555 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:08:55,556 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:08:56,556 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:08:56,956 DEBUG   SenderThread:135730 [sender.py:send():379] send: stats
+2023-09-07 01:08:57,045 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-07 01:08:57,046 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: stop_status
+2023-09-07 01:08:57,935 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:08:58,443 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-07 01:08:58,446 DEBUG   SenderThread:135730 [sender.py:send():379] send: history
+2023-09-07 01:08:58,447 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: summary_record
+2023-09-07 01:08:58,447 INFO    SenderThread:135730 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-07 01:08:58,558 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/wandb-summary.json
+2023-09-07 01:08:58,558 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:09:00,558 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:09:01,559 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:09:02,560 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:09:02,834 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-07 01:09:02,836 DEBUG   SenderThread:135730 [sender.py:send():379] send: history
+2023-09-07 01:09:02,837 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: summary_record
+2023-09-07 01:09:02,837 INFO    SenderThread:135730 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-07 01:09:02,987 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:09:03,560 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/wandb-summary.json
+2023-09-07 01:09:04,561 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:09:05,561 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:09:06,562 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:09:08,082 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:09:08,524 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-07 01:09:08,526 DEBUG   SenderThread:135730 [sender.py:send():379] send: history
+2023-09-07 01:09:08,527 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: summary_record
+2023-09-07 01:09:08,528 INFO    SenderThread:135730 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-07 01:09:08,563 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/wandb-summary.json
+2023-09-07 01:09:08,564 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:09:10,564 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:09:11,565 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:09:12,045 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-07 01:09:12,045 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: stop_status
+2023-09-07 01:09:12,565 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:09:13,089 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:09:14,103 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-07 01:09:14,104 DEBUG   SenderThread:135730 [sender.py:send():379] send: history
+2023-09-07 01:09:14,104 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: summary_record
+2023-09-07 01:09:14,105 INFO    SenderThread:135730 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-07 01:09:14,566 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/wandb-summary.json
+2023-09-07 01:09:14,567 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:09:15,567 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:09:16,567 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:09:18,211 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:09:18,569 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:09:19,081 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-07 01:09:19,084 DEBUG   SenderThread:135730 [sender.py:send():379] send: history
+2023-09-07 01:09:19,084 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: summary_record
+2023-09-07 01:09:19,085 INFO    SenderThread:135730 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-07 01:09:19,569 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/wandb-summary.json
+2023-09-07 01:09:20,570 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:09:21,571 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:09:22,571 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:09:23,229 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:09:24,233 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-07 01:09:24,235 DEBUG   SenderThread:135730 [sender.py:send():379] send: history
+2023-09-07 01:09:24,236 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: summary_record
+2023-09-07 01:09:24,236 INFO    SenderThread:135730 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-07 01:09:24,573 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/wandb-summary.json
+2023-09-07 01:09:24,573 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:09:26,574 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:09:26,961 DEBUG   SenderThread:135730 [sender.py:send():379] send: stats
+2023-09-07 01:09:27,045 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-07 01:09:27,046 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: stop_status
+2023-09-07 01:09:27,575 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:09:28,244 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:09:28,575 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:09:28,588 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-07 01:09:28,590 DEBUG   SenderThread:135730 [sender.py:send():379] send: history
+2023-09-07 01:09:28,590 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: summary_record
+2023-09-07 01:09:28,591 INFO    SenderThread:135730 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-07 01:09:29,576 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/wandb-summary.json
+2023-09-07 01:09:30,576 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:09:31,577 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:09:32,578 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:09:33,007 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-07 01:09:33,010 DEBUG   SenderThread:135730 [sender.py:send():379] send: history
+2023-09-07 01:09:33,010 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: summary_record
+2023-09-07 01:09:33,011 INFO    SenderThread:135730 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-07 01:09:33,299 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:09:33,578 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/wandb-summary.json
+2023-09-07 01:09:34,579 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:09:35,579 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:09:36,580 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:09:38,156 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-07 01:09:38,158 DEBUG   SenderThread:135730 [sender.py:send():379] send: history
+2023-09-07 01:09:38,158 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: summary_record
+2023-09-07 01:09:38,159 INFO    SenderThread:135730 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-07 01:09:38,355 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:09:38,581 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/wandb-summary.json
+2023-09-07 01:09:38,582 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:09:39,582 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:09:40,583 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:09:42,045 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-07 01:09:42,045 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: stop_status
+2023-09-07 01:09:42,488 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-07 01:09:42,490 DEBUG   SenderThread:135730 [sender.py:send():379] send: history
+2023-09-07 01:09:42,491 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: summary_record
+2023-09-07 01:09:42,492 INFO    SenderThread:135730 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-07 01:09:42,584 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/wandb-summary.json
+2023-09-07 01:09:42,585 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:09:43,453 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:09:44,594 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:09:45,594 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:09:46,595 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:09:46,791 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-07 01:09:46,793 DEBUG   SenderThread:135730 [sender.py:send():379] send: history
+2023-09-07 01:09:46,793 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: summary_record
+2023-09-07 01:09:46,794 INFO    SenderThread:135730 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-07 01:09:47,595 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/wandb-summary.json
+2023-09-07 01:09:48,471 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:09:48,596 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:09:49,190 ERROR   wandb-upload_0:135730 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip_with_dqn/tx53isjk/wandb-metadata.json?Expires=1694106447&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=ouHMB3tvTLkeTpvJFtMKUuW0l9X0QB1cOppC7pg7ymxSF9dg7ZO0Yd26dtOi4DV%2FLO2jRk%2FaMJ2MXedf%2FKdNNoafdPWK1EDrgfgaG4DbtHynObX80rBlcb7st2UNnSzu5y2IabsQUlZkVK1L8i5m2RcSDad4XH%2BBB8REffMjAvYU8epj5qi7uhTcQtW1XkwW6oLpKjqgykp5Ew83e1E%2BahTrVUksD0Sb1DQPo%2BZQxzuyMsVQTRrgMHeY5Zl19IPh94OOI8C9B%2F7enXnos9px6gYXdO%2BlSV%2FZNaUMBFuLfvSxgg6UkwLUDyZJyV6jY%2BxQ2XEYQdt7H2EU%2F9UWaoKfwQ%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 01:09:49,191 ERROR   wandb-upload_0:135730 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '15203'}
+2023-09-07 01:09:49,191 ERROR   wandb-upload_0:135730 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 01:09:49,597 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:09:50,597 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:09:51,253 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-07 01:09:51,255 DEBUG   SenderThread:135730 [sender.py:send():379] send: history
+2023-09-07 01:09:51,255 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: summary_record
+2023-09-07 01:09:51,256 INFO    SenderThread:135730 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-07 01:09:51,598 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/wandb-summary.json
+2023-09-07 01:09:52,598 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:09:53,534 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:09:53,599 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:09:54,600 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:09:56,123 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-07 01:09:56,126 DEBUG   SenderThread:135730 [sender.py:send():379] send: history
+2023-09-07 01:09:56,126 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: summary_record
+2023-09-07 01:09:56,127 INFO    SenderThread:135730 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-07 01:09:56,601 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/wandb-summary.json
+2023-09-07 01:09:56,601 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:09:56,967 DEBUG   SenderThread:135730 [sender.py:send():379] send: stats
+2023-09-07 01:09:57,045 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-07 01:09:57,046 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: stop_status
+2023-09-07 01:09:57,601 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:09:58,589 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:09:58,602 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:10:00,603 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:10:01,519 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-07 01:10:01,521 DEBUG   SenderThread:135730 [sender.py:send():379] send: history
+2023-09-07 01:10:01,521 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: summary_record
+2023-09-07 01:10:01,522 INFO    SenderThread:135730 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-07 01:10:01,604 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/wandb-summary.json
+2023-09-07 01:10:02,604 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:10:03,605 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:10:03,617 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:10:04,606 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:10:06,607 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:10:07,959 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-07 01:10:07,961 DEBUG   SenderThread:135730 [sender.py:send():379] send: history
+2023-09-07 01:10:07,961 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: summary_record
+2023-09-07 01:10:07,962 INFO    SenderThread:135730 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-07 01:10:08,609 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/wandb-summary.json
+2023-09-07 01:10:08,609 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:10:08,657 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:10:09,609 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:10:10,610 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:10:12,046 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-07 01:10:12,048 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: stop_status
+2023-09-07 01:10:12,611 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:10:13,737 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:10:13,765 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-07 01:10:13,767 DEBUG   SenderThread:135730 [sender.py:send():379] send: history
+2023-09-07 01:10:13,767 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: summary_record
+2023-09-07 01:10:13,768 INFO    SenderThread:135730 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-07 01:10:14,612 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/wandb-summary.json
+2023-09-07 01:10:14,613 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:10:15,613 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:10:16,614 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:10:18,615 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:10:18,739 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:10:19,410 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-07 01:10:19,412 DEBUG   SenderThread:135730 [sender.py:send():379] send: history
+2023-09-07 01:10:19,413 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: summary_record
+2023-09-07 01:10:19,420 INFO    SenderThread:135730 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-07 01:10:19,620 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/wandb-summary.json
+2023-09-07 01:10:20,621 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:10:21,622 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:10:22,623 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:10:23,856 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:10:24,581 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-07 01:10:24,583 DEBUG   SenderThread:135730 [sender.py:send():379] send: history
+2023-09-07 01:10:24,584 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: summary_record
+2023-09-07 01:10:24,585 INFO    SenderThread:135730 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-07 01:10:24,624 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/wandb-summary.json
+2023-09-07 01:10:24,625 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:10:25,624 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:10:26,625 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:10:26,969 DEBUG   SenderThread:135730 [sender.py:send():379] send: stats
+2023-09-07 01:10:27,046 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-07 01:10:27,047 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: stop_status
+2023-09-07 01:10:28,627 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:10:28,866 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:10:30,062 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-07 01:10:30,064 DEBUG   SenderThread:135730 [sender.py:send():379] send: history
+2023-09-07 01:10:30,064 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: summary_record
+2023-09-07 01:10:30,065 INFO    SenderThread:135730 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-07 01:10:30,628 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/wandb-summary.json
+2023-09-07 01:10:30,629 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:10:31,629 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:10:32,629 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:10:33,921 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:10:34,630 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:10:36,164 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-07 01:10:36,166 DEBUG   SenderThread:135730 [sender.py:send():379] send: history
+2023-09-07 01:10:36,167 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: summary_record
+2023-09-07 01:10:36,167 INFO    SenderThread:135730 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-07 01:10:36,632 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/wandb-summary.json
+2023-09-07 01:10:36,632 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:10:37,633 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:10:38,633 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:10:39,036 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:10:40,635 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:10:42,046 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-07 01:10:42,047 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: stop_status
+2023-09-07 01:10:42,636 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:10:43,417 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-07 01:10:43,419 DEBUG   SenderThread:135730 [sender.py:send():379] send: history
+2023-09-07 01:10:43,420 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: summary_record
+2023-09-07 01:10:43,421 INFO    SenderThread:135730 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-07 01:10:43,637 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/wandb-summary.json
+2023-09-07 01:10:44,043 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:10:44,637 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:10:45,638 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:10:46,639 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:10:48,640 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:10:49,088 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:10:50,336 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-07 01:10:50,337 DEBUG   SenderThread:135730 [sender.py:send():379] send: history
+2023-09-07 01:10:50,337 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: summary_record
+2023-09-07 01:10:50,338 INFO    SenderThread:135730 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-07 01:10:50,641 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/wandb-summary.json
+2023-09-07 01:10:50,641 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:10:51,642 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:10:52,642 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:10:54,177 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:10:54,644 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:10:56,284 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-07 01:10:56,285 DEBUG   SenderThread:135730 [sender.py:send():379] send: history
+2023-09-07 01:10:56,286 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: summary_record
+2023-09-07 01:10:56,287 INFO    SenderThread:135730 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-07 01:10:56,651 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/wandb-summary.json
+2023-09-07 01:10:56,652 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:10:56,973 DEBUG   SenderThread:135730 [sender.py:send():379] send: stats
+2023-09-07 01:10:57,046 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-07 01:10:57,047 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: stop_status
+2023-09-07 01:10:57,651 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:10:58,652 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:10:59,278 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:11:00,653 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:11:02,493 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-07 01:11:02,494 DEBUG   SenderThread:135730 [sender.py:send():379] send: history
+2023-09-07 01:11:02,494 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: summary_record
+2023-09-07 01:11:02,495 INFO    SenderThread:135730 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-07 01:11:02,655 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/wandb-summary.json
+2023-09-07 01:11:02,655 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:11:03,655 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:11:04,352 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:11:04,656 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:11:06,657 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:11:08,658 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:11:08,804 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-07 01:11:08,806 DEBUG   SenderThread:135730 [sender.py:send():379] send: history
+2023-09-07 01:11:08,806 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: summary_record
+2023-09-07 01:11:08,807 INFO    SenderThread:135730 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-07 01:11:09,461 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:11:09,659 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/wandb-summary.json
+2023-09-07 01:11:09,660 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:11:10,660 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:11:12,047 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-07 01:11:12,048 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: stop_status
+2023-09-07 01:11:12,661 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:11:14,499 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:11:14,663 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:11:16,205 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-07 01:11:16,207 DEBUG   SenderThread:135730 [sender.py:send():379] send: history
+2023-09-07 01:11:16,207 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: summary_record
+2023-09-07 01:11:16,208 INFO    SenderThread:135730 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-07 01:11:16,664 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/wandb-summary.json
+2023-09-07 01:11:16,665 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:11:17,665 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:11:18,665 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:11:19,554 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:11:20,667 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:11:22,668 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:11:23,662 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-07 01:11:23,664 DEBUG   SenderThread:135730 [sender.py:send():379] send: history
+2023-09-07 01:11:23,665 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: summary_record
+2023-09-07 01:11:23,665 INFO    SenderThread:135730 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-07 01:11:23,668 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/wandb-summary.json
+2023-09-07 01:11:24,598 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:11:24,669 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:11:25,670 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:11:26,670 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:11:26,977 DEBUG   SenderThread:135730 [sender.py:send():379] send: stats
+2023-09-07 01:11:27,047 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-07 01:11:27,048 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: stop_status
+2023-09-07 01:11:28,672 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:11:29,657 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:11:30,673 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:11:31,232 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-07 01:11:31,235 DEBUG   SenderThread:135730 [sender.py:send():379] send: history
+2023-09-07 01:11:31,235 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: summary_record
+2023-09-07 01:11:31,236 INFO    SenderThread:135730 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-07 01:11:31,691 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/wandb-summary.json
+2023-09-07 01:11:32,692 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:11:33,693 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:11:34,693 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:11:34,718 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:11:36,695 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:11:38,365 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-07 01:11:38,367 DEBUG   SenderThread:135730 [sender.py:send():379] send: history
+2023-09-07 01:11:38,368 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: summary_record
+2023-09-07 01:11:38,368 INFO    SenderThread:135730 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-07 01:11:38,696 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/wandb-summary.json
+2023-09-07 01:11:38,697 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:11:39,697 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:11:39,805 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:11:40,697 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:11:42,047 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-07 01:11:42,048 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: stop_status
+2023-09-07 01:11:42,699 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:11:44,700 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:11:44,815 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:11:45,846 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-07 01:11:45,850 DEBUG   SenderThread:135730 [sender.py:send():379] send: history
+2023-09-07 01:11:45,850 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: summary_record
+2023-09-07 01:11:45,857 INFO    SenderThread:135730 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-07 01:11:46,701 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/wandb-summary.json
+2023-09-07 01:11:46,701 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:11:47,702 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:11:48,702 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:11:49,816 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:11:50,704 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:11:52,705 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:11:53,172 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-07 01:11:53,175 DEBUG   SenderThread:135730 [sender.py:send():379] send: history
+2023-09-07 01:11:53,176 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: summary_record
+2023-09-07 01:11:53,177 INFO    SenderThread:135730 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-07 01:11:53,705 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/wandb-summary.json
+2023-09-07 01:11:53,706 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:11:54,706 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:11:54,867 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:11:56,708 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:11:56,983 DEBUG   SenderThread:135730 [sender.py:send():379] send: stats
+2023-09-07 01:11:57,047 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-07 01:11:57,048 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: stop_status
+2023-09-07 01:11:58,709 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:11:59,889 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:12:00,592 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-07 01:12:00,595 DEBUG   SenderThread:135730 [sender.py:send():379] send: history
+2023-09-07 01:12:00,595 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: summary_record
+2023-09-07 01:12:00,596 INFO    SenderThread:135730 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-07 01:12:00,710 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/wandb-summary.json
+2023-09-07 01:12:00,711 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:12:01,711 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:12:02,712 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:12:04,713 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:12:04,912 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:12:06,714 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:12:08,111 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-07 01:12:08,113 DEBUG   SenderThread:135730 [sender.py:send():379] send: history
+2023-09-07 01:12:08,113 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: summary_record
+2023-09-07 01:12:08,114 INFO    SenderThread:135730 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-07 01:12:08,717 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/wandb-summary.json
+2023-09-07 01:12:08,718 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:12:09,719 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:12:09,983 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:12:10,720 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:12:12,048 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-07 01:12:12,049 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: stop_status
+2023-09-07 01:12:12,733 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:12:14,735 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:12:15,072 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:12:15,688 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-07 01:12:15,689 DEBUG   SenderThread:135730 [sender.py:send():379] send: history
+2023-09-07 01:12:15,690 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: summary_record
+2023-09-07 01:12:15,690 INFO    SenderThread:135730 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-07 01:12:15,738 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/wandb-summary.json
+2023-09-07 01:12:16,738 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:12:17,741 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:12:18,742 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:12:20,139 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:12:20,748 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:12:22,755 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:12:23,386 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-07 01:12:23,388 DEBUG   SenderThread:135730 [sender.py:send():379] send: history
+2023-09-07 01:12:23,389 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: summary_record
+2023-09-07 01:12:23,390 INFO    SenderThread:135730 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-07 01:12:23,704 ERROR   wandb-upload_0:135730 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip_with_dqn/tx53isjk/wandb-metadata.json?Expires=1694106447&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=ouHMB3tvTLkeTpvJFtMKUuW0l9X0QB1cOppC7pg7ymxSF9dg7ZO0Yd26dtOi4DV%2FLO2jRk%2FaMJ2MXedf%2FKdNNoafdPWK1EDrgfgaG4DbtHynObX80rBlcb7st2UNnSzu5y2IabsQUlZkVK1L8i5m2RcSDad4XH%2BBB8REffMjAvYU8epj5qi7uhTcQtW1XkwW6oLpKjqgykp5Ew83e1E%2BahTrVUksD0Sb1DQPo%2BZQxzuyMsVQTRrgMHeY5Zl19IPh94OOI8C9B%2F7enXnos9px6gYXdO%2BlSV%2FZNaUMBFuLfvSxgg6UkwLUDyZJyV6jY%2BxQ2XEYQdt7H2EU%2F9UWaoKfwQ%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 01:12:23,704 ERROR   wandb-upload_0:135730 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '15203'}
+2023-09-07 01:12:23,704 ERROR   wandb-upload_0:135730 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 01:12:23,756 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/wandb-summary.json
+2023-09-07 01:12:24,757 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:12:25,194 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:12:25,761 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:12:26,762 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:12:26,986 DEBUG   SenderThread:135730 [sender.py:send():379] send: stats
+2023-09-07 01:12:27,047 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-07 01:12:27,048 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: stop_status
+2023-09-07 01:12:28,770 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:12:30,210 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:12:30,777 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:12:31,399 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-07 01:12:31,404 DEBUG   SenderThread:135730 [sender.py:send():379] send: history
+2023-09-07 01:12:31,404 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: summary_record
+2023-09-07 01:12:31,405 INFO    SenderThread:135730 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-07 01:12:31,781 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/wandb-summary.json
+2023-09-07 01:12:32,780 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:12:33,783 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:12:34,784 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:12:35,306 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:12:36,788 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:12:38,794 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:12:39,951 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-07 01:12:39,954 DEBUG   SenderThread:135730 [sender.py:send():379] send: history
+2023-09-07 01:12:39,955 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: summary_record
+2023-09-07 01:12:39,956 INFO    SenderThread:135730 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-07 01:12:40,355 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:12:40,800 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/wandb-summary.json
+2023-09-07 01:12:40,801 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:12:41,805 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:12:42,049 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-07 01:12:42,050 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: stop_status
+2023-09-07 01:12:42,806 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:12:44,807 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:12:45,356 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:12:46,808 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:12:48,509 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-07 01:12:48,510 DEBUG   SenderThread:135730 [sender.py:send():379] send: history
+2023-09-07 01:12:48,511 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: summary_record
+2023-09-07 01:12:48,512 INFO    SenderThread:135730 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-07 01:12:48,809 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/wandb-summary.json
+2023-09-07 01:12:48,810 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:12:49,810 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:12:50,465 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:12:50,811 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:12:52,813 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:12:54,814 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:12:55,489 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:12:56,815 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:12:56,848 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-07 01:12:56,850 DEBUG   SenderThread:135730 [sender.py:send():379] send: history
+2023-09-07 01:12:56,851 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: summary_record
+2023-09-07 01:12:56,851 INFO    SenderThread:135730 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-07 01:12:56,988 DEBUG   SenderThread:135730 [sender.py:send():379] send: stats
+2023-09-07 01:12:57,049 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-07 01:12:57,049 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: stop_status
+2023-09-07 01:12:57,815 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/wandb-summary.json
+2023-09-07 01:12:57,816 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:12:58,816 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:13:00,575 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:13:00,817 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:13:02,819 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:13:04,820 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:13:04,864 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-07 01:13:04,868 DEBUG   SenderThread:135730 [sender.py:send():379] send: history
+2023-09-07 01:13:04,868 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: summary_record
+2023-09-07 01:13:04,869 INFO    SenderThread:135730 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-07 01:13:05,631 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:13:05,821 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/wandb-summary.json
+2023-09-07 01:13:05,821 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:13:06,822 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:13:08,823 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:13:10,675 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:13:10,824 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:13:12,048 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-07 01:13:12,049 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: stop_status
+2023-09-07 01:13:12,228 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-07 01:13:12,391 DEBUG   SenderThread:135730 [sender.py:send():379] send: history
+2023-09-07 01:13:12,392 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: summary_record
+2023-09-07 01:13:12,393 INFO    SenderThread:135730 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-07 01:13:12,827 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/wandb-summary.json
+2023-09-07 01:13:12,828 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:13:13,841 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:13:14,841 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:13:15,714 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:13:16,843 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:13:18,844 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:13:19,472 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-07 01:13:19,474 DEBUG   SenderThread:135730 [sender.py:send():379] send: history
+2023-09-07 01:13:19,475 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: summary_record
+2023-09-07 01:13:19,476 INFO    SenderThread:135730 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-07 01:13:19,845 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/wandb-summary.json
+2023-09-07 01:13:20,750 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:13:20,845 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:13:22,846 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:13:24,848 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:13:25,822 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:13:26,849 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:13:26,994 DEBUG   SenderThread:135730 [sender.py:send():379] send: stats
+2023-09-07 01:13:27,049 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-07 01:13:27,050 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: stop_status
+2023-09-07 01:13:27,784 DEBUG   SenderThread:135730 [sender.py:send():379] send: exit
+2023-09-07 01:13:27,784 INFO    SenderThread:135730 [sender.py:send_exit():584] handling exit code: 0
+2023-09-07 01:13:27,784 INFO    SenderThread:135730 [sender.py:send_exit():586] handling runtime: 360
+2023-09-07 01:13:27,785 INFO    SenderThread:135730 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-07 01:13:27,786 INFO    SenderThread:135730 [sender.py:send_exit():592] send defer
+2023-09-07 01:13:27,786 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: defer
+2023-09-07 01:13:27,787 INFO    HandlerThread:135730 [handler.py:handle_request_defer():170] handle defer: 0
+2023-09-07 01:13:27,788 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: defer
+2023-09-07 01:13:27,788 INFO    SenderThread:135730 [sender.py:send_request_defer():608] handle sender defer: 0
+2023-09-07 01:13:27,788 INFO    SenderThread:135730 [sender.py:transition_state():612] send defer: 1
+2023-09-07 01:13:27,788 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: defer
+2023-09-07 01:13:27,789 INFO    HandlerThread:135730 [handler.py:handle_request_defer():170] handle defer: 1
+2023-09-07 01:13:27,789 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: defer
+2023-09-07 01:13:27,789 INFO    SenderThread:135730 [sender.py:send_request_defer():608] handle sender defer: 1
+2023-09-07 01:13:27,790 INFO    SenderThread:135730 [sender.py:transition_state():612] send defer: 2
+2023-09-07 01:13:27,790 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: defer
+2023-09-07 01:13:27,790 INFO    HandlerThread:135730 [handler.py:handle_request_defer():170] handle defer: 2
+2023-09-07 01:13:27,790 INFO    HandlerThread:135730 [system_monitor.py:finish():190] Stopping system monitor
+2023-09-07 01:13:27,792 INFO    HandlerThread:135730 [interfaces.py:finish():202] Joined cpu monitor
+2023-09-07 01:13:27,793 DEBUG   SystemMonitor:135730 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-09-07 01:13:27,793 DEBUG   SystemMonitor:135730 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-09-07 01:13:27,798 INFO    HandlerThread:135730 [interfaces.py:finish():202] Joined disk monitor
+2023-09-07 01:13:27,851 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/wandb-summary.json
+2023-09-07 01:13:27,908 INFO    HandlerThread:135730 [interfaces.py:finish():202] Joined gpu monitor
+2023-09-07 01:13:27,908 INFO    HandlerThread:135730 [interfaces.py:finish():202] Joined memory monitor
+2023-09-07 01:13:27,908 INFO    HandlerThread:135730 [interfaces.py:finish():202] Joined network monitor
+2023-09-07 01:13:27,910 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: defer
+2023-09-07 01:13:27,910 INFO    SenderThread:135730 [sender.py:send_request_defer():608] handle sender defer: 2
+2023-09-07 01:13:27,910 INFO    SenderThread:135730 [sender.py:transition_state():612] send defer: 3
+2023-09-07 01:13:27,910 DEBUG   SenderThread:135730 [sender.py:send():379] send: stats
+2023-09-07 01:13:27,913 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: defer
+2023-09-07 01:13:27,913 INFO    HandlerThread:135730 [handler.py:handle_request_defer():170] handle defer: 3
+2023-09-07 01:13:27,915 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: defer
+2023-09-07 01:13:27,915 INFO    SenderThread:135730 [sender.py:send_request_defer():608] handle sender defer: 3
+2023-09-07 01:13:27,915 INFO    SenderThread:135730 [sender.py:transition_state():612] send defer: 4
+2023-09-07 01:13:27,916 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: defer
+2023-09-07 01:13:27,916 INFO    HandlerThread:135730 [handler.py:handle_request_defer():170] handle defer: 4
+2023-09-07 01:13:27,917 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: defer
+2023-09-07 01:13:27,917 INFO    SenderThread:135730 [sender.py:send_request_defer():608] handle sender defer: 4
+2023-09-07 01:13:27,917 INFO    SenderThread:135730 [sender.py:transition_state():612] send defer: 5
+2023-09-07 01:13:27,917 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: defer
+2023-09-07 01:13:27,918 INFO    HandlerThread:135730 [handler.py:handle_request_defer():170] handle defer: 5
+2023-09-07 01:13:27,919 DEBUG   SenderThread:135730 [sender.py:send():379] send: summary
+2023-09-07 01:13:27,920 INFO    SenderThread:135730 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-07 01:13:27,920 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: defer
+2023-09-07 01:13:27,920 INFO    SenderThread:135730 [sender.py:send_request_defer():608] handle sender defer: 5
+2023-09-07 01:13:27,920 INFO    SenderThread:135730 [sender.py:transition_state():612] send defer: 6
+2023-09-07 01:13:27,921 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: defer
+2023-09-07 01:13:27,921 INFO    HandlerThread:135730 [handler.py:handle_request_defer():170] handle defer: 6
+2023-09-07 01:13:27,921 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: defer
+2023-09-07 01:13:27,921 INFO    SenderThread:135730 [sender.py:send_request_defer():608] handle sender defer: 6
+2023-09-07 01:13:27,922 INFO    SenderThread:135730 [sender.py:transition_state():612] send defer: 7
+2023-09-07 01:13:27,922 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:13:27,922 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: defer
+2023-09-07 01:13:27,922 INFO    HandlerThread:135730 [handler.py:handle_request_defer():170] handle defer: 7
+2023-09-07 01:13:27,923 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: defer
+2023-09-07 01:13:27,923 INFO    SenderThread:135730 [sender.py:send_request_defer():608] handle sender defer: 7
+2023-09-07 01:13:28,784 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: poll_exit
+2023-09-07 01:13:28,851 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/wandb-summary.json
+2023-09-07 01:13:28,852 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:13:29,932 INFO    SenderThread:135730 [sender.py:transition_state():612] send defer: 8
+2023-09-07 01:13:29,932 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: poll_exit
+2023-09-07 01:13:29,932 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: defer
+2023-09-07 01:13:29,933 INFO    HandlerThread:135730 [handler.py:handle_request_defer():170] handle defer: 8
+2023-09-07 01:13:29,934 DEBUG   SenderThread:135730 [sender.py:send_request():406] send_request: defer
+2023-09-07 01:13:29,934 INFO    SenderThread:135730 [sender.py:send_request_defer():608] handle sender defer: 8
+2023-09-07 01:13:29,934 INFO    SenderThread:135730 [job_builder.py:build():281] Attempting to build job artifact
+2023-09-07 01:13:29,935 INFO    SenderThread:135730 [job_builder.py:_get_source_type():400] is repo sourced job
+2023-09-07 01:13:29,937 INFO    SenderThread:135730 [job_builder.py:build():374] adding wandb-job metadata file
+2023-09-07 01:13:29,943 INFO    SenderThread:135730 [sender.py:transition_state():612] send defer: 9
+2023-09-07 01:13:29,944 DEBUG   SenderThread:135730 [sender.py:send():379] send: artifact
+2023-09-07 01:13:29,949 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: defer
+2023-09-07 01:13:29,949 INFO    HandlerThread:135730 [handler.py:handle_request_defer():170] handle defer: 9
+2023-09-07 01:13:30,852 INFO    Thread-12 :135730 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/files/output.log
+2023-09-07 01:13:31,650 ERROR   wandb-upload_1:135730 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-artifacts-prod/wandb_artifacts/95431002/560798884/a13c8e91f52de3d441af5a3bca22e6cc?Expires=1694106811&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=gsVzYGFQJUzwz8mAShIXO9qRH3VcHdCOga57CwEhTWwzSuDKMIdCSB0%2FvHSGqYX2CPnQMWIfGKuk8LkzlEoPKEu31XKAdVbN%2BBA7D8rI5GuaBOGoPq4BbcS5Kng5%2FZbqwt%2Bw%2B22yRdjVjkqkly3K0MOLjZ1XS2fr0bX1hoJ6z1tXbOqEqQ5r2YRj%2FAC8bqTxT8P4B5L%2B1TpAKI1%2Fwq72Hwlgm7D%2FuBghl7M5I2SOdqGQ%2FNpeAQwQGUxswUiaRzxM808MXWqAcFIa3Jqhh9OzMssoxMOj9o0QT7Zun2K1aPwLWBQ7axPPlvjy3vX80cb2q8pKBHxhoPF4uAJTqxSrtw%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 01:13:31,650 ERROR   wandb-upload_1:135730 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-MD5': 'oTyOkfUt49RBr1o7yiLmzA==', 'Content-Type': 'text/plain; charset=utf-8', 'Content-Length': '3147'}
+2023-09-07 01:13:31,650 ERROR   wandb-upload_1:135730 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 01:13:31,911 INFO    wandb-upload_2:135730 [upload_job.py:push():89] Uploaded file /root/.local/share/wandb/artifacts/staging/tmpwdryrlxh
+2023-09-07 01:13:32,873 ERROR   wandb-upload_1:135730 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-artifacts-prod/wandb_artifacts/95431002/560798884/a13c8e91f52de3d441af5a3bca22e6cc?Expires=1694106811&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=gsVzYGFQJUzwz8mAShIXO9qRH3VcHdCOga57CwEhTWwzSuDKMIdCSB0%2FvHSGqYX2CPnQMWIfGKuk8LkzlEoPKEu31XKAdVbN%2BBA7D8rI5GuaBOGoPq4BbcS5Kng5%2FZbqwt%2Bw%2B22yRdjVjkqkly3K0MOLjZ1XS2fr0bX1hoJ6z1tXbOqEqQ5r2YRj%2FAC8bqTxT8P4B5L%2B1TpAKI1%2Fwq72Hwlgm7D%2FuBghl7M5I2SOdqGQ%2FNpeAQwQGUxswUiaRzxM808MXWqAcFIa3Jqhh9OzMssoxMOj9o0QT7Zun2K1aPwLWBQ7axPPlvjy3vX80cb2q8pKBHxhoPF4uAJTqxSrtw%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 01:13:32,874 ERROR   wandb-upload_1:135730 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-MD5': 'oTyOkfUt49RBr1o7yiLmzA==', 'Content-Type': 'text/plain; charset=utf-8', 'Content-Length': '3147'}
+2023-09-07 01:13:32,874 ERROR   wandb-upload_1:135730 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 01:13:33,786 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:13:35,336 ERROR   wandb-upload_1:135730 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-artifacts-prod/wandb_artifacts/95431002/560798884/a13c8e91f52de3d441af5a3bca22e6cc?Expires=1694106811&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=gsVzYGFQJUzwz8mAShIXO9qRH3VcHdCOga57CwEhTWwzSuDKMIdCSB0%2FvHSGqYX2CPnQMWIfGKuk8LkzlEoPKEu31XKAdVbN%2BBA7D8rI5GuaBOGoPq4BbcS5Kng5%2FZbqwt%2Bw%2B22yRdjVjkqkly3K0MOLjZ1XS2fr0bX1hoJ6z1tXbOqEqQ5r2YRj%2FAC8bqTxT8P4B5L%2B1TpAKI1%2Fwq72Hwlgm7D%2FuBghl7M5I2SOdqGQ%2FNpeAQwQGUxswUiaRzxM808MXWqAcFIa3Jqhh9OzMssoxMOj9o0QT7Zun2K1aPwLWBQ7axPPlvjy3vX80cb2q8pKBHxhoPF4uAJTqxSrtw%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 01:13:35,337 ERROR   wandb-upload_1:135730 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-MD5': 'oTyOkfUt49RBr1o7yiLmzA==', 'Content-Type': 'text/plain; charset=utf-8', 'Content-Length': '3147'}
+2023-09-07 01:13:35,337 ERROR   wandb-upload_1:135730 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 01:13:35,337 INFO    wandb-upload_1:135730 [retry.py:__call__():172] Retry attempt failed:
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connectionpool.py", line 714, in urlopen
+    httplib_response = self._make_request(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connectionpool.py", line 403, in _make_request
+    self._validate_conn(conn)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connectionpool.py", line 1053, in _validate_conn
+    conn.connect()
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connection.py", line 419, in connect
+    self.sock = ssl_wrap_socket(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/root/miniconda3/envs/ling/lib/python3.9/ssl.py", line 501, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/root/miniconda3/envs/ling/lib/python3.9/ssl.py", line 1041, in _create
+    self.do_handshake()
+  File "/root/miniconda3/envs/ling/lib/python3.9/ssl.py", line 1310, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connectionpool.py", line 798, in urlopen
+    retries = retries.increment(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/util/retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/packages/six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connectionpool.py", line 714, in urlopen
+    httplib_response = self._make_request(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connectionpool.py", line 403, in _make_request
+    self._validate_conn(conn)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connectionpool.py", line 1053, in _validate_conn
+    conn.connect()
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connection.py", line 419, in connect
+    self.sock = ssl_wrap_socket(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/root/miniconda3/envs/ling/lib/python3.9/ssl.py", line 501, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/root/miniconda3/envs/ling/lib/python3.9/ssl.py", line 1041, in _create
+    self.do_handshake()
+  File "/root/miniconda3/envs/ling/lib/python3.9/ssl.py", line 1310, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 2491, in upload_file
+    response = self._upload_file_session.put(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/sessions.py", line 649, in put
+    return self.request("PUT", url, data=data, **kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/adapters.py", line 501, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 2520, in upload_file
+    raise _e.with_traceback(sys.exc_info()[2])
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 2491, in upload_file
+    response = self._upload_file_session.put(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/sessions.py", line 649, in put
+    return self.request("PUT", url, data=data, **kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/adapters.py", line 501, in send
+    raise ConnectionError(err, request=request)
+wandb.sdk.lib.retry.TransientError: None
+2023-09-07 01:13:38,788 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:13:40,225 ERROR   wandb-upload_1:135730 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-artifacts-prod/wandb_artifacts/95431002/560798884/a13c8e91f52de3d441af5a3bca22e6cc?Expires=1694106811&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=gsVzYGFQJUzwz8mAShIXO9qRH3VcHdCOga57CwEhTWwzSuDKMIdCSB0%2FvHSGqYX2CPnQMWIfGKuk8LkzlEoPKEu31XKAdVbN%2BBA7D8rI5GuaBOGoPq4BbcS5Kng5%2FZbqwt%2Bw%2B22yRdjVjkqkly3K0MOLjZ1XS2fr0bX1hoJ6z1tXbOqEqQ5r2YRj%2FAC8bqTxT8P4B5L%2B1TpAKI1%2Fwq72Hwlgm7D%2FuBghl7M5I2SOdqGQ%2FNpeAQwQGUxswUiaRzxM808MXWqAcFIa3Jqhh9OzMssoxMOj9o0QT7Zun2K1aPwLWBQ7axPPlvjy3vX80cb2q8pKBHxhoPF4uAJTqxSrtw%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 01:13:40,226 ERROR   wandb-upload_1:135730 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-MD5': 'oTyOkfUt49RBr1o7yiLmzA==', 'Content-Type': 'text/plain; charset=utf-8', 'Content-Length': '3147'}
+2023-09-07 01:13:40,226 ERROR   wandb-upload_1:135730 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 01:13:43,790 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:13:48,793 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:13:50,199 ERROR   wandb-upload_1:135730 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-artifacts-prod/wandb_artifacts/95431002/560798884/a13c8e91f52de3d441af5a3bca22e6cc?Expires=1694106811&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=gsVzYGFQJUzwz8mAShIXO9qRH3VcHdCOga57CwEhTWwzSuDKMIdCSB0%2FvHSGqYX2CPnQMWIfGKuk8LkzlEoPKEu31XKAdVbN%2BBA7D8rI5GuaBOGoPq4BbcS5Kng5%2FZbqwt%2Bw%2B22yRdjVjkqkly3K0MOLjZ1XS2fr0bX1hoJ6z1tXbOqEqQ5r2YRj%2FAC8bqTxT8P4B5L%2B1TpAKI1%2Fwq72Hwlgm7D%2FuBghl7M5I2SOdqGQ%2FNpeAQwQGUxswUiaRzxM808MXWqAcFIa3Jqhh9OzMssoxMOj9o0QT7Zun2K1aPwLWBQ7axPPlvjy3vX80cb2q8pKBHxhoPF4uAJTqxSrtw%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 01:13:50,199 ERROR   wandb-upload_1:135730 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-MD5': 'oTyOkfUt49RBr1o7yiLmzA==', 'Content-Type': 'text/plain; charset=utf-8', 'Content-Length': '3147'}
+2023-09-07 01:13:50,199 ERROR   wandb-upload_1:135730 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 01:13:53,795 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:13:58,797 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:14:03,799 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:14:08,802 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:14:10,289 ERROR   wandb-upload_1:135730 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-artifacts-prod/wandb_artifacts/95431002/560798884/a13c8e91f52de3d441af5a3bca22e6cc?Expires=1694106811&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=gsVzYGFQJUzwz8mAShIXO9qRH3VcHdCOga57CwEhTWwzSuDKMIdCSB0%2FvHSGqYX2CPnQMWIfGKuk8LkzlEoPKEu31XKAdVbN%2BBA7D8rI5GuaBOGoPq4BbcS5Kng5%2FZbqwt%2Bw%2B22yRdjVjkqkly3K0MOLjZ1XS2fr0bX1hoJ6z1tXbOqEqQ5r2YRj%2FAC8bqTxT8P4B5L%2B1TpAKI1%2Fwq72Hwlgm7D%2FuBghl7M5I2SOdqGQ%2FNpeAQwQGUxswUiaRzxM808MXWqAcFIa3Jqhh9OzMssoxMOj9o0QT7Zun2K1aPwLWBQ7axPPlvjy3vX80cb2q8pKBHxhoPF4uAJTqxSrtw%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 01:14:10,290 ERROR   wandb-upload_1:135730 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-MD5': 'oTyOkfUt49RBr1o7yiLmzA==', 'Content-Type': 'text/plain; charset=utf-8', 'Content-Length': '3147'}
+2023-09-07 01:14:10,290 ERROR   wandb-upload_1:135730 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 01:14:13,804 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:14:18,807 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:14:23,810 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:14:28,812 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:14:33,814 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:14:38,817 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:14:42,689 ERROR   wandb-upload_1:135730 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-artifacts-prod/wandb_artifacts/95431002/560798884/a13c8e91f52de3d441af5a3bca22e6cc?Expires=1694106811&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=gsVzYGFQJUzwz8mAShIXO9qRH3VcHdCOga57CwEhTWwzSuDKMIdCSB0%2FvHSGqYX2CPnQMWIfGKuk8LkzlEoPKEu31XKAdVbN%2BBA7D8rI5GuaBOGoPq4BbcS5Kng5%2FZbqwt%2Bw%2B22yRdjVjkqkly3K0MOLjZ1XS2fr0bX1hoJ6z1tXbOqEqQ5r2YRj%2FAC8bqTxT8P4B5L%2B1TpAKI1%2Fwq72Hwlgm7D%2FuBghl7M5I2SOdqGQ%2FNpeAQwQGUxswUiaRzxM808MXWqAcFIa3Jqhh9OzMssoxMOj9o0QT7Zun2K1aPwLWBQ7axPPlvjy3vX80cb2q8pKBHxhoPF4uAJTqxSrtw%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 01:14:42,690 ERROR   wandb-upload_1:135730 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-MD5': 'oTyOkfUt49RBr1o7yiLmzA==', 'Content-Type': 'text/plain; charset=utf-8', 'Content-Length': '3147'}
+2023-09-07 01:14:42,690 ERROR   wandb-upload_1:135730 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 01:14:43,819 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:14:48,822 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:14:53,823 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:14:58,826 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:15:03,828 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:15:08,831 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:15:13,833 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:15:18,835 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:15:23,838 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:15:28,840 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:15:33,843 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:15:38,845 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:15:43,848 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:15:48,850 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:15:51,291 ERROR   wandb-upload_1:135730 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-artifacts-prod/wandb_artifacts/95431002/560798884/a13c8e91f52de3d441af5a3bca22e6cc?Expires=1694106811&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=gsVzYGFQJUzwz8mAShIXO9qRH3VcHdCOga57CwEhTWwzSuDKMIdCSB0%2FvHSGqYX2CPnQMWIfGKuk8LkzlEoPKEu31XKAdVbN%2BBA7D8rI5GuaBOGoPq4BbcS5Kng5%2FZbqwt%2Bw%2B22yRdjVjkqkly3K0MOLjZ1XS2fr0bX1hoJ6z1tXbOqEqQ5r2YRj%2FAC8bqTxT8P4B5L%2B1TpAKI1%2Fwq72Hwlgm7D%2FuBghl7M5I2SOdqGQ%2FNpeAQwQGUxswUiaRzxM808MXWqAcFIa3Jqhh9OzMssoxMOj9o0QT7Zun2K1aPwLWBQ7axPPlvjy3vX80cb2q8pKBHxhoPF4uAJTqxSrtw%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 01:15:51,291 ERROR   wandb-upload_1:135730 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-MD5': 'oTyOkfUt49RBr1o7yiLmzA==', 'Content-Type': 'text/plain; charset=utf-8', 'Content-Length': '3147'}
+2023-09-07 01:15:51,291 ERROR   wandb-upload_1:135730 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 01:15:53,852 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:15:58,855 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:16:03,857 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:16:08,859 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:16:13,861 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:16:18,864 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:16:23,866 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:16:28,869 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:16:33,872 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:16:38,874 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:16:43,876 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:16:48,879 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:16:53,881 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:16:58,884 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:17:03,885 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:17:08,731 ERROR   wandb-upload_0:135730 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip_with_dqn/tx53isjk/wandb-metadata.json?Expires=1694106447&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=ouHMB3tvTLkeTpvJFtMKUuW0l9X0QB1cOppC7pg7ymxSF9dg7ZO0Yd26dtOi4DV%2FLO2jRk%2FaMJ2MXedf%2FKdNNoafdPWK1EDrgfgaG4DbtHynObX80rBlcb7st2UNnSzu5y2IabsQUlZkVK1L8i5m2RcSDad4XH%2BBB8REffMjAvYU8epj5qi7uhTcQtW1XkwW6oLpKjqgykp5Ew83e1E%2BahTrVUksD0Sb1DQPo%2BZQxzuyMsVQTRrgMHeY5Zl19IPh94OOI8C9B%2F7enXnos9px6gYXdO%2BlSV%2FZNaUMBFuLfvSxgg6UkwLUDyZJyV6jY%2BxQ2XEYQdt7H2EU%2F9UWaoKfwQ%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 01:17:08,732 ERROR   wandb-upload_0:135730 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '15203'}
+2023-09-07 01:17:08,732 ERROR   wandb-upload_0:135730 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 01:17:08,888 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:17:13,890 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:17:18,892 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:17:23,895 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:17:28,897 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:17:33,899 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:17:38,902 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:17:43,904 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:17:48,907 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:17:53,909 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:17:58,911 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:18:03,913 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:18:08,916 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:18:13,918 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:18:18,920 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:18:23,922 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:18:28,924 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:18:30,238 ERROR   wandb-upload_1:135730 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-artifacts-prod/wandb_artifacts/95431002/560798884/a13c8e91f52de3d441af5a3bca22e6cc?Expires=1694106811&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=gsVzYGFQJUzwz8mAShIXO9qRH3VcHdCOga57CwEhTWwzSuDKMIdCSB0%2FvHSGqYX2CPnQMWIfGKuk8LkzlEoPKEu31XKAdVbN%2BBA7D8rI5GuaBOGoPq4BbcS5Kng5%2FZbqwt%2Bw%2B22yRdjVjkqkly3K0MOLjZ1XS2fr0bX1hoJ6z1tXbOqEqQ5r2YRj%2FAC8bqTxT8P4B5L%2B1TpAKI1%2Fwq72Hwlgm7D%2FuBghl7M5I2SOdqGQ%2FNpeAQwQGUxswUiaRzxM808MXWqAcFIa3Jqhh9OzMssoxMOj9o0QT7Zun2K1aPwLWBQ7axPPlvjy3vX80cb2q8pKBHxhoPF4uAJTqxSrtw%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 01:18:30,239 ERROR   wandb-upload_1:135730 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-MD5': 'oTyOkfUt49RBr1o7yiLmzA==', 'Content-Type': 'text/plain; charset=utf-8', 'Content-Length': '3147'}
+2023-09-07 01:18:30,239 ERROR   wandb-upload_1:135730 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 01:18:33,926 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:18:38,929 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:18:43,931 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:18:48,933 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:18:53,935 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:18:58,938 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:19:03,940 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:19:08,943 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:19:13,945 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:19:18,947 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:19:23,950 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:19:28,952 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:19:33,954 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:19:38,957 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:19:43,959 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:19:48,962 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:19:53,964 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:19:58,967 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:20:03,969 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:20:08,971 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:20:13,973 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:20:18,975 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:20:23,977 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:20:28,980 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:20:33,982 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:20:38,984 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:20:43,986 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:20:48,989 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:20:53,991 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:20:58,993 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:21:03,995 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:21:08,998 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:21:14,000 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:21:19,002 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:21:24,005 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:21:29,007 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:21:34,009 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:21:39,011 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:21:44,013 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:21:49,016 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:21:54,018 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:21:59,020 DEBUG   HandlerThread:135730 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-07 01:21:59,734 WARNING StreamThr :135730 [internal.py:is_dead():414] Internal process exiting, parent pid 135701 disappeared
+2023-09-07 01:21:59,734 ERROR   StreamThr :135730 [internal.py:wandb_internal():152] Internal process shutdown.
+2023-09-07 01:22:00,020 INFO    HandlerThread:135730 [handler.py:finish():861] shutting down handler
+2023-09-07 01:22:00,040 INFO    WriterThread:135730 [datastore.py:close():294] close: /root/BitFlip/DQN/outputs/2023-09-07/01-07-23/wandb/run-20230907_010725-tx53isjk/run-tx53isjk.wandb
+2023-09-07 01:22:33,785 ERROR   wandb-upload_0:135730 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip_with_dqn/tx53isjk/wandb-metadata.json?Expires=1694106447&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=ouHMB3tvTLkeTpvJFtMKUuW0l9X0QB1cOppC7pg7ymxSF9dg7ZO0Yd26dtOi4DV%2FLO2jRk%2FaMJ2MXedf%2FKdNNoafdPWK1EDrgfgaG4DbtHynObX80rBlcb7st2UNnSzu5y2IabsQUlZkVK1L8i5m2RcSDad4XH%2BBB8REffMjAvYU8epj5qi7uhTcQtW1XkwW6oLpKjqgykp5Ew83e1E%2BahTrVUksD0Sb1DQPo%2BZQxzuyMsVQTRrgMHeY5Zl19IPh94OOI8C9B%2F7enXnos9px6gYXdO%2BlSV%2FZNaUMBFuLfvSxgg6UkwLUDyZJyV6jY%2BxQ2XEYQdt7H2EU%2F9UWaoKfwQ%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 01:22:33,786 ERROR   wandb-upload_0:135730 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '15203'}
+2023-09-07 01:22:33,786 ERROR   wandb-upload_0:135730 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 01:23:09,174 ERROR   wandb-upload_1:135730 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-artifacts-prod/wandb_artifacts/95431002/560798884/a13c8e91f52de3d441af5a3bca22e6cc?Expires=1694106811&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=gsVzYGFQJUzwz8mAShIXO9qRH3VcHdCOga57CwEhTWwzSuDKMIdCSB0%2FvHSGqYX2CPnQMWIfGKuk8LkzlEoPKEu31XKAdVbN%2BBA7D8rI5GuaBOGoPq4BbcS5Kng5%2FZbqwt%2Bw%2B22yRdjVjkqkly3K0MOLjZ1XS2fr0bX1hoJ6z1tXbOqEqQ5r2YRj%2FAC8bqTxT8P4B5L%2B1TpAKI1%2Fwq72Hwlgm7D%2FuBghl7M5I2SOdqGQ%2FNpeAQwQGUxswUiaRzxM808MXWqAcFIa3Jqhh9OzMssoxMOj9o0QT7Zun2K1aPwLWBQ7axPPlvjy3vX80cb2q8pKBHxhoPF4uAJTqxSrtw%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 01:23:09,174 ERROR   wandb-upload_1:135730 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-MD5': 'oTyOkfUt49RBr1o7yiLmzA==', 'Content-Type': 'text/plain; charset=utf-8', 'Content-Length': '3147'}
+2023-09-07 01:23:09,174 ERROR   wandb-upload_1:135730 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 01:28:56,361 ERROR   wandb-upload_1:135730 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-artifacts-prod/wandb_artifacts/95431002/560798884/a13c8e91f52de3d441af5a3bca22e6cc?Expires=1694106811&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=gsVzYGFQJUzwz8mAShIXO9qRH3VcHdCOga57CwEhTWwzSuDKMIdCSB0%2FvHSGqYX2CPnQMWIfGKuk8LkzlEoPKEu31XKAdVbN%2BBA7D8rI5GuaBOGoPq4BbcS5Kng5%2FZbqwt%2Bw%2B22yRdjVjkqkly3K0MOLjZ1XS2fr0bX1hoJ6z1tXbOqEqQ5r2YRj%2FAC8bqTxT8P4B5L%2B1TpAKI1%2Fwq72Hwlgm7D%2FuBghl7M5I2SOdqGQ%2FNpeAQwQGUxswUiaRzxM808MXWqAcFIa3Jqhh9OzMssoxMOj9o0QT7Zun2K1aPwLWBQ7axPPlvjy3vX80cb2q8pKBHxhoPF4uAJTqxSrtw%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 01:28:56,361 ERROR   wandb-upload_1:135730 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-MD5': 'oTyOkfUt49RBr1o7yiLmzA==', 'Content-Type': 'text/plain; charset=utf-8', 'Content-Length': '3147'}
+2023-09-07 01:28:56,361 ERROR   wandb-upload_1:135730 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 01:29:43,385 ERROR   wandb-upload_0:135730 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip_with_dqn/tx53isjk/wandb-metadata.json?Expires=1694106447&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=ouHMB3tvTLkeTpvJFtMKUuW0l9X0QB1cOppC7pg7ymxSF9dg7ZO0Yd26dtOi4DV%2FLO2jRk%2FaMJ2MXedf%2FKdNNoafdPWK1EDrgfgaG4DbtHynObX80rBlcb7st2UNnSzu5y2IabsQUlZkVK1L8i5m2RcSDad4XH%2BBB8REffMjAvYU8epj5qi7uhTcQtW1XkwW6oLpKjqgykp5Ew83e1E%2BahTrVUksD0Sb1DQPo%2BZQxzuyMsVQTRrgMHeY5Zl19IPh94OOI8C9B%2F7enXnos9px6gYXdO%2BlSV%2FZNaUMBFuLfvSxgg6UkwLUDyZJyV6jY%2BxQ2XEYQdt7H2EU%2F9UWaoKfwQ%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 01:29:43,386 ERROR   wandb-upload_0:135730 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '15203'}
+2023-09-07 01:29:43,386 ERROR   wandb-upload_0:135730 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 01:34:28,090 ERROR   wandb-upload_1:135730 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-artifacts-prod/wandb_artifacts/95431002/560798884/a13c8e91f52de3d441af5a3bca22e6cc?Expires=1694106811&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=gsVzYGFQJUzwz8mAShIXO9qRH3VcHdCOga57CwEhTWwzSuDKMIdCSB0%2FvHSGqYX2CPnQMWIfGKuk8LkzlEoPKEu31XKAdVbN%2BBA7D8rI5GuaBOGoPq4BbcS5Kng5%2FZbqwt%2Bw%2B22yRdjVjkqkly3K0MOLjZ1XS2fr0bX1hoJ6z1tXbOqEqQ5r2YRj%2FAC8bqTxT8P4B5L%2B1TpAKI1%2Fwq72Hwlgm7D%2FuBghl7M5I2SOdqGQ%2FNpeAQwQGUxswUiaRzxM808MXWqAcFIa3Jqhh9OzMssoxMOj9o0QT7Zun2K1aPwLWBQ7axPPlvjy3vX80cb2q8pKBHxhoPF4uAJTqxSrtw%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 01:34:28,090 ERROR   wandb-upload_1:135730 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-MD5': 'oTyOkfUt49RBr1o7yiLmzA==', 'Content-Type': 'text/plain; charset=utf-8', 'Content-Length': '3147'}
+2023-09-07 01:34:28,090 ERROR   wandb-upload_1:135730 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 01:35:07,873 ERROR   wandb-upload_0:135730 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip_with_dqn/tx53isjk/wandb-metadata.json?Expires=1694106447&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=ouHMB3tvTLkeTpvJFtMKUuW0l9X0QB1cOppC7pg7ymxSF9dg7ZO0Yd26dtOi4DV%2FLO2jRk%2FaMJ2MXedf%2FKdNNoafdPWK1EDrgfgaG4DbtHynObX80rBlcb7st2UNnSzu5y2IabsQUlZkVK1L8i5m2RcSDad4XH%2BBB8REffMjAvYU8epj5qi7uhTcQtW1XkwW6oLpKjqgykp5Ew83e1E%2BahTrVUksD0Sb1DQPo%2BZQxzuyMsVQTRrgMHeY5Zl19IPh94OOI8C9B%2F7enXnos9px6gYXdO%2BlSV%2FZNaUMBFuLfvSxgg6UkwLUDyZJyV6jY%2BxQ2XEYQdt7H2EU%2F9UWaoKfwQ%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 01:35:07,873 ERROR   wandb-upload_0:135730 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '15203'}
+2023-09-07 01:35:07,873 ERROR   wandb-upload_0:135730 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 01:40:10,844 ERROR   wandb-upload_1:135730 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-artifacts-prod/wandb_artifacts/95431002/560798884/a13c8e91f52de3d441af5a3bca22e6cc?Expires=1694106811&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=gsVzYGFQJUzwz8mAShIXO9qRH3VcHdCOga57CwEhTWwzSuDKMIdCSB0%2FvHSGqYX2CPnQMWIfGKuk8LkzlEoPKEu31XKAdVbN%2BBA7D8rI5GuaBOGoPq4BbcS5Kng5%2FZbqwt%2Bw%2B22yRdjVjkqkly3K0MOLjZ1XS2fr0bX1hoJ6z1tXbOqEqQ5r2YRj%2FAC8bqTxT8P4B5L%2B1TpAKI1%2Fwq72Hwlgm7D%2FuBghl7M5I2SOdqGQ%2FNpeAQwQGUxswUiaRzxM808MXWqAcFIa3Jqhh9OzMssoxMOj9o0QT7Zun2K1aPwLWBQ7axPPlvjy3vX80cb2q8pKBHxhoPF4uAJTqxSrtw%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 01:40:10,845 ERROR   wandb-upload_1:135730 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-MD5': 'oTyOkfUt49RBr1o7yiLmzA==', 'Content-Type': 'text/plain; charset=utf-8', 'Content-Length': '3147'}
+2023-09-07 01:40:10,845 ERROR   wandb-upload_1:135730 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 01:40:54,174 ERROR   wandb-upload_0:135730 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip_with_dqn/tx53isjk/wandb-metadata.json?Expires=1694106447&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=ouHMB3tvTLkeTpvJFtMKUuW0l9X0QB1cOppC7pg7ymxSF9dg7ZO0Yd26dtOi4DV%2FLO2jRk%2FaMJ2MXedf%2FKdNNoafdPWK1EDrgfgaG4DbtHynObX80rBlcb7st2UNnSzu5y2IabsQUlZkVK1L8i5m2RcSDad4XH%2BBB8REffMjAvYU8epj5qi7uhTcQtW1XkwW6oLpKjqgykp5Ew83e1E%2BahTrVUksD0Sb1DQPo%2BZQxzuyMsVQTRrgMHeY5Zl19IPh94OOI8C9B%2F7enXnos9px6gYXdO%2BlSV%2FZNaUMBFuLfvSxgg6UkwLUDyZJyV6jY%2BxQ2XEYQdt7H2EU%2F9UWaoKfwQ%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 01:40:54,174 ERROR   wandb-upload_0:135730 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '15203'}
+2023-09-07 01:40:54,174 ERROR   wandb-upload_0:135730 [internal_api.py:upload_file():2500] upload_file response body: 

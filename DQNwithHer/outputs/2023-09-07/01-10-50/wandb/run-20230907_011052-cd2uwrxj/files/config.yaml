@@ -1,0 +1,100 @@
+wandb_version: 1
+
+exp_name:
+  desc: null
+  value: dqn_with_her_1_-1
+use_wandb:
+  desc: null
+  value: true
+model_name:
+  desc: null
+  value: dqn_with_her
+length:
+  desc: null
+  value: 4
+lr:
+  desc: null
+  value: 0.001
+num_episodes:
+  desc: null
+  value: 30000
+hidden_dim:
+  desc: null
+  value: 128
+gamma:
+  desc: null
+  value: 0.99
+target_update:
+  desc: null
+  value: 50
+buffer_size:
+  desc: null
+  value: 10000
+batch_size:
+  desc: null
+  value: 64
+model_save_dir:
+  desc: null
+  value: save_model
+max_steps:
+  desc: null
+  value: 100
+eval:
+  desc: null
+  value: false
+log_frequency:
+  desc: null
+  value: 500
+minimal_size:
+  desc: null
+  value: 64
+env_reward_type:
+  desc: null
+  value: default
+policy_type:
+  desc: null
+  value: goal
+minimal_epsilon:
+  desc: null
+  value: 0.1
+epsilon:
+  desc: null
+  value: 0.9
+delta_epsilon:
+  desc: null
+  value: 1.0e-05
+reward_success:
+  desc: null
+  value: 1
+reward_fail:
+  desc: null
+  value: -1
+step_is_fast:
+  desc: null
+  value: false
+_wandb:
+  desc: null
+  value:
+    python_version: 3.9.17
+    cli_version: 0.15.9
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1694020252.028481
+    t:
+      1:
+      - 1
+      - 50
+      - 55
+      2:
+      - 1
+      - 50
+      - 55
+      3:
+      - 13
+      - 16
+      - 23
+      4: 3.9.17
+      5: 0.15.9
+      8:
+      - 5

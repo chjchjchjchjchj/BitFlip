@@ -1,0 +1,10 @@
+Error executing job with overrides: ['length=8s', 'epsilon=0.9', 'delta_epsilon=1e-5', 'target_update=50', 'use_wandb=true', 'reward_success=1', 'reward_fail=-1', 'exp_name=dqn_with_her_1_-1_8bits']
+Traceback (most recent call last):
+  File "/root/BitFlip/DQNwithHer/main.py", line 73, in main
+    env = BitFlip(length=length, reward_type="default", reward_success=reward_success, reward_fail=reward_fail)
+  File "/root/BitFlip/my_env.py", line 13, in __init__
+    self.action_space = spaces.Discrete(self.length)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/gym/spaces/discrete.py", line 14, in __init__
+    assert n >= 0
+TypeError: '>=' not supported between instances of 'str' and 'int'
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

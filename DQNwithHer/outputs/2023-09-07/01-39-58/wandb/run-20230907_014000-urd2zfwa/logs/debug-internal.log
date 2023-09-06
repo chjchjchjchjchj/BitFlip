@@ -1,0 +1,383 @@
+2023-09-07 01:40:00,052 INFO    StreamThr :165851 [internal.py:wandb_internal():86] W&B internal server running at pid: 165851, started at: 2023-09-07 01:40:00.050703
+2023-09-07 01:40:00,056 DEBUG   HandlerThread:165851 [handler.py:handle_request():144] handle_request: status
+2023-09-07 01:40:00,063 INFO    WriterThread:165851 [datastore.py:open_for_write():85] open: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/run-urd2zfwa.wandb
+2023-09-07 01:40:00,064 DEBUG   SenderThread:165851 [sender.py:send():379] send: header
+2023-09-07 01:40:00,091 DEBUG   SenderThread:165851 [sender.py:send():379] send: run
+2023-09-07 01:40:01,071 INFO    SenderThread:165851 [dir_watcher.py:__init__():211] watching files in: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files
+2023-09-07 01:40:01,071 INFO    SenderThread:165851 [sender.py:_start_run_threads():1121] run started: urd2zfwa with start time 1694022000.049126
+2023-09-07 01:40:01,078 DEBUG   SenderThread:165851 [sender.py:send_request():406] send_request: summary_record
+2023-09-07 01:40:01,079 INFO    SenderThread:165851 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-07 01:40:01,088 DEBUG   HandlerThread:165851 [handler.py:handle_request():144] handle_request: check_version
+2023-09-07 01:40:01,089 DEBUG   SenderThread:165851 [sender.py:send_request():406] send_request: check_version
+2023-09-07 01:40:01,469 DEBUG   HandlerThread:165851 [handler.py:handle_request():144] handle_request: run_start
+2023-09-07 01:40:01,485 DEBUG   HandlerThread:165851 [system_info.py:__init__():31] System info init
+2023-09-07 01:40:01,486 DEBUG   HandlerThread:165851 [system_info.py:__init__():46] System info init done
+2023-09-07 01:40:01,486 INFO    HandlerThread:165851 [system_monitor.py:start():181] Starting system monitor
+2023-09-07 01:40:01,486 INFO    SystemMonitor:165851 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-09-07 01:40:01,488 INFO    HandlerThread:165851 [system_monitor.py:probe():201] Collecting system info
+2023-09-07 01:40:01,489 INFO    SystemMonitor:165851 [interfaces.py:start():190] Started cpu monitoring
+2023-09-07 01:40:01,493 INFO    SystemMonitor:165851 [interfaces.py:start():190] Started disk monitoring
+2023-09-07 01:40:01,500 INFO    SystemMonitor:165851 [interfaces.py:start():190] Started gpu monitoring
+2023-09-07 01:40:01,503 INFO    SystemMonitor:165851 [interfaces.py:start():190] Started memory monitoring
+2023-09-07 01:40:01,504 INFO    SystemMonitor:165851 [interfaces.py:start():190] Started network monitoring
+2023-09-07 01:40:01,613 DEBUG   HandlerThread:165851 [system_info.py:probe():195] Probing system
+2023-09-07 01:40:01,631 DEBUG   HandlerThread:165851 [system_info.py:_probe_git():180] Probing git
+2023-09-07 01:40:01,656 DEBUG   HandlerThread:165851 [system_info.py:_probe_git():188] Probing git done
+2023-09-07 01:40:01,656 DEBUG   HandlerThread:165851 [system_info.py:probe():240] Probing system done
+2023-09-07 01:40:01,656 DEBUG   HandlerThread:165851 [system_monitor.py:probe():210] {'os': 'Linux-5.4.0-132-generic-x86_64-with-glibc2.35', 'python': '3.9.17', 'heartbeatAt': '2023-09-06T17:40:01.613468', 'startedAt': '2023-09-06T17:40:00.039343', 'docker': None, 'cuda': None, 'args': ('length=8', 'epsilon=0.9', 'delta_epsilon=1e-5', 'target_update=50', 'use_wandb=true', 'reward_success=100', 'reward_fail=0', 'exp_name=dqn_with_her_100_0_8bits'), 'state': 'running', 'program': '/root/BitFlip/DQNwithHer/main.py', 'codePath': 'DQNwithHer/main.py', 'git': {'remote': 'git@github.com:chjchjchjchjchj/BitFlip.git', 'commit': '9b206e2fe233ae059e46287a86a690b023553a9a'}, 'email': 'chjchjchjchjchj2001@gmail.com', 'root': '/root/BitFlip', 'host': 'autodl-container-b06911993c-7c1fab7a', 'username': 'root', 'executable': '/root/miniconda3/envs/ling/bin/python', 'cpu_count': 64, 'cpu_count_logical': 128, 'cpu_freq': {'current': 1366.9016015625, 'min': 800.0, 'max': 3500.0}, 'cpu_freq_per_core': [{'current': 1527.891, 'min': 800.0, 'max': 3500.0}, {'current': 2584.43, 'min': 800.0, 'max': 3500.0}, {'current': 891.884, 'min': 800.0, 'max': 3500.0}, {'current': 901.561, 'min': 800.0, 'max': 3500.0}, {'current': 800.724, 'min': 800.0, 'max': 3500.0}, {'current': 867.157, 'min': 800.0, 'max': 3500.0}, {'current': 1446.953, 'min': 800.0, 'max': 3500.0}, {'current': 952.375, 'min': 800.0, 'max': 3500.0}, {'current': 853.929, 'min': 800.0, 'max': 3500.0}, {'current': 804.566, 'min': 800.0, 'max': 3500.0}, {'current': 988.7, 'min': 800.0, 'max': 3500.0}, {'current': 963.19, 'min': 800.0, 'max': 3500.0}, {'current': 907.031, 'min': 800.0, 'max': 3500.0}, {'current': 1397.826, 'min': 800.0, 'max': 3500.0}, {'current': 917.253, 'min': 800.0, 'max': 3500.0}, {'current': 1199.879, 'min': 800.0, 'max': 3500.0}, {'current': 1112.124, 'min': 800.0, 'max': 3500.0}, {'current': 891.443, 'min': 800.0, 'max': 3500.0}, {'current': 2592.689, 'min': 800.0, 'max': 3500.0}, {'current': 852.402, 'min': 800.0, 'max': 3500.0}, {'current': 2583.575, 'min': 800.0, 'max': 3500.0}, {'current': 1523.13, 'min': 800.0, 'max': 3500.0}, {'current': 894.572, 'min': 800.0, 'max': 3500.0}, {'current': 1058.77, 'min': 800.0, 'max': 3500.0}, {'current': 891.419, 'min': 800.0, 'max': 3500.0}, {'current': 2599.998, 'min': 800.0, 'max': 3500.0}, {'current': 1569.807, 'min': 800.0, 'max': 3500.0}, {'current': 800.737, 'min': 800.0, 'max': 3500.0}, {'current': 799.485, 'min': 800.0, 'max': 3500.0}, {'current': 800.111, 'min': 800.0, 'max': 3500.0}, {'current': 2594.264, 'min': 800.0, 'max': 3500.0}, {'current': 899.661, 'min': 800.0, 'max': 3500.0}, {'current': 2137.854, 'min': 800.0, 'max': 3500.0}, {'current': 2578.088, 'min': 800.0, 'max': 3500.0}, {'current': 2588.018, 'min': 800.0, 'max': 3500.0}, {'current': 803.984, 'min': 800.0, 'max': 3500.0}, {'current': 1489.03, 'min': 800.0, 'max': 3500.0}, {'current': 2600.0, 'min': 800.0, 'max': 3500.0}, {'current': 2558.288, 'min': 800.0, 'max': 3500.0}, {'current': 804.996, 'min': 800.0, 'max': 3500.0}, {'current': 2101.468, 'min': 800.0, 'max': 3500.0}, {'current': 1548.107, 'min': 800.0, 'max': 3500.0}, {'current': 1048.147, 'min': 800.0, 'max': 3500.0}, {'current': 1039.431, 'min': 800.0, 'max': 3500.0}, {'current': 1588.368, 'min': 800.0, 'max': 3500.0}, {'current': 801.069, 'min': 800.0, 'max': 3500.0}, {'current': 801.097, 'min': 800.0, 'max': 3500.0}, {'current': 2600.0, 'min': 800.0, 'max': 3500.0}, {'current': 1548.472, 'min': 800.0, 'max': 3500.0}, {'current': 801.09, 'min': 800.0, 'max': 3500.0}, {'current': 2490.078, 'min': 800.0, 'max': 3500.0}, {'current': 800.731, 'min': 800.0, 'max': 3500.0}, {'current': 1963.606, 'min': 800.0, 'max': 3500.0}, {'current': 1591.681, 'min': 800.0, 'max': 3500.0}, {'current': 1202.173, 'min': 800.0, 'max': 3500.0}, {'current': 1683.569, 'min': 800.0, 'max': 3500.0}, {'current': 2000.0, 'min': 800.0, 'max': 3500.0}, {'current': 894.112, 'min': 800.0, 'max': 3500.0}, {'current': 800.37, 'min': 800.0, 'max': 3500.0}, {'current': 800.741, 'min': 800.0, 'max': 3500.0}, {'current': 817.669, 'min': 800.0, 'max': 3500.0}, {'current': 800.765, 'min': 800.0, 'max': 3500.0}, {'current': 2583.878, 'min': 800.0, 'max': 3500.0}, {'current': 800.746, 'min': 800.0, 'max': 3500.0}, {'current': 1584.312, 'min': 800.0, 'max': 3500.0}, {'current': 2522.934, 'min': 800.0, 'max': 3500.0}, {'current': 886.008, 'min': 800.0, 'max': 3500.0}, {'current': 829.516, 'min': 800.0, 'max': 3500.0}, {'current': 848.438, 'min': 800.0, 'max': 3500.0}, {'current': 870.936, 'min': 800.0, 'max': 3500.0}, {'current': 801.141, 'min': 800.0, 'max': 3500.0}, {'current': 854.713, 'min': 800.0, 'max': 3500.0}, {'current': 866.407, 'min': 800.0, 'max': 3500.0}, {'current': 800.254, 'min': 800.0, 'max': 3500.0}, {'current': 800.186, 'min': 800.0, 'max': 3500.0}, {'current': 1213.956, 'min': 800.0, 'max': 3500.0}, {'current': 931.518, 'min': 800.0, 'max': 3500.0}, {'current': 1436.975, 'min': 800.0, 'max': 3500.0}, {'current': 975.036, 'min': 800.0, 'max': 3500.0}, {'current': 1400.182, 'min': 800.0, 'max': 3500.0}, {'current': 1402.747, 'min': 800.0, 'max': 3500.0}, {'current': 1350.269, 'min': 800.0, 'max': 3500.0}, {'current': 2512.965, 'min': 800.0, 'max': 3500.0}, {'current': 1242.35, 'min': 800.0, 'max': 3500.0}, {'current': 2491.393, 'min': 800.0, 'max': 3500.0}, {'current': 1074.523, 'min': 800.0, 'max': 3500.0}, {'current': 789.147, 'min': 800.0, 'max': 3500.0}, {'current': 1035.455, 'min': 800.0, 'max': 3500.0}, {'current': 876.724, 'min': 800.0, 'max': 3500.0}, {'current': 2598.136, 'min': 800.0, 'max': 3500.0}, {'current': 1009.837, 'min': 800.0, 'max': 3500.0}, {'current': 973.917, 'min': 800.0, 'max': 3500.0}, {'current': 805.051, 'min': 800.0, 'max': 3500.0}, {'current': 843.064, 'min': 800.0, 'max': 3500.0}, {'current': 1678.237, 'min': 800.0, 'max': 3500.0}, {'current': 1349.435, 'min': 800.0, 'max': 3500.0}, {'current': 1056.559, 'min': 800.0, 'max': 3500.0}, {'current': 2601.651, 'min': 800.0, 'max': 3500.0}, {'current': 2521.594, 'min': 800.0, 'max': 3500.0}, {'current': 800.758, 'min': 800.0, 'max': 3500.0}, {'current': 1583.28, 'min': 800.0, 'max': 3500.0}, {'current': 2600.0, 'min': 800.0, 'max': 3500.0}, {'current': 2004.158, 'min': 800.0, 'max': 3500.0}, {'current': 800.755, 'min': 800.0, 'max': 3500.0}, {'current': 1665.034, 'min': 800.0, 'max': 3500.0}, {'current': 1614.484, 'min': 800.0, 'max': 3500.0}, {'current': 951.996, 'min': 800.0, 'max': 3500.0}, {'current': 835.423, 'min': 800.0, 'max': 3500.0}, {'current': 1056.0, 'min': 800.0, 'max': 3500.0}, {'current': 801.08, 'min': 800.0, 'max': 3500.0}, {'current': 1051.847, 'min': 800.0, 'max': 3500.0}, {'current': 2597.69, 'min': 800.0, 'max': 3500.0}, {'current': 1057.631, 'min': 800.0, 'max': 3500.0}, {'current': 865.834, 'min': 800.0, 'max': 3500.0}, {'current': 2484.259, 'min': 800.0, 'max': 3500.0}, {'current': 1150.167, 'min': 800.0, 'max': 3500.0}, {'current': 1783.428, 'min': 800.0, 'max': 3500.0}, {'current': 1132.632, 'min': 800.0, 'max': 3500.0}, {'current': 992.991, 'min': 800.0, 'max': 3500.0}, {'current': 1266.917, 'min': 800.0, 'max': 3500.0}, {'current': 800.757, 'min': 800.0, 'max': 3500.0}, {'current': 899.95, 'min': 800.0, 'max': 3500.0}, {'current': 800.312, 'min': 800.0, 'max': 3500.0}, {'current': 1132.953, 'min': 800.0, 'max': 3500.0}, {'current': 855.923, 'min': 800.0, 'max': 3500.0}, {'current': 800.754, 'min': 800.0, 'max': 3500.0}, {'current': 2517.3, 'min': 800.0, 'max': 3500.0}, {'current': 831.265, 'min': 800.0, 'max': 3500.0}], 'disk': {'total': 30.0, 'used': 11.525917053222656}, 'gpu': 'NVIDIA GeForce RTX 3090', 'gpu_count': 4, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}, {'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}, {'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}, {'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}], 'memory': {'total': 377.53807830810547}}
+2023-09-07 01:40:01,657 INFO    HandlerThread:165851 [system_monitor.py:probe():211] Finished collecting system info
+2023-09-07 01:40:01,657 INFO    HandlerThread:165851 [system_monitor.py:probe():214] Publishing system info
+2023-09-07 01:40:01,657 DEBUG   HandlerThread:165851 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-09-07 01:40:01,657 DEBUG   HandlerThread:165851 [system_info.py:_save_pip():67] Saving pip packages done
+2023-09-07 01:40:01,658 DEBUG   HandlerThread:165851 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-09-07 01:40:01,666 ERROR   HandlerThread:165851 [system_info.py:_save_conda():85] Error saving conda packages: [Errno 2] No such file or directory: 'conda'
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/sdk/internal/system/system_info.py", line 81, in _save_conda
+    subprocess.call(
+  File "/root/miniconda3/envs/ling/lib/python3.9/subprocess.py", line 349, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "/root/miniconda3/envs/ling/lib/python3.9/subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/root/miniconda3/envs/ling/lib/python3.9/subprocess.py", line 1837, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'conda'
+2023-09-07 01:40:01,667 DEBUG   HandlerThread:165851 [system_info.py:_save_conda():86] Saving conda packages done
+2023-09-07 01:40:01,669 INFO    HandlerThread:165851 [system_monitor.py:probe():216] Finished publishing system info
+2023-09-07 01:40:01,676 DEBUG   SenderThread:165851 [sender.py:send():379] send: files
+2023-09-07 01:40:01,676 INFO    SenderThread:165851 [sender.py:_save_file():1375] saving file wandb-metadata.json with policy now
+2023-09-07 01:40:01,723 DEBUG   HandlerThread:165851 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-07 01:40:01,725 DEBUG   SenderThread:165851 [sender.py:send_request():406] send_request: stop_status
+2023-09-07 01:40:02,075 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_created():271] file/dir created: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/conda-environment.yaml
+2023-09-07 01:40:02,076 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_created():271] file/dir created: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/wandb-summary.json
+2023-09-07 01:40:02,076 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_created():271] file/dir created: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/wandb-metadata.json
+2023-09-07 01:40:02,076 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_created():271] file/dir created: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/requirements.txt
+2023-09-07 01:40:02,404 DEBUG   SenderThread:165851 [sender.py:send():379] send: telemetry
+2023-09-07 01:40:02,545 ERROR   wandb-upload_0:165851 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip/urd2zfwa/wandb-metadata.json?Expires=1694108402&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=pZhapUfTIue21wTJ47l%2FiD3p%2Bxjl9J8ZdTDppRT36kubShy2TiysFcmKZv%2BndCia0zRRMRvfbvYIryxZT%2FixoGjM39Dou6FipuvsAV75NyeCttWW2zP0Ku3VFJuU3y7STVVT5WNnqLY2Zx%2BySQ%2Fw%2FeXixoX1jKheIzEO3qPUbWIE0TqDKOzz0fislWEsHhiMrIfmK4qXoHG04gBGwytwi%2Fg82prq4uDCEkQI6OAzJf5jIf5Wt9OuBgIIhYAxbMBy3j1dW%2Bf6BSIXGNI8FwyjEUPmfQhOwLJuKD3l3o8ZP41nzhD%2FC6f0MllJiIM24q4Pq08yLMUN5yvb6gajnTG82Q%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 01:40:02,545 ERROR   wandb-upload_0:165851 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '15261'}
+2023-09-07 01:40:02,545 ERROR   wandb-upload_0:165851 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 01:40:03,072 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_created():271] file/dir created: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:40:03,782 ERROR   wandb-upload_0:165851 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip/urd2zfwa/wandb-metadata.json?Expires=1694108402&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=pZhapUfTIue21wTJ47l%2FiD3p%2Bxjl9J8ZdTDppRT36kubShy2TiysFcmKZv%2BndCia0zRRMRvfbvYIryxZT%2FixoGjM39Dou6FipuvsAV75NyeCttWW2zP0Ku3VFJuU3y7STVVT5WNnqLY2Zx%2BySQ%2Fw%2FeXixoX1jKheIzEO3qPUbWIE0TqDKOzz0fislWEsHhiMrIfmK4qXoHG04gBGwytwi%2Fg82prq4uDCEkQI6OAzJf5jIf5Wt9OuBgIIhYAxbMBy3j1dW%2Bf6BSIXGNI8FwyjEUPmfQhOwLJuKD3l3o8ZP41nzhD%2FC6f0MllJiIM24q4Pq08yLMUN5yvb6gajnTG82Q%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 01:40:03,782 ERROR   wandb-upload_0:165851 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '15261'}
+2023-09-07 01:40:03,782 ERROR   wandb-upload_0:165851 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 01:40:05,026 DEBUG   HandlerThread:165851 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-07 01:40:05,031 DEBUG   SenderThread:165851 [sender.py:send():379] send: history
+2023-09-07 01:40:05,032 DEBUG   SenderThread:165851 [sender.py:send_request():406] send_request: summary_record
+2023-09-07 01:40:05,033 INFO    SenderThread:165851 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-07 01:40:05,074 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/wandb-summary.json
+2023-09-07 01:40:05,074 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:40:05,165 DEBUG   HandlerThread:165851 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:40:06,416 ERROR   wandb-upload_0:165851 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip/urd2zfwa/wandb-metadata.json?Expires=1694108402&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=pZhapUfTIue21wTJ47l%2FiD3p%2Bxjl9J8ZdTDppRT36kubShy2TiysFcmKZv%2BndCia0zRRMRvfbvYIryxZT%2FixoGjM39Dou6FipuvsAV75NyeCttWW2zP0Ku3VFJuU3y7STVVT5WNnqLY2Zx%2BySQ%2Fw%2FeXixoX1jKheIzEO3qPUbWIE0TqDKOzz0fislWEsHhiMrIfmK4qXoHG04gBGwytwi%2Fg82prq4uDCEkQI6OAzJf5jIf5Wt9OuBgIIhYAxbMBy3j1dW%2Bf6BSIXGNI8FwyjEUPmfQhOwLJuKD3l3o8ZP41nzhD%2FC6f0MllJiIM24q4Pq08yLMUN5yvb6gajnTG82Q%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 01:40:06,417 ERROR   wandb-upload_0:165851 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '15261'}
+2023-09-07 01:40:06,417 ERROR   wandb-upload_0:165851 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 01:40:06,417 INFO    wandb-upload_0:165851 [retry.py:__call__():172] Retry attempt failed:
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connectionpool.py", line 714, in urlopen
+    httplib_response = self._make_request(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connectionpool.py", line 403, in _make_request
+    self._validate_conn(conn)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connectionpool.py", line 1053, in _validate_conn
+    conn.connect()
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connection.py", line 419, in connect
+    self.sock = ssl_wrap_socket(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/root/miniconda3/envs/ling/lib/python3.9/ssl.py", line 501, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/root/miniconda3/envs/ling/lib/python3.9/ssl.py", line 1041, in _create
+    self.do_handshake()
+  File "/root/miniconda3/envs/ling/lib/python3.9/ssl.py", line 1310, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connectionpool.py", line 798, in urlopen
+    retries = retries.increment(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/util/retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/packages/six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connectionpool.py", line 714, in urlopen
+    httplib_response = self._make_request(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connectionpool.py", line 403, in _make_request
+    self._validate_conn(conn)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connectionpool.py", line 1053, in _validate_conn
+    conn.connect()
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connection.py", line 419, in connect
+    self.sock = ssl_wrap_socket(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/root/miniconda3/envs/ling/lib/python3.9/ssl.py", line 501, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/root/miniconda3/envs/ling/lib/python3.9/ssl.py", line 1041, in _create
+    self.do_handshake()
+  File "/root/miniconda3/envs/ling/lib/python3.9/ssl.py", line 1310, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 2491, in upload_file
+    response = self._upload_file_session.put(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/sessions.py", line 649, in put
+    return self.request("PUT", url, data=data, **kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/adapters.py", line 501, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 2520, in upload_file
+    raise _e.with_traceback(sys.exc_info()[2])
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 2491, in upload_file
+    response = self._upload_file_session.put(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/sessions.py", line 649, in put
+    return self.request("PUT", url, data=data, **kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/adapters.py", line 501, in send
+    raise ConnectionError(err, request=request)
+wandb.sdk.lib.retry.TransientError: None
+2023-09-07 01:40:07,075 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:40:09,076 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:40:10,207 DEBUG   HandlerThread:165851 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:40:11,077 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:40:13,078 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:40:15,080 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:40:15,314 DEBUG   HandlerThread:165851 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:40:16,716 DEBUG   HandlerThread:165851 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-07 01:40:16,717 DEBUG   SenderThread:165851 [sender.py:send_request():406] send_request: stop_status
+2023-09-07 01:40:17,081 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:40:19,082 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:40:20,364 DEBUG   HandlerThread:165851 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:40:21,083 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:40:23,085 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:40:25,086 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:40:25,459 DEBUG   HandlerThread:165851 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:40:27,087 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:40:29,088 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:40:30,544 DEBUG   HandlerThread:165851 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:40:31,090 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/config.yaml
+2023-09-07 01:40:31,090 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:40:31,716 DEBUG   HandlerThread:165851 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-07 01:40:31,718 DEBUG   SenderThread:165851 [sender.py:send_request():406] send_request: stop_status
+2023-09-07 01:40:33,091 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:40:35,092 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:40:35,987 DEBUG   HandlerThread:165851 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:40:37,093 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:40:39,094 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:40:41,057 DEBUG   HandlerThread:165851 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:40:41,095 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:40:41,870 DEBUG   HandlerThread:165851 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-07 01:40:41,872 DEBUG   SenderThread:165851 [sender.py:send():379] send: history
+2023-09-07 01:40:41,873 DEBUG   SenderThread:165851 [sender.py:send_request():406] send_request: summary_record
+2023-09-07 01:40:41,873 INFO    SenderThread:165851 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-07 01:40:42,096 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/wandb-summary.json
+2023-09-07 01:40:43,097 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:40:45,098 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:40:46,201 DEBUG   HandlerThread:165851 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:40:46,716 DEBUG   HandlerThread:165851 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-07 01:40:46,718 DEBUG   SenderThread:165851 [sender.py:send_request():406] send_request: stop_status
+2023-09-07 01:40:47,099 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:40:49,100 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:40:51,101 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:40:51,235 DEBUG   HandlerThread:165851 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:40:53,102 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:40:55,103 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:40:56,367 DEBUG   HandlerThread:165851 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:40:57,104 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:40:59,105 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:41:01,106 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:41:01,409 DEBUG   HandlerThread:165851 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:41:01,504 DEBUG   SystemMonitor:165851 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-09-07 01:41:01,512 DEBUG   SenderThread:165851 [sender.py:send():379] send: stats
+2023-09-07 01:41:01,716 DEBUG   HandlerThread:165851 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-07 01:41:01,718 DEBUG   SenderThread:165851 [sender.py:send_request():406] send_request: stop_status
+2023-09-07 01:41:03,108 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:41:05,109 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:41:06,528 DEBUG   HandlerThread:165851 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:41:07,110 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:41:09,111 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:41:11,112 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:41:11,540 DEBUG   HandlerThread:165851 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:41:13,113 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:41:15,114 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:41:16,671 DEBUG   HandlerThread:165851 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:41:16,716 DEBUG   HandlerThread:165851 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-07 01:41:16,717 DEBUG   SenderThread:165851 [sender.py:send_request():406] send_request: stop_status
+2023-09-07 01:41:17,115 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:41:19,116 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:41:21,117 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:41:21,247 DEBUG   HandlerThread:165851 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-07 01:41:21,250 DEBUG   SenderThread:165851 [sender.py:send():379] send: history
+2023-09-07 01:41:21,250 DEBUG   SenderThread:165851 [sender.py:send_request():406] send_request: summary_record
+2023-09-07 01:41:21,251 INFO    SenderThread:165851 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-07 01:41:21,802 DEBUG   HandlerThread:165851 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:41:22,118 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/wandb-summary.json
+2023-09-07 01:41:23,118 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:41:25,120 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:41:26,917 DEBUG   HandlerThread:165851 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:41:27,121 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:41:29,122 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:41:31,122 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:41:31,515 DEBUG   SenderThread:165851 [sender.py:send():379] send: stats
+2023-09-07 01:41:31,717 DEBUG   HandlerThread:165851 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-07 01:41:31,719 DEBUG   SenderThread:165851 [sender.py:send_request():406] send_request: stop_status
+2023-09-07 01:41:32,068 DEBUG   HandlerThread:165851 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:41:33,123 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:41:35,124 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:41:37,127 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:41:37,214 DEBUG   HandlerThread:165851 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:41:39,127 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:41:41,128 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:41:42,260 DEBUG   HandlerThread:165851 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:41:43,129 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:41:45,131 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:41:46,718 DEBUG   HandlerThread:165851 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-07 01:41:46,718 DEBUG   SenderThread:165851 [sender.py:send_request():406] send_request: stop_status
+2023-09-07 01:41:47,132 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:41:47,262 DEBUG   HandlerThread:165851 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:41:49,133 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:41:51,134 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:41:52,302 DEBUG   HandlerThread:165851 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:41:53,136 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:41:55,138 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:41:57,139 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:41:57,321 DEBUG   HandlerThread:165851 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:41:59,140 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:42:01,141 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:42:01,217 DEBUG   HandlerThread:165851 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-07 01:42:01,220 DEBUG   SenderThread:165851 [sender.py:send():379] send: history
+2023-09-07 01:42:01,221 DEBUG   SenderThread:165851 [sender.py:send_request():406] send_request: summary_record
+2023-09-07 01:42:01,222 INFO    SenderThread:165851 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-07 01:42:01,519 DEBUG   SenderThread:165851 [sender.py:send():379] send: stats
+2023-09-07 01:42:01,718 DEBUG   HandlerThread:165851 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-07 01:42:01,719 DEBUG   SenderThread:165851 [sender.py:send_request():406] send_request: stop_status
+2023-09-07 01:42:02,142 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/wandb-summary.json
+2023-09-07 01:42:02,403 DEBUG   HandlerThread:165851 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:42:03,142 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:42:04,143 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:42:05,143 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:42:07,144 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:42:07,504 DEBUG   HandlerThread:165851 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:42:09,146 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:42:11,147 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:42:12,565 DEBUG   HandlerThread:165851 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:42:13,148 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:42:15,149 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:42:16,718 DEBUG   HandlerThread:165851 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-07 01:42:16,719 DEBUG   SenderThread:165851 [sender.py:send_request():406] send_request: stop_status
+2023-09-07 01:42:17,149 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:42:17,688 DEBUG   HandlerThread:165851 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:42:19,150 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:42:21,147 ERROR   wandb-upload_0:165851 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip/urd2zfwa/wandb-metadata.json?Expires=1694108402&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=pZhapUfTIue21wTJ47l%2FiD3p%2Bxjl9J8ZdTDppRT36kubShy2TiysFcmKZv%2BndCia0zRRMRvfbvYIryxZT%2FixoGjM39Dou6FipuvsAV75NyeCttWW2zP0Ku3VFJuU3y7STVVT5WNnqLY2Zx%2BySQ%2Fw%2FeXixoX1jKheIzEO3qPUbWIE0TqDKOzz0fislWEsHhiMrIfmK4qXoHG04gBGwytwi%2Fg82prq4uDCEkQI6OAzJf5jIf5Wt9OuBgIIhYAxbMBy3j1dW%2Bf6BSIXGNI8FwyjEUPmfQhOwLJuKD3l3o8ZP41nzhD%2FC6f0MllJiIM24q4Pq08yLMUN5yvb6gajnTG82Q%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 01:42:21,148 ERROR   wandb-upload_0:165851 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '15261'}
+2023-09-07 01:42:21,148 ERROR   wandb-upload_0:165851 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 01:42:21,152 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:42:22,757 DEBUG   HandlerThread:165851 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:42:23,154 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:42:25,155 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:42:27,156 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:42:27,791 DEBUG   HandlerThread:165851 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:42:29,157 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:42:29,888 ERROR   wandb-upload_0:165851 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip/urd2zfwa/wandb-metadata.json?Expires=1694108402&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=pZhapUfTIue21wTJ47l%2FiD3p%2Bxjl9J8ZdTDppRT36kubShy2TiysFcmKZv%2BndCia0zRRMRvfbvYIryxZT%2FixoGjM39Dou6FipuvsAV75NyeCttWW2zP0Ku3VFJuU3y7STVVT5WNnqLY2Zx%2BySQ%2Fw%2FeXixoX1jKheIzEO3qPUbWIE0TqDKOzz0fislWEsHhiMrIfmK4qXoHG04gBGwytwi%2Fg82prq4uDCEkQI6OAzJf5jIf5Wt9OuBgIIhYAxbMBy3j1dW%2Bf6BSIXGNI8FwyjEUPmfQhOwLJuKD3l3o8ZP41nzhD%2FC6f0MllJiIM24q4Pq08yLMUN5yvb6gajnTG82Q%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 01:42:29,888 ERROR   wandb-upload_0:165851 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '15261'}
+2023-09-07 01:42:29,888 ERROR   wandb-upload_0:165851 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 01:42:31,158 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:42:31,525 DEBUG   SenderThread:165851 [sender.py:send():379] send: stats
+2023-09-07 01:42:31,719 DEBUG   HandlerThread:165851 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-07 01:42:31,719 DEBUG   SenderThread:165851 [sender.py:send_request():406] send_request: stop_status
+2023-09-07 01:42:32,798 DEBUG   HandlerThread:165851 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:42:33,160 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:42:35,161 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:42:37,163 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:42:37,937 DEBUG   HandlerThread:165851 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:42:39,164 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:42:40,596 DEBUG   HandlerThread:165851 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-07 01:42:40,600 DEBUG   SenderThread:165851 [sender.py:send():379] send: history
+2023-09-07 01:42:40,600 DEBUG   SenderThread:165851 [sender.py:send_request():406] send_request: summary_record
+2023-09-07 01:42:40,601 INFO    SenderThread:165851 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-07 01:42:41,165 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/wandb-summary.json
+2023-09-07 01:42:41,166 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:42:42,166 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:42:43,014 DEBUG   HandlerThread:165851 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:42:43,167 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:42:45,167 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:42:46,718 DEBUG   HandlerThread:165851 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-07 01:42:46,719 DEBUG   SenderThread:165851 [sender.py:send_request():406] send_request: stop_status
+2023-09-07 01:42:47,168 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:42:48,122 DEBUG   HandlerThread:165851 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:42:48,260 ERROR   wandb-upload_0:165851 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip/urd2zfwa/wandb-metadata.json?Expires=1694108402&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=pZhapUfTIue21wTJ47l%2FiD3p%2Bxjl9J8ZdTDppRT36kubShy2TiysFcmKZv%2BndCia0zRRMRvfbvYIryxZT%2FixoGjM39Dou6FipuvsAV75NyeCttWW2zP0Ku3VFJuU3y7STVVT5WNnqLY2Zx%2BySQ%2Fw%2FeXixoX1jKheIzEO3qPUbWIE0TqDKOzz0fislWEsHhiMrIfmK4qXoHG04gBGwytwi%2Fg82prq4uDCEkQI6OAzJf5jIf5Wt9OuBgIIhYAxbMBy3j1dW%2Bf6BSIXGNI8FwyjEUPmfQhOwLJuKD3l3o8ZP41nzhD%2FC6f0MllJiIM24q4Pq08yLMUN5yvb6gajnTG82Q%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 01:42:48,260 ERROR   wandb-upload_0:165851 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '15261'}
+2023-09-07 01:42:48,260 ERROR   wandb-upload_0:165851 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 01:42:49,170 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:42:51,171 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:42:53,172 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:42:53,251 DEBUG   HandlerThread:165851 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:42:55,173 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:42:57,174 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:42:58,294 DEBUG   HandlerThread:165851 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:42:59,175 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:43:01,177 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:43:01,532 DEBUG   SenderThread:165851 [sender.py:send():379] send: stats
+2023-09-07 01:43:01,719 DEBUG   HandlerThread:165851 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-07 01:43:01,719 DEBUG   SenderThread:165851 [sender.py:send_request():406] send_request: stop_status
+2023-09-07 01:43:03,178 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:43:03,439 DEBUG   HandlerThread:165851 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:43:05,179 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:43:07,181 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:43:08,458 DEBUG   HandlerThread:165851 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:43:09,182 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:43:11,183 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:43:13,184 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:43:13,484 DEBUG   HandlerThread:165851 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:43:15,185 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:43:16,719 DEBUG   HandlerThread:165851 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-07 01:43:16,719 DEBUG   SenderThread:165851 [sender.py:send_request():406] send_request: stop_status
+2023-09-07 01:43:17,186 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:43:18,507 DEBUG   HandlerThread:165851 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:43:19,187 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:43:20,166 DEBUG   HandlerThread:165851 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-07 01:43:20,169 DEBUG   SenderThread:165851 [sender.py:send():379] send: history
+2023-09-07 01:43:20,170 DEBUG   SenderThread:165851 [sender.py:send_request():406] send_request: summary_record
+2023-09-07 01:43:20,170 INFO    SenderThread:165851 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-07 01:43:20,187 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/wandb-summary.json
+2023-09-07 01:43:21,188 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:43:21,869 ERROR   wandb-upload_0:165851 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip/urd2zfwa/wandb-metadata.json?Expires=1694108402&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=pZhapUfTIue21wTJ47l%2FiD3p%2Bxjl9J8ZdTDppRT36kubShy2TiysFcmKZv%2BndCia0zRRMRvfbvYIryxZT%2FixoGjM39Dou6FipuvsAV75NyeCttWW2zP0Ku3VFJuU3y7STVVT5WNnqLY2Zx%2BySQ%2Fw%2FeXixoX1jKheIzEO3qPUbWIE0TqDKOzz0fislWEsHhiMrIfmK4qXoHG04gBGwytwi%2Fg82prq4uDCEkQI6OAzJf5jIf5Wt9OuBgIIhYAxbMBy3j1dW%2Bf6BSIXGNI8FwyjEUPmfQhOwLJuKD3l3o8ZP41nzhD%2FC6f0MllJiIM24q4Pq08yLMUN5yvb6gajnTG82Q%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 01:43:21,870 ERROR   wandb-upload_0:165851 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '15261'}
+2023-09-07 01:43:21,870 ERROR   wandb-upload_0:165851 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 01:43:22,189 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:43:23,189 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:43:23,539 DEBUG   HandlerThread:165851 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:43:25,190 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:43:27,192 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:43:28,671 DEBUG   HandlerThread:165851 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:43:29,193 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:43:31,194 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:43:31,537 DEBUG   SenderThread:165851 [sender.py:send():379] send: stats
+2023-09-07 01:43:31,719 DEBUG   HandlerThread:165851 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-07 01:43:31,721 DEBUG   SenderThread:165851 [sender.py:send_request():406] send_request: stop_status
+2023-09-07 01:43:33,195 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:43:33,770 DEBUG   HandlerThread:165851 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:43:35,196 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:43:37,197 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:43:38,819 DEBUG   HandlerThread:165851 [handler.py:handle_request():144] handle_request: status_report
+2023-09-07 01:43:39,198 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
+2023-09-07 01:43:41,200 INFO    Thread-12 :165851 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/BitFlip/DQNwithHer/outputs/2023-09-07/01-39-58/wandb/run-20230907_014000-urd2zfwa/files/output.log
