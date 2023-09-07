@@ -17,13 +17,15 @@ import omegaconf
 from DQN import *
 from my_env import BitFlip
 import json
+from tensorboardX import SummaryWriter
 
-def save_results_to_json(log_episodes, win_rate):
+def save_results_to_json(log_episodes, win_rate, epsilon_array):
     if not os.path.exists('results'):
         os.makedirs('results')
     results = {
         "log_episodes": log_episodes,
         "win_rate": win_rate,
+        "epsilon_array": epsilon_array
     }
     with open('results.json', 'w') as json_file:
         json.dump(results, json_file)
@@ -60,11 +62,18 @@ def main(args):
     log_frequency = args.log_frequency
     # max_steps = args.max_steps if args.max_steps > args.length else args.length
     max_steps = args.length
-
+    model_name = args.model_name
     device = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
+    reward_type = args.env_reward_type
+    reward_success = args.reward_success
+    reward_fail = args.reward_fail
+
+    log_dir = f"/root/BitFlip/dqn_g_euclidean_length/bits={args.length},model={model_name},reward={(reward_success,reward_fail)}"
+    writer = SummaryWriter(log_dir=log_dir, comment=f"bits={args.length},model={model_name},reward={(reward_success,reward_fail)},init_e={args.epsilon}")
+
     # device = torch.device('cpu')
     env_name = "BitFlip"
-    env = BitFlip(length=length, reward_type="euclidean")
+    env = BitFlip(length=length, reward_type=reward_type, reward_success=reward_success, reward_fail=reward_fail)
 
     # env_name = 'CartPole-v0'
     # env = gym.make(env_name)
@@ -119,14 +128,16 @@ def main(args):
                 "win_rate": success / log_frequency,
                 "episode": episode
             })
+            writer.add_scalar('win_rate', success / log_frequency, global_step=episode)
+            writer.add_scalar('epsilon', agent.epsilon, global_step=episode)
             success = 0
             save_results_to_json(log_episodes, win_rate, epsilon_array)
     
     figure = plt.figure()
-    plt.title(f"DQN in {length} bits, minimal_size={minimal_size}")
+    plt.title(f"DQN_g_handcraft in {length} bits, minimal_size={minimal_size}")
     plt.ylabel("Win Rate")
     plt.xlabel("Episodes")
-    plt.ylim([0, 1.3])
+    plt.ylim([0, 1.1])
     plt.plot(log_episodes, win_rate)
     plt.show()
 

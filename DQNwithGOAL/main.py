@@ -70,7 +70,8 @@ def main(args):
     reward_fail = args.reward_fail
     model_name = args.model_name
     device = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
-    log_dir = "logs/"
+    
+    log_dir = f"/root/BitFlip/dqn_g_length/bits={args.length},model={model_name},reward={(reward_success,reward_fail)}"
     writer = SummaryWriter(log_dir=log_dir, comment=f"bits={args.length},model={model_name},reward={(reward_success,reward_fail)},init_e={args.epsilon}")
     # device = torch.device('cpu')
     env_name = "BitFlip"

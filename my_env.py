@@ -8,7 +8,7 @@ class BitFlip(gym.Env):
         super(BitFlip, self).__init__()
         self.length = length
         if step_is_fast:
-            self.action_space = spaces.Box(0, 1, [self.length], dtype=np.float32)
+            self.action_space = spaces.Discrete(1 << self.length)
         else:
             self.action_space = spaces.Discrete(self.length)
         self.observation_space = spaces.Box(0, 1, [self.length], dtype=np.float32)
@@ -29,6 +29,13 @@ class BitFlip(gym.Env):
         # ipdb.set_trace()
         # print(f"action={action}")
         if self.step_is_fast:
+            binary_str = bin(action)[2:]
+            binary_str_length = len(binary_str)
+            while binary_str_length < self.length:
+                binary_str = '0' + binary_str
+                binary_str_length += 1
+            action = np.array([int(bit) for bit in binary_str])
+            
             self.state[action == 1] = 1 - self.state[action == 1]
         else:
             self.state[action] = 1 - self.state[action]

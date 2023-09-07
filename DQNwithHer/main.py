@@ -19,6 +19,7 @@ from DQNwithHER import *
 from my_env import BitFlip
 import json
 import cProfile
+from tensorboardX import SummaryWriter
 
 def save_results_to_json(log_episodes, win_rate, epsilon_array):
     if not os.path.exists('results'):
@@ -68,6 +69,10 @@ def main(args):
     reward_success = args.reward_success
     reward_fail = args.reward_fail
     device = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
+    model_name = args.model_name
+    log_dir = f"/root/BitFlip/dqn_her_length/bits={args.length},model={model_name},reward={(reward_success,reward_fail)}"
+    writer = SummaryWriter(log_dir=log_dir, comment=f"bits={args.length},model={model_name},reward={(reward_success,reward_fail)},init_e={args.epsilon}")
+
     # device = torch.device('cpu')
     env_name = "BitFlip"
     env = BitFlip(length=length, reward_type="default", reward_success=reward_success, reward_fail=reward_fail)
@@ -161,6 +166,8 @@ def main(args):
                 "episode": episode,
                 "epsilon": agent.epsilon
             })
+            writer.add_scalar('win_rate', success / log_frequency, global_step=episode)
+            writer.add_scalar('epsilon', agent.epsilon, global_step=episode)
             success = 0
             save_results_to_json(log_episodes, win_rate, epsilon_array)
     

@@ -100,10 +100,11 @@ def main():
     target_update = 10
     buffer_size = 10000
     batch_size = 64
+    step_is_fast = True
     device = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
     # device = torch.device('cpu')
     env_name = "BitFlip"
-    env = BitFlip(length=length)
+    env = BitFlip(length=length, step_is_fast=step_is_fast)
 
     # env_name = 'CartPole-v0'
     # env = gym.make(env_name)
