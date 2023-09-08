@@ -1987,3 +1987,961 @@ wandb.sdk.lib.retry.TransientError: None
 2023-09-07 12:28:47,940 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-artifacts-prod/wandb_artifacts/95411073/560729223/a13c8e91f52de3d441af5a3bca22e6cc?Expires=1694100741&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=JQ61Fnq5EXZiHhqhNyLxdjNMJkLzTN0vap6lGL%2F6sdBrGT%2BLDmXE1xYyrh%2FEyRYLvQVL4Ze%2FeLUdhf%2BzljoaL8lymG1eibZtKLsFl9ML0TndJyYJbqKo2YKQTDPjor9Bcnhnixh%2Bi3n7%2BCtiL7WEy5jFdMi8R40ihTMzG6R%2F%2FmacU15BBbpdmktn4YX97a02V6uQstFnvqo%2BSrp853WirncU5aYtOL1%2Bnht8zJSTJ4hoOI6S7cYKvuSO0DuzNZ0TMHliR1xjd8BsmmmpefflnGiufIAQlYwg%2FrAwcUmNaGb0MWVAh3dWG1syO5rWy9EaNLDCMkKQIKR%2BhE9NX0rglg%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
 2023-09-07 12:28:47,940 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-MD5': 'oTyOkfUt49RBr1o7yiLmzA==', 'Content-Type': 'text/plain; charset=utf-8', 'Content-Length': '3147'}
 2023-09-07 12:28:47,940 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 12:36:53,583 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-artifacts-prod/wandb_artifacts/95411073/560729223/a13c8e91f52de3d441af5a3bca22e6cc?Expires=1694100741&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=JQ61Fnq5EXZiHhqhNyLxdjNMJkLzTN0vap6lGL%2F6sdBrGT%2BLDmXE1xYyrh%2FEyRYLvQVL4Ze%2FeLUdhf%2BzljoaL8lymG1eibZtKLsFl9ML0TndJyYJbqKo2YKQTDPjor9Bcnhnixh%2Bi3n7%2BCtiL7WEy5jFdMi8R40ihTMzG6R%2F%2FmacU15BBbpdmktn4YX97a02V6uQstFnvqo%2BSrp853WirncU5aYtOL1%2Bnht8zJSTJ4hoOI6S7cYKvuSO0DuzNZ0TMHliR1xjd8BsmmmpefflnGiufIAQlYwg%2FrAwcUmNaGb0MWVAh3dWG1syO5rWy9EaNLDCMkKQIKR%2BhE9NX0rglg%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 12:36:53,584 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-MD5': 'oTyOkfUt49RBr1o7yiLmzA==', 'Content-Type': 'text/plain; charset=utf-8', 'Content-Length': '3147'}
+2023-09-07 12:36:53,584 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 12:42:24,149 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-artifacts-prod/wandb_artifacts/95411073/560729223/a13c8e91f52de3d441af5a3bca22e6cc?Expires=1694100741&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=JQ61Fnq5EXZiHhqhNyLxdjNMJkLzTN0vap6lGL%2F6sdBrGT%2BLDmXE1xYyrh%2FEyRYLvQVL4Ze%2FeLUdhf%2BzljoaL8lymG1eibZtKLsFl9ML0TndJyYJbqKo2YKQTDPjor9Bcnhnixh%2Bi3n7%2BCtiL7WEy5jFdMi8R40ihTMzG6R%2F%2FmacU15BBbpdmktn4YX97a02V6uQstFnvqo%2BSrp853WirncU5aYtOL1%2Bnht8zJSTJ4hoOI6S7cYKvuSO0DuzNZ0TMHliR1xjd8BsmmmpefflnGiufIAQlYwg%2FrAwcUmNaGb0MWVAh3dWG1syO5rWy9EaNLDCMkKQIKR%2BhE9NX0rglg%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 12:42:24,149 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-MD5': 'oTyOkfUt49RBr1o7yiLmzA==', 'Content-Type': 'text/plain; charset=utf-8', 'Content-Length': '3147'}
+2023-09-07 12:42:24,149 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 12:47:34,759 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-artifacts-prod/wandb_artifacts/95411073/560729223/a13c8e91f52de3d441af5a3bca22e6cc?Expires=1694100741&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=JQ61Fnq5EXZiHhqhNyLxdjNMJkLzTN0vap6lGL%2F6sdBrGT%2BLDmXE1xYyrh%2FEyRYLvQVL4Ze%2FeLUdhf%2BzljoaL8lymG1eibZtKLsFl9ML0TndJyYJbqKo2YKQTDPjor9Bcnhnixh%2Bi3n7%2BCtiL7WEy5jFdMi8R40ihTMzG6R%2F%2FmacU15BBbpdmktn4YX97a02V6uQstFnvqo%2BSrp853WirncU5aYtOL1%2Bnht8zJSTJ4hoOI6S7cYKvuSO0DuzNZ0TMHliR1xjd8BsmmmpefflnGiufIAQlYwg%2FrAwcUmNaGb0MWVAh3dWG1syO5rWy9EaNLDCMkKQIKR%2BhE9NX0rglg%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 12:47:34,759 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-MD5': 'oTyOkfUt49RBr1o7yiLmzA==', 'Content-Type': 'text/plain; charset=utf-8', 'Content-Length': '3147'}
+2023-09-07 12:47:34,759 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 12:53:44,685 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-artifacts-prod/wandb_artifacts/95411073/560729223/a13c8e91f52de3d441af5a3bca22e6cc?Expires=1694100741&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=JQ61Fnq5EXZiHhqhNyLxdjNMJkLzTN0vap6lGL%2F6sdBrGT%2BLDmXE1xYyrh%2FEyRYLvQVL4Ze%2FeLUdhf%2BzljoaL8lymG1eibZtKLsFl9ML0TndJyYJbqKo2YKQTDPjor9Bcnhnixh%2Bi3n7%2BCtiL7WEy5jFdMi8R40ihTMzG6R%2F%2FmacU15BBbpdmktn4YX97a02V6uQstFnvqo%2BSrp853WirncU5aYtOL1%2Bnht8zJSTJ4hoOI6S7cYKvuSO0DuzNZ0TMHliR1xjd8BsmmmpefflnGiufIAQlYwg%2FrAwcUmNaGb0MWVAh3dWG1syO5rWy9EaNLDCMkKQIKR%2BhE9NX0rglg%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 12:53:44,685 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-MD5': 'oTyOkfUt49RBr1o7yiLmzA==', 'Content-Type': 'text/plain; charset=utf-8', 'Content-Length': '3147'}
+2023-09-07 12:53:44,685 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 13:01:30,337 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-artifacts-prod/wandb_artifacts/95411073/560729223/a13c8e91f52de3d441af5a3bca22e6cc?Expires=1694100741&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=JQ61Fnq5EXZiHhqhNyLxdjNMJkLzTN0vap6lGL%2F6sdBrGT%2BLDmXE1xYyrh%2FEyRYLvQVL4Ze%2FeLUdhf%2BzljoaL8lymG1eibZtKLsFl9ML0TndJyYJbqKo2YKQTDPjor9Bcnhnixh%2Bi3n7%2BCtiL7WEy5jFdMi8R40ihTMzG6R%2F%2FmacU15BBbpdmktn4YX97a02V6uQstFnvqo%2BSrp853WirncU5aYtOL1%2Bnht8zJSTJ4hoOI6S7cYKvuSO0DuzNZ0TMHliR1xjd8BsmmmpefflnGiufIAQlYwg%2FrAwcUmNaGb0MWVAh3dWG1syO5rWy9EaNLDCMkKQIKR%2BhE9NX0rglg%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 13:01:30,337 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-MD5': 'oTyOkfUt49RBr1o7yiLmzA==', 'Content-Type': 'text/plain; charset=utf-8', 'Content-Length': '3147'}
+2023-09-07 13:01:30,337 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 13:07:28,474 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-artifacts-prod/wandb_artifacts/95411073/560729223/a13c8e91f52de3d441af5a3bca22e6cc?Expires=1694100741&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=JQ61Fnq5EXZiHhqhNyLxdjNMJkLzTN0vap6lGL%2F6sdBrGT%2BLDmXE1xYyrh%2FEyRYLvQVL4Ze%2FeLUdhf%2BzljoaL8lymG1eibZtKLsFl9ML0TndJyYJbqKo2YKQTDPjor9Bcnhnixh%2Bi3n7%2BCtiL7WEy5jFdMi8R40ihTMzG6R%2F%2FmacU15BBbpdmktn4YX97a02V6uQstFnvqo%2BSrp853WirncU5aYtOL1%2Bnht8zJSTJ4hoOI6S7cYKvuSO0DuzNZ0TMHliR1xjd8BsmmmpefflnGiufIAQlYwg%2FrAwcUmNaGb0MWVAh3dWG1syO5rWy9EaNLDCMkKQIKR%2BhE9NX0rglg%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 13:07:28,474 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-MD5': 'oTyOkfUt49RBr1o7yiLmzA==', 'Content-Type': 'text/plain; charset=utf-8', 'Content-Length': '3147'}
+2023-09-07 13:07:28,475 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 13:13:04,774 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-artifacts-prod/wandb_artifacts/95411073/560729223/a13c8e91f52de3d441af5a3bca22e6cc?Expires=1694100741&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=JQ61Fnq5EXZiHhqhNyLxdjNMJkLzTN0vap6lGL%2F6sdBrGT%2BLDmXE1xYyrh%2FEyRYLvQVL4Ze%2FeLUdhf%2BzljoaL8lymG1eibZtKLsFl9ML0TndJyYJbqKo2YKQTDPjor9Bcnhnixh%2Bi3n7%2BCtiL7WEy5jFdMi8R40ihTMzG6R%2F%2FmacU15BBbpdmktn4YX97a02V6uQstFnvqo%2BSrp853WirncU5aYtOL1%2Bnht8zJSTJ4hoOI6S7cYKvuSO0DuzNZ0TMHliR1xjd8BsmmmpefflnGiufIAQlYwg%2FrAwcUmNaGb0MWVAh3dWG1syO5rWy9EaNLDCMkKQIKR%2BhE9NX0rglg%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 13:13:04,774 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-MD5': 'oTyOkfUt49RBr1o7yiLmzA==', 'Content-Type': 'text/plain; charset=utf-8', 'Content-Length': '3147'}
+2023-09-07 13:13:04,775 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 13:20:45,277 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-artifacts-prod/wandb_artifacts/95411073/560729223/a13c8e91f52de3d441af5a3bca22e6cc?Expires=1694100741&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=JQ61Fnq5EXZiHhqhNyLxdjNMJkLzTN0vap6lGL%2F6sdBrGT%2BLDmXE1xYyrh%2FEyRYLvQVL4Ze%2FeLUdhf%2BzljoaL8lymG1eibZtKLsFl9ML0TndJyYJbqKo2YKQTDPjor9Bcnhnixh%2Bi3n7%2BCtiL7WEy5jFdMi8R40ihTMzG6R%2F%2FmacU15BBbpdmktn4YX97a02V6uQstFnvqo%2BSrp853WirncU5aYtOL1%2Bnht8zJSTJ4hoOI6S7cYKvuSO0DuzNZ0TMHliR1xjd8BsmmmpefflnGiufIAQlYwg%2FrAwcUmNaGb0MWVAh3dWG1syO5rWy9EaNLDCMkKQIKR%2BhE9NX0rglg%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 13:20:45,277 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-MD5': 'oTyOkfUt49RBr1o7yiLmzA==', 'Content-Type': 'text/plain; charset=utf-8', 'Content-Length': '3147'}
+2023-09-07 13:20:45,277 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 13:26:22,949 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-artifacts-prod/wandb_artifacts/95411073/560729223/a13c8e91f52de3d441af5a3bca22e6cc?Expires=1694100741&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=JQ61Fnq5EXZiHhqhNyLxdjNMJkLzTN0vap6lGL%2F6sdBrGT%2BLDmXE1xYyrh%2FEyRYLvQVL4Ze%2FeLUdhf%2BzljoaL8lymG1eibZtKLsFl9ML0TndJyYJbqKo2YKQTDPjor9Bcnhnixh%2Bi3n7%2BCtiL7WEy5jFdMi8R40ihTMzG6R%2F%2FmacU15BBbpdmktn4YX97a02V6uQstFnvqo%2BSrp853WirncU5aYtOL1%2Bnht8zJSTJ4hoOI6S7cYKvuSO0DuzNZ0TMHliR1xjd8BsmmmpefflnGiufIAQlYwg%2FrAwcUmNaGb0MWVAh3dWG1syO5rWy9EaNLDCMkKQIKR%2BhE9NX0rglg%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 13:26:22,949 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-MD5': 'oTyOkfUt49RBr1o7yiLmzA==', 'Content-Type': 'text/plain; charset=utf-8', 'Content-Length': '3147'}
+2023-09-07 13:26:22,949 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 13:32:29,981 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-artifacts-prod/wandb_artifacts/95411073/560729223/a13c8e91f52de3d441af5a3bca22e6cc?Expires=1694100741&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=JQ61Fnq5EXZiHhqhNyLxdjNMJkLzTN0vap6lGL%2F6sdBrGT%2BLDmXE1xYyrh%2FEyRYLvQVL4Ze%2FeLUdhf%2BzljoaL8lymG1eibZtKLsFl9ML0TndJyYJbqKo2YKQTDPjor9Bcnhnixh%2Bi3n7%2BCtiL7WEy5jFdMi8R40ihTMzG6R%2F%2FmacU15BBbpdmktn4YX97a02V6uQstFnvqo%2BSrp853WirncU5aYtOL1%2Bnht8zJSTJ4hoOI6S7cYKvuSO0DuzNZ0TMHliR1xjd8BsmmmpefflnGiufIAQlYwg%2FrAwcUmNaGb0MWVAh3dWG1syO5rWy9EaNLDCMkKQIKR%2BhE9NX0rglg%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 13:32:29,981 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-MD5': 'oTyOkfUt49RBr1o7yiLmzA==', 'Content-Type': 'text/plain; charset=utf-8', 'Content-Length': '3147'}
+2023-09-07 13:32:29,981 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 13:40:26,956 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-artifacts-prod/wandb_artifacts/95411073/560729223/a13c8e91f52de3d441af5a3bca22e6cc?Expires=1694100741&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=JQ61Fnq5EXZiHhqhNyLxdjNMJkLzTN0vap6lGL%2F6sdBrGT%2BLDmXE1xYyrh%2FEyRYLvQVL4Ze%2FeLUdhf%2BzljoaL8lymG1eibZtKLsFl9ML0TndJyYJbqKo2YKQTDPjor9Bcnhnixh%2Bi3n7%2BCtiL7WEy5jFdMi8R40ihTMzG6R%2F%2FmacU15BBbpdmktn4YX97a02V6uQstFnvqo%2BSrp853WirncU5aYtOL1%2Bnht8zJSTJ4hoOI6S7cYKvuSO0DuzNZ0TMHliR1xjd8BsmmmpefflnGiufIAQlYwg%2FrAwcUmNaGb0MWVAh3dWG1syO5rWy9EaNLDCMkKQIKR%2BhE9NX0rglg%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 13:40:26,957 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-MD5': 'oTyOkfUt49RBr1o7yiLmzA==', 'Content-Type': 'text/plain; charset=utf-8', 'Content-Length': '3147'}
+2023-09-07 13:40:26,957 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 13:45:35,244 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-artifacts-prod/wandb_artifacts/95411073/560729223/a13c8e91f52de3d441af5a3bca22e6cc?Expires=1694100741&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=JQ61Fnq5EXZiHhqhNyLxdjNMJkLzTN0vap6lGL%2F6sdBrGT%2BLDmXE1xYyrh%2FEyRYLvQVL4Ze%2FeLUdhf%2BzljoaL8lymG1eibZtKLsFl9ML0TndJyYJbqKo2YKQTDPjor9Bcnhnixh%2Bi3n7%2BCtiL7WEy5jFdMi8R40ihTMzG6R%2F%2FmacU15BBbpdmktn4YX97a02V6uQstFnvqo%2BSrp853WirncU5aYtOL1%2Bnht8zJSTJ4hoOI6S7cYKvuSO0DuzNZ0TMHliR1xjd8BsmmmpefflnGiufIAQlYwg%2FrAwcUmNaGb0MWVAh3dWG1syO5rWy9EaNLDCMkKQIKR%2BhE9NX0rglg%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 13:45:35,245 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-MD5': 'oTyOkfUt49RBr1o7yiLmzA==', 'Content-Type': 'text/plain; charset=utf-8', 'Content-Length': '3147'}
+2023-09-07 13:45:35,245 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 13:53:33,392 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-artifacts-prod/wandb_artifacts/95411073/560729223/a13c8e91f52de3d441af5a3bca22e6cc?Expires=1694100741&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=JQ61Fnq5EXZiHhqhNyLxdjNMJkLzTN0vap6lGL%2F6sdBrGT%2BLDmXE1xYyrh%2FEyRYLvQVL4Ze%2FeLUdhf%2BzljoaL8lymG1eibZtKLsFl9ML0TndJyYJbqKo2YKQTDPjor9Bcnhnixh%2Bi3n7%2BCtiL7WEy5jFdMi8R40ihTMzG6R%2F%2FmacU15BBbpdmktn4YX97a02V6uQstFnvqo%2BSrp853WirncU5aYtOL1%2Bnht8zJSTJ4hoOI6S7cYKvuSO0DuzNZ0TMHliR1xjd8BsmmmpefflnGiufIAQlYwg%2FrAwcUmNaGb0MWVAh3dWG1syO5rWy9EaNLDCMkKQIKR%2BhE9NX0rglg%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 13:53:33,392 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-MD5': 'oTyOkfUt49RBr1o7yiLmzA==', 'Content-Type': 'text/plain; charset=utf-8', 'Content-Length': '3147'}
+2023-09-07 13:53:33,392 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 13:59:25,665 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-artifacts-prod/wandb_artifacts/95411073/560729223/a13c8e91f52de3d441af5a3bca22e6cc?Expires=1694100741&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=JQ61Fnq5EXZiHhqhNyLxdjNMJkLzTN0vap6lGL%2F6sdBrGT%2BLDmXE1xYyrh%2FEyRYLvQVL4Ze%2FeLUdhf%2BzljoaL8lymG1eibZtKLsFl9ML0TndJyYJbqKo2YKQTDPjor9Bcnhnixh%2Bi3n7%2BCtiL7WEy5jFdMi8R40ihTMzG6R%2F%2FmacU15BBbpdmktn4YX97a02V6uQstFnvqo%2BSrp853WirncU5aYtOL1%2Bnht8zJSTJ4hoOI6S7cYKvuSO0DuzNZ0TMHliR1xjd8BsmmmpefflnGiufIAQlYwg%2FrAwcUmNaGb0MWVAh3dWG1syO5rWy9EaNLDCMkKQIKR%2BhE9NX0rglg%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 13:59:25,666 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-MD5': 'oTyOkfUt49RBr1o7yiLmzA==', 'Content-Type': 'text/plain; charset=utf-8', 'Content-Length': '3147'}
+2023-09-07 13:59:25,666 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 14:06:50,210 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-artifacts-prod/wandb_artifacts/95411073/560729223/a13c8e91f52de3d441af5a3bca22e6cc?Expires=1694100741&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=JQ61Fnq5EXZiHhqhNyLxdjNMJkLzTN0vap6lGL%2F6sdBrGT%2BLDmXE1xYyrh%2FEyRYLvQVL4Ze%2FeLUdhf%2BzljoaL8lymG1eibZtKLsFl9ML0TndJyYJbqKo2YKQTDPjor9Bcnhnixh%2Bi3n7%2BCtiL7WEy5jFdMi8R40ihTMzG6R%2F%2FmacU15BBbpdmktn4YX97a02V6uQstFnvqo%2BSrp853WirncU5aYtOL1%2Bnht8zJSTJ4hoOI6S7cYKvuSO0DuzNZ0TMHliR1xjd8BsmmmpefflnGiufIAQlYwg%2FrAwcUmNaGb0MWVAh3dWG1syO5rWy9EaNLDCMkKQIKR%2BhE9NX0rglg%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 14:06:50,210 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-MD5': 'oTyOkfUt49RBr1o7yiLmzA==', 'Content-Type': 'text/plain; charset=utf-8', 'Content-Length': '3147'}
+2023-09-07 14:06:50,210 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 14:12:34,865 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-artifacts-prod/wandb_artifacts/95411073/560729223/a13c8e91f52de3d441af5a3bca22e6cc?Expires=1694100741&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=JQ61Fnq5EXZiHhqhNyLxdjNMJkLzTN0vap6lGL%2F6sdBrGT%2BLDmXE1xYyrh%2FEyRYLvQVL4Ze%2FeLUdhf%2BzljoaL8lymG1eibZtKLsFl9ML0TndJyYJbqKo2YKQTDPjor9Bcnhnixh%2Bi3n7%2BCtiL7WEy5jFdMi8R40ihTMzG6R%2F%2FmacU15BBbpdmktn4YX97a02V6uQstFnvqo%2BSrp853WirncU5aYtOL1%2Bnht8zJSTJ4hoOI6S7cYKvuSO0DuzNZ0TMHliR1xjd8BsmmmpefflnGiufIAQlYwg%2FrAwcUmNaGb0MWVAh3dWG1syO5rWy9EaNLDCMkKQIKR%2BhE9NX0rglg%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 14:12:34,865 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-MD5': 'oTyOkfUt49RBr1o7yiLmzA==', 'Content-Type': 'text/plain; charset=utf-8', 'Content-Length': '3147'}
+2023-09-07 14:12:34,865 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 14:20:25,311 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-artifacts-prod/wandb_artifacts/95411073/560729223/a13c8e91f52de3d441af5a3bca22e6cc?Expires=1694100741&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=JQ61Fnq5EXZiHhqhNyLxdjNMJkLzTN0vap6lGL%2F6sdBrGT%2BLDmXE1xYyrh%2FEyRYLvQVL4Ze%2FeLUdhf%2BzljoaL8lymG1eibZtKLsFl9ML0TndJyYJbqKo2YKQTDPjor9Bcnhnixh%2Bi3n7%2BCtiL7WEy5jFdMi8R40ihTMzG6R%2F%2FmacU15BBbpdmktn4YX97a02V6uQstFnvqo%2BSrp853WirncU5aYtOL1%2Bnht8zJSTJ4hoOI6S7cYKvuSO0DuzNZ0TMHliR1xjd8BsmmmpefflnGiufIAQlYwg%2FrAwcUmNaGb0MWVAh3dWG1syO5rWy9EaNLDCMkKQIKR%2BhE9NX0rglg%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 14:20:25,311 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-MD5': 'oTyOkfUt49RBr1o7yiLmzA==', 'Content-Type': 'text/plain; charset=utf-8', 'Content-Length': '3147'}
+2023-09-07 14:20:25,311 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 14:26:24,823 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-artifacts-prod/wandb_artifacts/95411073/560729223/a13c8e91f52de3d441af5a3bca22e6cc?Expires=1694100741&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=JQ61Fnq5EXZiHhqhNyLxdjNMJkLzTN0vap6lGL%2F6sdBrGT%2BLDmXE1xYyrh%2FEyRYLvQVL4Ze%2FeLUdhf%2BzljoaL8lymG1eibZtKLsFl9ML0TndJyYJbqKo2YKQTDPjor9Bcnhnixh%2Bi3n7%2BCtiL7WEy5jFdMi8R40ihTMzG6R%2F%2FmacU15BBbpdmktn4YX97a02V6uQstFnvqo%2BSrp853WirncU5aYtOL1%2Bnht8zJSTJ4hoOI6S7cYKvuSO0DuzNZ0TMHliR1xjd8BsmmmpefflnGiufIAQlYwg%2FrAwcUmNaGb0MWVAh3dWG1syO5rWy9EaNLDCMkKQIKR%2BhE9NX0rglg%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 14:26:24,823 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-MD5': 'oTyOkfUt49RBr1o7yiLmzA==', 'Content-Type': 'text/plain; charset=utf-8', 'Content-Length': '3147'}
+2023-09-07 14:26:24,823 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 14:32:05,493 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-artifacts-prod/wandb_artifacts/95411073/560729223/a13c8e91f52de3d441af5a3bca22e6cc?Expires=1694100741&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=JQ61Fnq5EXZiHhqhNyLxdjNMJkLzTN0vap6lGL%2F6sdBrGT%2BLDmXE1xYyrh%2FEyRYLvQVL4Ze%2FeLUdhf%2BzljoaL8lymG1eibZtKLsFl9ML0TndJyYJbqKo2YKQTDPjor9Bcnhnixh%2Bi3n7%2BCtiL7WEy5jFdMi8R40ihTMzG6R%2F%2FmacU15BBbpdmktn4YX97a02V6uQstFnvqo%2BSrp853WirncU5aYtOL1%2Bnht8zJSTJ4hoOI6S7cYKvuSO0DuzNZ0TMHliR1xjd8BsmmmpefflnGiufIAQlYwg%2FrAwcUmNaGb0MWVAh3dWG1syO5rWy9EaNLDCMkKQIKR%2BhE9NX0rglg%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 14:32:05,494 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-MD5': 'oTyOkfUt49RBr1o7yiLmzA==', 'Content-Type': 'text/plain; charset=utf-8', 'Content-Length': '3147'}
+2023-09-07 14:32:05,494 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 14:37:43,386 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-artifacts-prod/wandb_artifacts/95411073/560729223/a13c8e91f52de3d441af5a3bca22e6cc?Expires=1694100741&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=JQ61Fnq5EXZiHhqhNyLxdjNMJkLzTN0vap6lGL%2F6sdBrGT%2BLDmXE1xYyrh%2FEyRYLvQVL4Ze%2FeLUdhf%2BzljoaL8lymG1eibZtKLsFl9ML0TndJyYJbqKo2YKQTDPjor9Bcnhnixh%2Bi3n7%2BCtiL7WEy5jFdMi8R40ihTMzG6R%2F%2FmacU15BBbpdmktn4YX97a02V6uQstFnvqo%2BSrp853WirncU5aYtOL1%2Bnht8zJSTJ4hoOI6S7cYKvuSO0DuzNZ0TMHliR1xjd8BsmmmpefflnGiufIAQlYwg%2FrAwcUmNaGb0MWVAh3dWG1syO5rWy9EaNLDCMkKQIKR%2BhE9NX0rglg%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 14:37:43,386 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-MD5': 'oTyOkfUt49RBr1o7yiLmzA==', 'Content-Type': 'text/plain; charset=utf-8', 'Content-Length': '3147'}
+2023-09-07 14:37:43,386 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 14:43:01,426 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-artifacts-prod/wandb_artifacts/95411073/560729223/a13c8e91f52de3d441af5a3bca22e6cc?Expires=1694100741&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=JQ61Fnq5EXZiHhqhNyLxdjNMJkLzTN0vap6lGL%2F6sdBrGT%2BLDmXE1xYyrh%2FEyRYLvQVL4Ze%2FeLUdhf%2BzljoaL8lymG1eibZtKLsFl9ML0TndJyYJbqKo2YKQTDPjor9Bcnhnixh%2Bi3n7%2BCtiL7WEy5jFdMi8R40ihTMzG6R%2F%2FmacU15BBbpdmktn4YX97a02V6uQstFnvqo%2BSrp853WirncU5aYtOL1%2Bnht8zJSTJ4hoOI6S7cYKvuSO0DuzNZ0TMHliR1xjd8BsmmmpefflnGiufIAQlYwg%2FrAwcUmNaGb0MWVAh3dWG1syO5rWy9EaNLDCMkKQIKR%2BhE9NX0rglg%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 14:43:01,426 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-MD5': 'oTyOkfUt49RBr1o7yiLmzA==', 'Content-Type': 'text/plain; charset=utf-8', 'Content-Length': '3147'}
+2023-09-07 14:43:01,426 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 14:48:37,908 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-artifacts-prod/wandb_artifacts/95411073/560729223/a13c8e91f52de3d441af5a3bca22e6cc?Expires=1694100741&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=JQ61Fnq5EXZiHhqhNyLxdjNMJkLzTN0vap6lGL%2F6sdBrGT%2BLDmXE1xYyrh%2FEyRYLvQVL4Ze%2FeLUdhf%2BzljoaL8lymG1eibZtKLsFl9ML0TndJyYJbqKo2YKQTDPjor9Bcnhnixh%2Bi3n7%2BCtiL7WEy5jFdMi8R40ihTMzG6R%2F%2FmacU15BBbpdmktn4YX97a02V6uQstFnvqo%2BSrp853WirncU5aYtOL1%2Bnht8zJSTJ4hoOI6S7cYKvuSO0DuzNZ0TMHliR1xjd8BsmmmpefflnGiufIAQlYwg%2FrAwcUmNaGb0MWVAh3dWG1syO5rWy9EaNLDCMkKQIKR%2BhE9NX0rglg%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 14:48:37,908 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-MD5': 'oTyOkfUt49RBr1o7yiLmzA==', 'Content-Type': 'text/plain; charset=utf-8', 'Content-Length': '3147'}
+2023-09-07 14:48:37,908 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 14:56:15,563 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-artifacts-prod/wandb_artifacts/95411073/560729223/a13c8e91f52de3d441af5a3bca22e6cc?Expires=1694100741&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=JQ61Fnq5EXZiHhqhNyLxdjNMJkLzTN0vap6lGL%2F6sdBrGT%2BLDmXE1xYyrh%2FEyRYLvQVL4Ze%2FeLUdhf%2BzljoaL8lymG1eibZtKLsFl9ML0TndJyYJbqKo2YKQTDPjor9Bcnhnixh%2Bi3n7%2BCtiL7WEy5jFdMi8R40ihTMzG6R%2F%2FmacU15BBbpdmktn4YX97a02V6uQstFnvqo%2BSrp853WirncU5aYtOL1%2Bnht8zJSTJ4hoOI6S7cYKvuSO0DuzNZ0TMHliR1xjd8BsmmmpefflnGiufIAQlYwg%2FrAwcUmNaGb0MWVAh3dWG1syO5rWy9EaNLDCMkKQIKR%2BhE9NX0rglg%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 14:56:15,563 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-MD5': 'oTyOkfUt49RBr1o7yiLmzA==', 'Content-Type': 'text/plain; charset=utf-8', 'Content-Length': '3147'}
+2023-09-07 14:56:15,563 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 15:02:20,073 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-artifacts-prod/wandb_artifacts/95411073/560729223/a13c8e91f52de3d441af5a3bca22e6cc?Expires=1694100741&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=JQ61Fnq5EXZiHhqhNyLxdjNMJkLzTN0vap6lGL%2F6sdBrGT%2BLDmXE1xYyrh%2FEyRYLvQVL4Ze%2FeLUdhf%2BzljoaL8lymG1eibZtKLsFl9ML0TndJyYJbqKo2YKQTDPjor9Bcnhnixh%2Bi3n7%2BCtiL7WEy5jFdMi8R40ihTMzG6R%2F%2FmacU15BBbpdmktn4YX97a02V6uQstFnvqo%2BSrp853WirncU5aYtOL1%2Bnht8zJSTJ4hoOI6S7cYKvuSO0DuzNZ0TMHliR1xjd8BsmmmpefflnGiufIAQlYwg%2FrAwcUmNaGb0MWVAh3dWG1syO5rWy9EaNLDCMkKQIKR%2BhE9NX0rglg%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 15:02:20,073 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-MD5': 'oTyOkfUt49RBr1o7yiLmzA==', 'Content-Type': 'text/plain; charset=utf-8', 'Content-Length': '3147'}
+2023-09-07 15:02:20,073 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 15:07:22,804 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-artifacts-prod/wandb_artifacts/95411073/560729223/a13c8e91f52de3d441af5a3bca22e6cc?Expires=1694100741&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=JQ61Fnq5EXZiHhqhNyLxdjNMJkLzTN0vap6lGL%2F6sdBrGT%2BLDmXE1xYyrh%2FEyRYLvQVL4Ze%2FeLUdhf%2BzljoaL8lymG1eibZtKLsFl9ML0TndJyYJbqKo2YKQTDPjor9Bcnhnixh%2Bi3n7%2BCtiL7WEy5jFdMi8R40ihTMzG6R%2F%2FmacU15BBbpdmktn4YX97a02V6uQstFnvqo%2BSrp853WirncU5aYtOL1%2Bnht8zJSTJ4hoOI6S7cYKvuSO0DuzNZ0TMHliR1xjd8BsmmmpefflnGiufIAQlYwg%2FrAwcUmNaGb0MWVAh3dWG1syO5rWy9EaNLDCMkKQIKR%2BhE9NX0rglg%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 15:07:22,805 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-MD5': 'oTyOkfUt49RBr1o7yiLmzA==', 'Content-Type': 'text/plain; charset=utf-8', 'Content-Length': '3147'}
+2023-09-07 15:07:22,805 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 15:12:26,950 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-artifacts-prod/wandb_artifacts/95411073/560729223/a13c8e91f52de3d441af5a3bca22e6cc?Expires=1694100741&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=JQ61Fnq5EXZiHhqhNyLxdjNMJkLzTN0vap6lGL%2F6sdBrGT%2BLDmXE1xYyrh%2FEyRYLvQVL4Ze%2FeLUdhf%2BzljoaL8lymG1eibZtKLsFl9ML0TndJyYJbqKo2YKQTDPjor9Bcnhnixh%2Bi3n7%2BCtiL7WEy5jFdMi8R40ihTMzG6R%2F%2FmacU15BBbpdmktn4YX97a02V6uQstFnvqo%2BSrp853WirncU5aYtOL1%2Bnht8zJSTJ4hoOI6S7cYKvuSO0DuzNZ0TMHliR1xjd8BsmmmpefflnGiufIAQlYwg%2FrAwcUmNaGb0MWVAh3dWG1syO5rWy9EaNLDCMkKQIKR%2BhE9NX0rglg%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 15:12:26,951 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-MD5': 'oTyOkfUt49RBr1o7yiLmzA==', 'Content-Type': 'text/plain; charset=utf-8', 'Content-Length': '3147'}
+2023-09-07 15:12:26,951 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 15:18:10,506 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-artifacts-prod/wandb_artifacts/95411073/560729223/a13c8e91f52de3d441af5a3bca22e6cc?Expires=1694100741&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=JQ61Fnq5EXZiHhqhNyLxdjNMJkLzTN0vap6lGL%2F6sdBrGT%2BLDmXE1xYyrh%2FEyRYLvQVL4Ze%2FeLUdhf%2BzljoaL8lymG1eibZtKLsFl9ML0TndJyYJbqKo2YKQTDPjor9Bcnhnixh%2Bi3n7%2BCtiL7WEy5jFdMi8R40ihTMzG6R%2F%2FmacU15BBbpdmktn4YX97a02V6uQstFnvqo%2BSrp853WirncU5aYtOL1%2Bnht8zJSTJ4hoOI6S7cYKvuSO0DuzNZ0TMHliR1xjd8BsmmmpefflnGiufIAQlYwg%2FrAwcUmNaGb0MWVAh3dWG1syO5rWy9EaNLDCMkKQIKR%2BhE9NX0rglg%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 15:18:10,507 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-MD5': 'oTyOkfUt49RBr1o7yiLmzA==', 'Content-Type': 'text/plain; charset=utf-8', 'Content-Length': '3147'}
+2023-09-07 15:18:10,507 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 15:24:15,094 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-artifacts-prod/wandb_artifacts/95411073/560729223/a13c8e91f52de3d441af5a3bca22e6cc?Expires=1694100741&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=JQ61Fnq5EXZiHhqhNyLxdjNMJkLzTN0vap6lGL%2F6sdBrGT%2BLDmXE1xYyrh%2FEyRYLvQVL4Ze%2FeLUdhf%2BzljoaL8lymG1eibZtKLsFl9ML0TndJyYJbqKo2YKQTDPjor9Bcnhnixh%2Bi3n7%2BCtiL7WEy5jFdMi8R40ihTMzG6R%2F%2FmacU15BBbpdmktn4YX97a02V6uQstFnvqo%2BSrp853WirncU5aYtOL1%2Bnht8zJSTJ4hoOI6S7cYKvuSO0DuzNZ0TMHliR1xjd8BsmmmpefflnGiufIAQlYwg%2FrAwcUmNaGb0MWVAh3dWG1syO5rWy9EaNLDCMkKQIKR%2BhE9NX0rglg%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 15:24:15,095 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-MD5': 'oTyOkfUt49RBr1o7yiLmzA==', 'Content-Type': 'text/plain; charset=utf-8', 'Content-Length': '3147'}
+2023-09-07 15:24:15,095 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 15:29:46,197 INFO    wandb-upload_1:87088 [upload_job.py:push():89] Uploaded file /root/.local/share/wandb/artifacts/staging/tmp8cj1wsy3
+2023-09-07 15:29:48,164 ERROR   Thread-11 :87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip_dqn_with_goal/tmy0sd8i/artifact/560729223/wandb_manifest.json?Expires=1694158187&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=tVNa1rgapEeKd7g1ctwOgzeb0WO2jBKykT3JXzhd4THc3fEYjdXzY0nDv8JXuYfXM7FMoZBfta7S4i2xE4pSZAOIEJy3XLArDvXi615v86umw3n9t%2BCvgO%2FSLMr%2Fmh3SRrS%2FdWw%2BPv3BVghbevXVS5jjlcYNekMJJzau5VnbvjOUQmbQTHl9pdlD8tIVV2rt%2BvxgM57ApVuB3%2F7ZSAdEkyokd1oroJitVOwiqgpb94lhm8OWZxn8jxiKLM%2Bwxcbe6MT22vQqGleA4eyUUp5pqlPWy3BJvdj75u2jPQlFvAekRbN%2FKNWn07vTwFsvMzqcyIQ%2FbW3enM3uP%2BPZk6YRKw%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 15:29:48,164 ERROR   Thread-11 :87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-MD5': 'lpMRETF5f30X16ddAH84Vw==', 'Content-Length': '513'}
+2023-09-07 15:29:48,165 ERROR   Thread-11 :87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 15:29:50,748 INFO    SenderThread:87088 [sender.py:send_artifact():1475] sent artifact job-git_github.com_chjchjchjchjchj_BitFlip.git_DQNwithGOAL_main.py - {'id': 'QXJ0aWZhY3Q6NTYwNzI5MjIz', 'digest': '9ba437f754bdc44bb3093c6c2a3eddd4', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjk1NDExMDcz', 'latestArtifact': None}, 'version': 'latest'}
+2023-09-07 15:29:50,748 INFO    SenderThread:87088 [sender.py:finish():1552] shutting down sender
+2023-09-07 15:29:50,749 INFO    SenderThread:87088 [dir_watcher.py:finish():358] shutting down directory watcher
+2023-09-07 15:29:50,998 INFO    SenderThread:87088 [dir_watcher.py:finish():388] scan: /root/BitFlip/DQNwithGOAL/outputs/2023-09-06/23-26-52/wandb/run-20230906_232655-tmy0sd8i/files
+2023-09-07 15:29:50,999 INFO    SenderThread:87088 [dir_watcher.py:finish():402] scan save: /root/BitFlip/DQNwithGOAL/outputs/2023-09-06/23-26-52/wandb/run-20230906_232655-tmy0sd8i/files/config.yaml config.yaml
+2023-09-07 15:29:50,999 INFO    SenderThread:87088 [dir_watcher.py:finish():402] scan save: /root/BitFlip/DQNwithGOAL/outputs/2023-09-06/23-26-52/wandb/run-20230906_232655-tmy0sd8i/files/wandb-summary.json wandb-summary.json
+2023-09-07 15:29:51,000 INFO    SenderThread:87088 [dir_watcher.py:finish():402] scan save: /root/BitFlip/DQNwithGOAL/outputs/2023-09-06/23-26-52/wandb/run-20230906_232655-tmy0sd8i/files/requirements.txt requirements.txt
+2023-09-07 15:29:51,000 INFO    SenderThread:87088 [dir_watcher.py:finish():402] scan save: /root/BitFlip/DQNwithGOAL/outputs/2023-09-06/23-26-52/wandb/run-20230906_232655-tmy0sd8i/files/conda-environment.yaml conda-environment.yaml
+2023-09-07 15:29:51,001 INFO    SenderThread:87088 [dir_watcher.py:finish():402] scan save: /root/BitFlip/DQNwithGOAL/outputs/2023-09-06/23-26-52/wandb/run-20230906_232655-tmy0sd8i/files/wandb-metadata.json wandb-metadata.json
+2023-09-07 15:29:51,001 INFO    SenderThread:87088 [dir_watcher.py:finish():402] scan save: /root/BitFlip/DQNwithGOAL/outputs/2023-09-06/23-26-52/wandb/run-20230906_232655-tmy0sd8i/files/output.log output.log
+2023-09-07 15:29:51,013 INFO    SenderThread:87088 [file_pusher.py:finish():159] shutting down file pusher
+2023-09-07 15:29:51,013 INFO    SenderThread:87088 [file_pusher.py:join():164] waiting for file pusher
+2023-09-07 15:29:51,585 INFO    wandb-upload_0:87088 [upload_job.py:push():131] Uploaded file /root/BitFlip/DQNwithGOAL/outputs/2023-09-06/23-26-52/wandb/run-20230906_232655-tmy0sd8i/files/wandb-summary.json
+2023-09-07 15:29:51,590 ERROR   wandb-upload_3:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip_dqn_with_goal/tmy0sd8i/requirements.txt?Expires=1694158191&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=IN5rxCBOEfJ2AZipTjlDyZtggqlc6Go3vQ06LLHMhY1gPufjbr7LzkhmZQB5MTTvf0ECNZXXIvBGIwhBsCQDz8LYG9YpVyOXmx%2Frbm3VgNWE0bkL8fsPzZazH560gpOLsvAp4LOl%2FomNxiRoHZTdaVUKUAVQyA6NyheZ704QbvoZKHoHg%2FAanC%2BDWFk5ncjc2I8xVaeVZfFe%2FqXxxu3k1QdzsSbuW0YnwbB066IQojXZHAXZY55rzFthY7a2h40cktQ%2FlePS%2BLFerBj9WftJoQ15b0U2fcfBRp3d%2F5vzTV%2FVsXnTuKdkvlEW%2BZr3Cx99zkR2KNKkYDCVdCU%2Fxd6NyA%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 15:29:51,591 ERROR   wandb-upload_3:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '3147'}
+2023-09-07 15:29:51,591 ERROR   wandb-upload_3:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 15:29:51,604 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip_dqn_with_goal/tmy0sd8i/output.log?Expires=1694158191&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=nNUo3fMUaIvkYwLD8wPKrnRP%2BUvq3QQhLv5TzjbiCz4aKwMOz%2F1svHG1yaT0TeR7Pf3xGFWcpmRMb1fPA%2B8spocFcSZ3ej23MUNdxQmnE7NlhSJiCbz6s8K1LJMHOZjqMC09kXCH4I%2FIV0aj0H5iU21R9rIBhSLjSZwUBXtYqeqjOC8KxbqbHgtMZHKdQkcVnnwNkq3MaJq8Vw6EAMC0okl9mImh2ryOGubxdMa%2BO%2F%2FOVrMK4fkCGkfEIJRjtqspyyaLX0ivE9lg7THg2e98r6Km81%2BauFXZMWA7QGx4klM530LGSDt800U1ziGT85JHKI88btNpT3w95KQveZbUrw%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 15:29:51,604 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '34214'}
+2023-09-07 15:29:51,604 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 15:29:52,489 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip_dqn_with_goal/tmy0sd8i/config.yaml?Expires=1694158192&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=LAyvGTY%2BONOT6OS4t6oItQUXioHLdDTmakDzhbIkeg0phlD8o9vHYqGncKswXj0pQ8UsTEvUQ69TuTGG5UpoVIrLxxJFxCedSsLDqz8feYmjt%2B7%2FMBHW0JIOsI%2Fpd5Nq%2FQs9DUEl%2Fca6yi%2Bw9hqWYLjQTnmO9jY5TvFhpmy5y8dDPE%2BaryuIORLgMYYQA3wOno9braoUXPWh7YJlZI9YTnk6ce%2FzSPb8zLX8dlAr24j8uHh1W427TGLZtlCtwuzEsqxbYO8DDMibGbkT0Q6leE3mMI%2Fu5L87rKF5WL8oLYaEjWSf7CYowb83K14qB9KhUgmVfK%2F5oQRemO0%2Bnx0HaQ%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 15:29:52,489 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1348'}
+2023-09-07 15:29:52,490 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 15:29:52,893 ERROR   wandb-upload_3:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip_dqn_with_goal/tmy0sd8i/requirements.txt?Expires=1694158191&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=IN5rxCBOEfJ2AZipTjlDyZtggqlc6Go3vQ06LLHMhY1gPufjbr7LzkhmZQB5MTTvf0ECNZXXIvBGIwhBsCQDz8LYG9YpVyOXmx%2Frbm3VgNWE0bkL8fsPzZazH560gpOLsvAp4LOl%2FomNxiRoHZTdaVUKUAVQyA6NyheZ704QbvoZKHoHg%2FAanC%2BDWFk5ncjc2I8xVaeVZfFe%2FqXxxu3k1QdzsSbuW0YnwbB066IQojXZHAXZY55rzFthY7a2h40cktQ%2FlePS%2BLFerBj9WftJoQ15b0U2fcfBRp3d%2F5vzTV%2FVsXnTuKdkvlEW%2BZr3Cx99zkR2KNKkYDCVdCU%2Fxd6NyA%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 15:29:52,893 ERROR   wandb-upload_3:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '3147'}
+2023-09-07 15:29:52,893 ERROR   wandb-upload_3:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 15:29:52,893 INFO    wandb-upload_3:87088 [retry.py:__call__():172] Retry attempt failed:
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connectionpool.py", line 714, in urlopen
+    httplib_response = self._make_request(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connectionpool.py", line 403, in _make_request
+    self._validate_conn(conn)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connectionpool.py", line 1053, in _validate_conn
+    conn.connect()
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connection.py", line 419, in connect
+    self.sock = ssl_wrap_socket(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/root/miniconda3/envs/ling/lib/python3.9/ssl.py", line 501, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/root/miniconda3/envs/ling/lib/python3.9/ssl.py", line 1041, in _create
+    self.do_handshake()
+  File "/root/miniconda3/envs/ling/lib/python3.9/ssl.py", line 1310, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connectionpool.py", line 798, in urlopen
+    retries = retries.increment(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/util/retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/packages/six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connectionpool.py", line 714, in urlopen
+    httplib_response = self._make_request(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connectionpool.py", line 403, in _make_request
+    self._validate_conn(conn)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connectionpool.py", line 1053, in _validate_conn
+    conn.connect()
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connection.py", line 419, in connect
+    self.sock = ssl_wrap_socket(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/root/miniconda3/envs/ling/lib/python3.9/ssl.py", line 501, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/root/miniconda3/envs/ling/lib/python3.9/ssl.py", line 1041, in _create
+    self.do_handshake()
+  File "/root/miniconda3/envs/ling/lib/python3.9/ssl.py", line 1310, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 2491, in upload_file
+    response = self._upload_file_session.put(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/sessions.py", line 649, in put
+    return self.request("PUT", url, data=data, **kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/adapters.py", line 501, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 2520, in upload_file
+    raise _e.with_traceback(sys.exc_info()[2])
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 2491, in upload_file
+    response = self._upload_file_session.put(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/sessions.py", line 649, in put
+    return self.request("PUT", url, data=data, **kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/adapters.py", line 501, in send
+    raise ConnectionError(err, request=request)
+wandb.sdk.lib.retry.TransientError: None
+2023-09-07 15:29:52,895 ERROR   wandb-upload_3:87088 [upload_job.py:push():134] Failed to upload file: /root/BitFlip/DQNwithGOAL/outputs/2023-09-06/23-26-52/wandb/run-20230906_232655-tmy0sd8i/files/requirements.txt
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connectionpool.py", line 714, in urlopen
+    httplib_response = self._make_request(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connectionpool.py", line 403, in _make_request
+    self._validate_conn(conn)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connectionpool.py", line 1053, in _validate_conn
+    conn.connect()
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connection.py", line 419, in connect
+    self.sock = ssl_wrap_socket(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/root/miniconda3/envs/ling/lib/python3.9/ssl.py", line 501, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/root/miniconda3/envs/ling/lib/python3.9/ssl.py", line 1041, in _create
+    self.do_handshake()
+  File "/root/miniconda3/envs/ling/lib/python3.9/ssl.py", line 1310, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connectionpool.py", line 798, in urlopen
+    retries = retries.increment(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/util/retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/packages/six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connectionpool.py", line 714, in urlopen
+    httplib_response = self._make_request(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connectionpool.py", line 403, in _make_request
+    self._validate_conn(conn)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connectionpool.py", line 1053, in _validate_conn
+    conn.connect()
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connection.py", line 419, in connect
+    self.sock = ssl_wrap_socket(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/root/miniconda3/envs/ling/lib/python3.9/ssl.py", line 501, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/root/miniconda3/envs/ling/lib/python3.9/ssl.py", line 1041, in _create
+    self.do_handshake()
+  File "/root/miniconda3/envs/ling/lib/python3.9/ssl.py", line 1310, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 2491, in upload_file
+    response = self._upload_file_session.put(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/sessions.py", line 649, in put
+    return self.request("PUT", url, data=data, **kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/adapters.py", line 501, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 2520, in upload_file
+    raise _e.with_traceback(sys.exc_info()[2])
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 2491, in upload_file
+    response = self._upload_file_session.put(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/sessions.py", line 649, in put
+    return self.request("PUT", url, data=data, **kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/adapters.py", line 501, in send
+    raise ConnectionError(err, request=request)
+wandb.sdk.lib.retry.TransientError: None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/apis/normalize.py", line 41, in wrapper
+    return func(*args, **kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/sdk/lib/retry.py", line 212, in wrapped_fn
+    return retrier(*args, **kargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/sdk/lib/retry.py", line 183, in __call__
+    wandb.termlog(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/errors/term.py", line 39, in termlog
+    _log(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/errors/term.py", line 95, in _log
+    click.echo(line, file=sys.stderr, nl=newline)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/click/utils.py", line 318, in echo
+    file.write(out)  # type: ignore
+OSError: [Errno 5] Input/output error
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/filesync/upload_job.py", line 125, in push
+    self._api.upload_file_retry(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/apis/normalize.py", line 87, in wrapper
+    raise CommError(message, err).with_traceback(sys.exc_info()[2])
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/apis/normalize.py", line 41, in wrapper
+    return func(*args, **kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/sdk/lib/retry.py", line 212, in wrapped_fn
+    return retrier(*args, **kargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/sdk/lib/retry.py", line 183, in __call__
+    wandb.termlog(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/errors/term.py", line 39, in termlog
+    _log(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/errors/term.py", line 95, in _log
+    click.echo(line, file=sys.stderr, nl=newline)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/click/utils.py", line 318, in echo
+    file.write(out)  # type: ignore
+wandb.errors.CommError: [Errno 5] Input/output error
+2023-09-07 15:29:53,091 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip_dqn_with_goal/tmy0sd8i/output.log?Expires=1694158191&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=nNUo3fMUaIvkYwLD8wPKrnRP%2BUvq3QQhLv5TzjbiCz4aKwMOz%2F1svHG1yaT0TeR7Pf3xGFWcpmRMb1fPA%2B8spocFcSZ3ej23MUNdxQmnE7NlhSJiCbz6s8K1LJMHOZjqMC09kXCH4I%2FIV0aj0H5iU21R9rIBhSLjSZwUBXtYqeqjOC8KxbqbHgtMZHKdQkcVnnwNkq3MaJq8Vw6EAMC0okl9mImh2ryOGubxdMa%2BO%2F%2FOVrMK4fkCGkfEIJRjtqspyyaLX0ivE9lg7THg2e98r6Km81%2BauFXZMWA7QGx4klM530LGSDt800U1ziGT85JHKI88btNpT3w95KQveZbUrw%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 15:29:53,091 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '34214'}
+2023-09-07 15:29:53,091 ERROR   wandb-upload_1:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 15:29:53,091 INFO    wandb-upload_1:87088 [retry.py:__call__():172] Retry attempt failed:
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connectionpool.py", line 714, in urlopen
+    httplib_response = self._make_request(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connectionpool.py", line 403, in _make_request
+    self._validate_conn(conn)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connectionpool.py", line 1053, in _validate_conn
+    conn.connect()
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connection.py", line 419, in connect
+    self.sock = ssl_wrap_socket(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/root/miniconda3/envs/ling/lib/python3.9/ssl.py", line 501, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/root/miniconda3/envs/ling/lib/python3.9/ssl.py", line 1041, in _create
+    self.do_handshake()
+  File "/root/miniconda3/envs/ling/lib/python3.9/ssl.py", line 1310, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connectionpool.py", line 798, in urlopen
+    retries = retries.increment(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/util/retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/packages/six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connectionpool.py", line 714, in urlopen
+    httplib_response = self._make_request(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connectionpool.py", line 403, in _make_request
+    self._validate_conn(conn)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connectionpool.py", line 1053, in _validate_conn
+    conn.connect()
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connection.py", line 419, in connect
+    self.sock = ssl_wrap_socket(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/root/miniconda3/envs/ling/lib/python3.9/ssl.py", line 501, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/root/miniconda3/envs/ling/lib/python3.9/ssl.py", line 1041, in _create
+    self.do_handshake()
+  File "/root/miniconda3/envs/ling/lib/python3.9/ssl.py", line 1310, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 2491, in upload_file
+    response = self._upload_file_session.put(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/sessions.py", line 649, in put
+    return self.request("PUT", url, data=data, **kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/adapters.py", line 501, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 2520, in upload_file
+    raise _e.with_traceback(sys.exc_info()[2])
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 2491, in upload_file
+    response = self._upload_file_session.put(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/sessions.py", line 649, in put
+    return self.request("PUT", url, data=data, **kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/adapters.py", line 501, in send
+    raise ConnectionError(err, request=request)
+wandb.sdk.lib.retry.TransientError: None
+2023-09-07 15:29:53,093 ERROR   wandb-upload_1:87088 [upload_job.py:push():134] Failed to upload file: /root/BitFlip/DQNwithGOAL/outputs/2023-09-06/23-26-52/wandb/run-20230906_232655-tmy0sd8i/files/output.log
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connectionpool.py", line 714, in urlopen
+    httplib_response = self._make_request(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connectionpool.py", line 403, in _make_request
+    self._validate_conn(conn)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connectionpool.py", line 1053, in _validate_conn
+    conn.connect()
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connection.py", line 419, in connect
+    self.sock = ssl_wrap_socket(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/root/miniconda3/envs/ling/lib/python3.9/ssl.py", line 501, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/root/miniconda3/envs/ling/lib/python3.9/ssl.py", line 1041, in _create
+    self.do_handshake()
+  File "/root/miniconda3/envs/ling/lib/python3.9/ssl.py", line 1310, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connectionpool.py", line 798, in urlopen
+    retries = retries.increment(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/util/retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/packages/six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connectionpool.py", line 714, in urlopen
+    httplib_response = self._make_request(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connectionpool.py", line 403, in _make_request
+    self._validate_conn(conn)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connectionpool.py", line 1053, in _validate_conn
+    conn.connect()
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connection.py", line 419, in connect
+    self.sock = ssl_wrap_socket(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/root/miniconda3/envs/ling/lib/python3.9/ssl.py", line 501, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/root/miniconda3/envs/ling/lib/python3.9/ssl.py", line 1041, in _create
+    self.do_handshake()
+  File "/root/miniconda3/envs/ling/lib/python3.9/ssl.py", line 1310, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 2491, in upload_file
+    response = self._upload_file_session.put(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/sessions.py", line 649, in put
+    return self.request("PUT", url, data=data, **kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/adapters.py", line 501, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 2520, in upload_file
+    raise _e.with_traceback(sys.exc_info()[2])
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 2491, in upload_file
+    response = self._upload_file_session.put(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/sessions.py", line 649, in put
+    return self.request("PUT", url, data=data, **kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/adapters.py", line 501, in send
+    raise ConnectionError(err, request=request)
+wandb.sdk.lib.retry.TransientError: None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/apis/normalize.py", line 41, in wrapper
+    return func(*args, **kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/sdk/lib/retry.py", line 212, in wrapped_fn
+    return retrier(*args, **kargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/sdk/lib/retry.py", line 183, in __call__
+    wandb.termlog(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/errors/term.py", line 39, in termlog
+    _log(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/errors/term.py", line 95, in _log
+    click.echo(line, file=sys.stderr, nl=newline)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/click/utils.py", line 318, in echo
+    file.write(out)  # type: ignore
+OSError: [Errno 5] Input/output error
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/filesync/upload_job.py", line 125, in push
+    self._api.upload_file_retry(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/apis/normalize.py", line 87, in wrapper
+    raise CommError(message, err).with_traceback(sys.exc_info()[2])
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/apis/normalize.py", line 41, in wrapper
+    return func(*args, **kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/sdk/lib/retry.py", line 212, in wrapped_fn
+    return retrier(*args, **kargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/sdk/lib/retry.py", line 183, in __call__
+    wandb.termlog(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/errors/term.py", line 39, in termlog
+    _log(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/errors/term.py", line 95, in _log
+    click.echo(line, file=sys.stderr, nl=newline)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/click/utils.py", line 318, in echo
+    file.write(out)  # type: ignore
+wandb.errors.CommError: [Errno 5] Input/output error
+2023-09-07 15:29:53,988 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip_dqn_with_goal/tmy0sd8i/config.yaml?Expires=1694158192&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=LAyvGTY%2BONOT6OS4t6oItQUXioHLdDTmakDzhbIkeg0phlD8o9vHYqGncKswXj0pQ8UsTEvUQ69TuTGG5UpoVIrLxxJFxCedSsLDqz8feYmjt%2B7%2FMBHW0JIOsI%2Fpd5Nq%2FQs9DUEl%2Fca6yi%2Bw9hqWYLjQTnmO9jY5TvFhpmy5y8dDPE%2BaryuIORLgMYYQA3wOno9braoUXPWh7YJlZI9YTnk6ce%2FzSPb8zLX8dlAr24j8uHh1W427TGLZtlCtwuzEsqxbYO8DDMibGbkT0Q6leE3mMI%2Fu5L87rKF5WL8oLYaEjWSf7CYowb83K14qB9KhUgmVfK%2F5oQRemO0%2Bnx0HaQ%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 15:29:53,989 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1348'}
+2023-09-07 15:29:53,989 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 15:29:54,065 ERROR   Thread-11 :87088 [step_upload.py:_handle_event():200] Failed to upload file: /root/BitFlip/DQNwithGOAL/outputs/2023-09-06/23-26-52/wandb/run-20230906_232655-tmy0sd8i/files/requirements.txt
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connectionpool.py", line 714, in urlopen
+    httplib_response = self._make_request(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connectionpool.py", line 403, in _make_request
+    self._validate_conn(conn)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connectionpool.py", line 1053, in _validate_conn
+    conn.connect()
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connection.py", line 419, in connect
+    self.sock = ssl_wrap_socket(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/root/miniconda3/envs/ling/lib/python3.9/ssl.py", line 501, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/root/miniconda3/envs/ling/lib/python3.9/ssl.py", line 1041, in _create
+    self.do_handshake()
+  File "/root/miniconda3/envs/ling/lib/python3.9/ssl.py", line 1310, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connectionpool.py", line 798, in urlopen
+    retries = retries.increment(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/util/retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/packages/six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connectionpool.py", line 714, in urlopen
+    httplib_response = self._make_request(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connectionpool.py", line 403, in _make_request
+    self._validate_conn(conn)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connectionpool.py", line 1053, in _validate_conn
+    conn.connect()
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connection.py", line 419, in connect
+    self.sock = ssl_wrap_socket(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/root/miniconda3/envs/ling/lib/python3.9/ssl.py", line 501, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/root/miniconda3/envs/ling/lib/python3.9/ssl.py", line 1041, in _create
+    self.do_handshake()
+  File "/root/miniconda3/envs/ling/lib/python3.9/ssl.py", line 1310, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 2491, in upload_file
+    response = self._upload_file_session.put(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/sessions.py", line 649, in put
+    return self.request("PUT", url, data=data, **kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/adapters.py", line 501, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 2520, in upload_file
+    raise _e.with_traceback(sys.exc_info()[2])
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 2491, in upload_file
+    response = self._upload_file_session.put(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/sessions.py", line 649, in put
+    return self.request("PUT", url, data=data, **kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/adapters.py", line 501, in send
+    raise ConnectionError(err, request=request)
+wandb.sdk.lib.retry.TransientError: None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/apis/normalize.py", line 41, in wrapper
+    return func(*args, **kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/sdk/lib/retry.py", line 212, in wrapped_fn
+    return retrier(*args, **kargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/sdk/lib/retry.py", line 183, in __call__
+    wandb.termlog(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/errors/term.py", line 39, in termlog
+    _log(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/errors/term.py", line 95, in _log
+    click.echo(line, file=sys.stderr, nl=newline)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/click/utils.py", line 318, in echo
+    file.write(out)  # type: ignore
+OSError: [Errno 5] Input/output error
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/filesync/upload_job.py", line 125, in push
+    self._api.upload_file_retry(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/apis/normalize.py", line 87, in wrapper
+    raise CommError(message, err).with_traceback(sys.exc_info()[2])
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/apis/normalize.py", line 41, in wrapper
+    return func(*args, **kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/sdk/lib/retry.py", line 212, in wrapped_fn
+    return retrier(*args, **kargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/sdk/lib/retry.py", line 183, in __call__
+    wandb.termlog(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/errors/term.py", line 39, in termlog
+    _log(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/errors/term.py", line 95, in _log
+    click.echo(line, file=sys.stderr, nl=newline)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/click/utils.py", line 318, in echo
+    file.write(out)  # type: ignore
+wandb.errors.CommError: [Errno 5] Input/output error
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/ling/lib/python3.9/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/filesync/step_upload.py", line 288, in run_and_notify
+    self._do_upload_sync(event)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/filesync/step_upload.py", line 330, in _do_upload_sync
+    job.run()
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/filesync/upload_job.py", line 57, in run
+    self.push()
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/filesync/upload_job.py", line 137, in push
+    wandb.termerror(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/errors/term.py", line 61, in termerror
+    _log(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/errors/term.py", line 95, in _log
+    click.echo(line, file=sys.stderr, nl=newline)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/click/utils.py", line 318, in echo
+    file.write(out)  # type: ignore
+OSError: [Errno 5] Input/output error
+2023-09-07 15:29:54,068 ERROR   Thread-11 :87088 [step_upload.py:_handle_event():200] Failed to upload file: /root/BitFlip/DQNwithGOAL/outputs/2023-09-06/23-26-52/wandb/run-20230906_232655-tmy0sd8i/files/output.log
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connectionpool.py", line 714, in urlopen
+    httplib_response = self._make_request(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connectionpool.py", line 403, in _make_request
+    self._validate_conn(conn)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connectionpool.py", line 1053, in _validate_conn
+    conn.connect()
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connection.py", line 419, in connect
+    self.sock = ssl_wrap_socket(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/root/miniconda3/envs/ling/lib/python3.9/ssl.py", line 501, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/root/miniconda3/envs/ling/lib/python3.9/ssl.py", line 1041, in _create
+    self.do_handshake()
+  File "/root/miniconda3/envs/ling/lib/python3.9/ssl.py", line 1310, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connectionpool.py", line 798, in urlopen
+    retries = retries.increment(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/util/retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/packages/six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connectionpool.py", line 714, in urlopen
+    httplib_response = self._make_request(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connectionpool.py", line 403, in _make_request
+    self._validate_conn(conn)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connectionpool.py", line 1053, in _validate_conn
+    conn.connect()
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connection.py", line 419, in connect
+    self.sock = ssl_wrap_socket(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/root/miniconda3/envs/ling/lib/python3.9/ssl.py", line 501, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/root/miniconda3/envs/ling/lib/python3.9/ssl.py", line 1041, in _create
+    self.do_handshake()
+  File "/root/miniconda3/envs/ling/lib/python3.9/ssl.py", line 1310, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 2491, in upload_file
+    response = self._upload_file_session.put(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/sessions.py", line 649, in put
+    return self.request("PUT", url, data=data, **kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/adapters.py", line 501, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 2520, in upload_file
+    raise _e.with_traceback(sys.exc_info()[2])
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 2491, in upload_file
+    response = self._upload_file_session.put(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/sessions.py", line 649, in put
+    return self.request("PUT", url, data=data, **kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/adapters.py", line 501, in send
+    raise ConnectionError(err, request=request)
+wandb.sdk.lib.retry.TransientError: None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/apis/normalize.py", line 41, in wrapper
+    return func(*args, **kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/sdk/lib/retry.py", line 212, in wrapped_fn
+    return retrier(*args, **kargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/sdk/lib/retry.py", line 183, in __call__
+    wandb.termlog(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/errors/term.py", line 39, in termlog
+    _log(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/errors/term.py", line 95, in _log
+    click.echo(line, file=sys.stderr, nl=newline)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/click/utils.py", line 318, in echo
+    file.write(out)  # type: ignore
+OSError: [Errno 5] Input/output error
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/filesync/upload_job.py", line 125, in push
+    self._api.upload_file_retry(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/apis/normalize.py", line 87, in wrapper
+    raise CommError(message, err).with_traceback(sys.exc_info()[2])
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/apis/normalize.py", line 41, in wrapper
+    return func(*args, **kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/sdk/lib/retry.py", line 212, in wrapped_fn
+    return retrier(*args, **kargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/sdk/lib/retry.py", line 183, in __call__
+    wandb.termlog(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/errors/term.py", line 39, in termlog
+    _log(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/errors/term.py", line 95, in _log
+    click.echo(line, file=sys.stderr, nl=newline)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/click/utils.py", line 318, in echo
+    file.write(out)  # type: ignore
+wandb.errors.CommError: [Errno 5] Input/output error
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/ling/lib/python3.9/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/filesync/step_upload.py", line 288, in run_and_notify
+    self._do_upload_sync(event)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/filesync/step_upload.py", line 330, in _do_upload_sync
+    job.run()
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/filesync/upload_job.py", line 57, in run
+    self.push()
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/filesync/upload_job.py", line 137, in push
+    wandb.termerror(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/errors/term.py", line 61, in termerror
+    _log(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/errors/term.py", line 95, in _log
+    click.echo(line, file=sys.stderr, nl=newline)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/click/utils.py", line 318, in echo
+    file.write(out)  # type: ignore
+OSError: [Errno 5] Input/output error
+2023-09-07 15:29:56,440 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip_dqn_with_goal/tmy0sd8i/config.yaml?Expires=1694158192&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=LAyvGTY%2BONOT6OS4t6oItQUXioHLdDTmakDzhbIkeg0phlD8o9vHYqGncKswXj0pQ8UsTEvUQ69TuTGG5UpoVIrLxxJFxCedSsLDqz8feYmjt%2B7%2FMBHW0JIOsI%2Fpd5Nq%2FQs9DUEl%2Fca6yi%2Bw9hqWYLjQTnmO9jY5TvFhpmy5y8dDPE%2BaryuIORLgMYYQA3wOno9braoUXPWh7YJlZI9YTnk6ce%2FzSPb8zLX8dlAr24j8uHh1W427TGLZtlCtwuzEsqxbYO8DDMibGbkT0Q6leE3mMI%2Fu5L87rKF5WL8oLYaEjWSf7CYowb83K14qB9KhUgmVfK%2F5oQRemO0%2Bnx0HaQ%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 15:29:56,440 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1348'}
+2023-09-07 15:29:56,440 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 15:30:00,999 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip_dqn_with_goal/tmy0sd8i/config.yaml?Expires=1694158192&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=LAyvGTY%2BONOT6OS4t6oItQUXioHLdDTmakDzhbIkeg0phlD8o9vHYqGncKswXj0pQ8UsTEvUQ69TuTGG5UpoVIrLxxJFxCedSsLDqz8feYmjt%2B7%2FMBHW0JIOsI%2Fpd5Nq%2FQs9DUEl%2Fca6yi%2Bw9hqWYLjQTnmO9jY5TvFhpmy5y8dDPE%2BaryuIORLgMYYQA3wOno9braoUXPWh7YJlZI9YTnk6ce%2FzSPb8zLX8dlAr24j8uHh1W427TGLZtlCtwuzEsqxbYO8DDMibGbkT0Q6leE3mMI%2Fu5L87rKF5WL8oLYaEjWSf7CYowb83K14qB9KhUgmVfK%2F5oQRemO0%2Bnx0HaQ%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 15:30:01,000 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1348'}
+2023-09-07 15:30:01,000 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 15:30:10,281 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip_dqn_with_goal/tmy0sd8i/config.yaml?Expires=1694158192&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=LAyvGTY%2BONOT6OS4t6oItQUXioHLdDTmakDzhbIkeg0phlD8o9vHYqGncKswXj0pQ8UsTEvUQ69TuTGG5UpoVIrLxxJFxCedSsLDqz8feYmjt%2B7%2FMBHW0JIOsI%2Fpd5Nq%2FQs9DUEl%2Fca6yi%2Bw9hqWYLjQTnmO9jY5TvFhpmy5y8dDPE%2BaryuIORLgMYYQA3wOno9braoUXPWh7YJlZI9YTnk6ce%2FzSPb8zLX8dlAr24j8uHh1W427TGLZtlCtwuzEsqxbYO8DDMibGbkT0Q6leE3mMI%2Fu5L87rKF5WL8oLYaEjWSf7CYowb83K14qB9KhUgmVfK%2F5oQRemO0%2Bnx0HaQ%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 15:30:10,281 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1348'}
+2023-09-07 15:30:10,281 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 15:30:28,334 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip_dqn_with_goal/tmy0sd8i/config.yaml?Expires=1694158192&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=LAyvGTY%2BONOT6OS4t6oItQUXioHLdDTmakDzhbIkeg0phlD8o9vHYqGncKswXj0pQ8UsTEvUQ69TuTGG5UpoVIrLxxJFxCedSsLDqz8feYmjt%2B7%2FMBHW0JIOsI%2Fpd5Nq%2FQs9DUEl%2Fca6yi%2Bw9hqWYLjQTnmO9jY5TvFhpmy5y8dDPE%2BaryuIORLgMYYQA3wOno9braoUXPWh7YJlZI9YTnk6ce%2FzSPb8zLX8dlAr24j8uHh1W427TGLZtlCtwuzEsqxbYO8DDMibGbkT0Q6leE3mMI%2Fu5L87rKF5WL8oLYaEjWSf7CYowb83K14qB9KhUgmVfK%2F5oQRemO0%2Bnx0HaQ%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 15:30:28,334 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1348'}
+2023-09-07 15:30:28,334 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 15:31:00,738 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip_dqn_with_goal/tmy0sd8i/config.yaml?Expires=1694158192&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=LAyvGTY%2BONOT6OS4t6oItQUXioHLdDTmakDzhbIkeg0phlD8o9vHYqGncKswXj0pQ8UsTEvUQ69TuTGG5UpoVIrLxxJFxCedSsLDqz8feYmjt%2B7%2FMBHW0JIOsI%2Fpd5Nq%2FQs9DUEl%2Fca6yi%2Bw9hqWYLjQTnmO9jY5TvFhpmy5y8dDPE%2BaryuIORLgMYYQA3wOno9braoUXPWh7YJlZI9YTnk6ce%2FzSPb8zLX8dlAr24j8uHh1W427TGLZtlCtwuzEsqxbYO8DDMibGbkT0Q6leE3mMI%2Fu5L87rKF5WL8oLYaEjWSf7CYowb83K14qB9KhUgmVfK%2F5oQRemO0%2Bnx0HaQ%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 15:31:00,738 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1348'}
+2023-09-07 15:31:00,738 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 15:32:15,376 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip_dqn_with_goal/tmy0sd8i/config.yaml?Expires=1694158192&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=LAyvGTY%2BONOT6OS4t6oItQUXioHLdDTmakDzhbIkeg0phlD8o9vHYqGncKswXj0pQ8UsTEvUQ69TuTGG5UpoVIrLxxJFxCedSsLDqz8feYmjt%2B7%2FMBHW0JIOsI%2Fpd5Nq%2FQs9DUEl%2Fca6yi%2Bw9hqWYLjQTnmO9jY5TvFhpmy5y8dDPE%2BaryuIORLgMYYQA3wOno9braoUXPWh7YJlZI9YTnk6ce%2FzSPb8zLX8dlAr24j8uHh1W427TGLZtlCtwuzEsqxbYO8DDMibGbkT0Q6leE3mMI%2Fu5L87rKF5WL8oLYaEjWSf7CYowb83K14qB9KhUgmVfK%2F5oQRemO0%2Bnx0HaQ%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 15:32:15,377 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1348'}
+2023-09-07 15:32:15,377 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 15:34:34,191 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip_dqn_with_goal/tmy0sd8i/config.yaml?Expires=1694158192&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=LAyvGTY%2BONOT6OS4t6oItQUXioHLdDTmakDzhbIkeg0phlD8o9vHYqGncKswXj0pQ8UsTEvUQ69TuTGG5UpoVIrLxxJFxCedSsLDqz8feYmjt%2B7%2FMBHW0JIOsI%2Fpd5Nq%2FQs9DUEl%2Fca6yi%2Bw9hqWYLjQTnmO9jY5TvFhpmy5y8dDPE%2BaryuIORLgMYYQA3wOno9braoUXPWh7YJlZI9YTnk6ce%2FzSPb8zLX8dlAr24j8uHh1W427TGLZtlCtwuzEsqxbYO8DDMibGbkT0Q6leE3mMI%2Fu5L87rKF5WL8oLYaEjWSf7CYowb83K14qB9KhUgmVfK%2F5oQRemO0%2Bnx0HaQ%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 15:34:34,191 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1348'}
+2023-09-07 15:34:34,191 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 15:39:53,257 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip_dqn_with_goal/tmy0sd8i/config.yaml?Expires=1694158192&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=LAyvGTY%2BONOT6OS4t6oItQUXioHLdDTmakDzhbIkeg0phlD8o9vHYqGncKswXj0pQ8UsTEvUQ69TuTGG5UpoVIrLxxJFxCedSsLDqz8feYmjt%2B7%2FMBHW0JIOsI%2Fpd5Nq%2FQs9DUEl%2Fca6yi%2Bw9hqWYLjQTnmO9jY5TvFhpmy5y8dDPE%2BaryuIORLgMYYQA3wOno9braoUXPWh7YJlZI9YTnk6ce%2FzSPb8zLX8dlAr24j8uHh1W427TGLZtlCtwuzEsqxbYO8DDMibGbkT0Q6leE3mMI%2Fu5L87rKF5WL8oLYaEjWSf7CYowb83K14qB9KhUgmVfK%2F5oQRemO0%2Bnx0HaQ%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 15:39:53,257 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1348'}
+2023-09-07 15:39:53,257 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 15:44:58,276 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip_dqn_with_goal/tmy0sd8i/config.yaml?Expires=1694158192&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=LAyvGTY%2BONOT6OS4t6oItQUXioHLdDTmakDzhbIkeg0phlD8o9vHYqGncKswXj0pQ8UsTEvUQ69TuTGG5UpoVIrLxxJFxCedSsLDqz8feYmjt%2B7%2FMBHW0JIOsI%2Fpd5Nq%2FQs9DUEl%2Fca6yi%2Bw9hqWYLjQTnmO9jY5TvFhpmy5y8dDPE%2BaryuIORLgMYYQA3wOno9braoUXPWh7YJlZI9YTnk6ce%2FzSPb8zLX8dlAr24j8uHh1W427TGLZtlCtwuzEsqxbYO8DDMibGbkT0Q6leE3mMI%2Fu5L87rKF5WL8oLYaEjWSf7CYowb83K14qB9KhUgmVfK%2F5oQRemO0%2Bnx0HaQ%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 15:44:58,277 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1348'}
+2023-09-07 15:44:58,277 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 15:50:36,386 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip_dqn_with_goal/tmy0sd8i/config.yaml?Expires=1694158192&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=LAyvGTY%2BONOT6OS4t6oItQUXioHLdDTmakDzhbIkeg0phlD8o9vHYqGncKswXj0pQ8UsTEvUQ69TuTGG5UpoVIrLxxJFxCedSsLDqz8feYmjt%2B7%2FMBHW0JIOsI%2Fpd5Nq%2FQs9DUEl%2Fca6yi%2Bw9hqWYLjQTnmO9jY5TvFhpmy5y8dDPE%2BaryuIORLgMYYQA3wOno9braoUXPWh7YJlZI9YTnk6ce%2FzSPb8zLX8dlAr24j8uHh1W427TGLZtlCtwuzEsqxbYO8DDMibGbkT0Q6leE3mMI%2Fu5L87rKF5WL8oLYaEjWSf7CYowb83K14qB9KhUgmVfK%2F5oQRemO0%2Bnx0HaQ%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 15:50:36,386 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1348'}
+2023-09-07 15:50:36,387 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 15:55:39,191 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip_dqn_with_goal/tmy0sd8i/config.yaml?Expires=1694158192&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=LAyvGTY%2BONOT6OS4t6oItQUXioHLdDTmakDzhbIkeg0phlD8o9vHYqGncKswXj0pQ8UsTEvUQ69TuTGG5UpoVIrLxxJFxCedSsLDqz8feYmjt%2B7%2FMBHW0JIOsI%2Fpd5Nq%2FQs9DUEl%2Fca6yi%2Bw9hqWYLjQTnmO9jY5TvFhpmy5y8dDPE%2BaryuIORLgMYYQA3wOno9braoUXPWh7YJlZI9YTnk6ce%2FzSPb8zLX8dlAr24j8uHh1W427TGLZtlCtwuzEsqxbYO8DDMibGbkT0Q6leE3mMI%2Fu5L87rKF5WL8oLYaEjWSf7CYowb83K14qB9KhUgmVfK%2F5oQRemO0%2Bnx0HaQ%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 15:55:39,191 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1348'}
+2023-09-07 15:55:39,191 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 16:01:39,099 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip_dqn_with_goal/tmy0sd8i/config.yaml?Expires=1694158192&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=LAyvGTY%2BONOT6OS4t6oItQUXioHLdDTmakDzhbIkeg0phlD8o9vHYqGncKswXj0pQ8UsTEvUQ69TuTGG5UpoVIrLxxJFxCedSsLDqz8feYmjt%2B7%2FMBHW0JIOsI%2Fpd5Nq%2FQs9DUEl%2Fca6yi%2Bw9hqWYLjQTnmO9jY5TvFhpmy5y8dDPE%2BaryuIORLgMYYQA3wOno9braoUXPWh7YJlZI9YTnk6ce%2FzSPb8zLX8dlAr24j8uHh1W427TGLZtlCtwuzEsqxbYO8DDMibGbkT0Q6leE3mMI%2Fu5L87rKF5WL8oLYaEjWSf7CYowb83K14qB9KhUgmVfK%2F5oQRemO0%2Bnx0HaQ%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 16:01:39,099 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1348'}
+2023-09-07 16:01:39,099 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 16:06:52,104 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip_dqn_with_goal/tmy0sd8i/config.yaml?Expires=1694158192&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=LAyvGTY%2BONOT6OS4t6oItQUXioHLdDTmakDzhbIkeg0phlD8o9vHYqGncKswXj0pQ8UsTEvUQ69TuTGG5UpoVIrLxxJFxCedSsLDqz8feYmjt%2B7%2FMBHW0JIOsI%2Fpd5Nq%2FQs9DUEl%2Fca6yi%2Bw9hqWYLjQTnmO9jY5TvFhpmy5y8dDPE%2BaryuIORLgMYYQA3wOno9braoUXPWh7YJlZI9YTnk6ce%2FzSPb8zLX8dlAr24j8uHh1W427TGLZtlCtwuzEsqxbYO8DDMibGbkT0Q6leE3mMI%2Fu5L87rKF5WL8oLYaEjWSf7CYowb83K14qB9KhUgmVfK%2F5oQRemO0%2Bnx0HaQ%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 16:06:52,105 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1348'}
+2023-09-07 16:06:52,105 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 16:12:29,111 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip_dqn_with_goal/tmy0sd8i/config.yaml?Expires=1694158192&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=LAyvGTY%2BONOT6OS4t6oItQUXioHLdDTmakDzhbIkeg0phlD8o9vHYqGncKswXj0pQ8UsTEvUQ69TuTGG5UpoVIrLxxJFxCedSsLDqz8feYmjt%2B7%2FMBHW0JIOsI%2Fpd5Nq%2FQs9DUEl%2Fca6yi%2Bw9hqWYLjQTnmO9jY5TvFhpmy5y8dDPE%2BaryuIORLgMYYQA3wOno9braoUXPWh7YJlZI9YTnk6ce%2FzSPb8zLX8dlAr24j8uHh1W427TGLZtlCtwuzEsqxbYO8DDMibGbkT0Q6leE3mMI%2Fu5L87rKF5WL8oLYaEjWSf7CYowb83K14qB9KhUgmVfK%2F5oQRemO0%2Bnx0HaQ%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 16:12:29,111 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1348'}
+2023-09-07 16:12:29,111 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 16:17:54,071 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip_dqn_with_goal/tmy0sd8i/config.yaml?Expires=1694158192&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=LAyvGTY%2BONOT6OS4t6oItQUXioHLdDTmakDzhbIkeg0phlD8o9vHYqGncKswXj0pQ8UsTEvUQ69TuTGG5UpoVIrLxxJFxCedSsLDqz8feYmjt%2B7%2FMBHW0JIOsI%2Fpd5Nq%2FQs9DUEl%2Fca6yi%2Bw9hqWYLjQTnmO9jY5TvFhpmy5y8dDPE%2BaryuIORLgMYYQA3wOno9braoUXPWh7YJlZI9YTnk6ce%2FzSPb8zLX8dlAr24j8uHh1W427TGLZtlCtwuzEsqxbYO8DDMibGbkT0Q6leE3mMI%2Fu5L87rKF5WL8oLYaEjWSf7CYowb83K14qB9KhUgmVfK%2F5oQRemO0%2Bnx0HaQ%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 16:17:54,071 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1348'}
+2023-09-07 16:17:54,071 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 16:24:04,749 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip_dqn_with_goal/tmy0sd8i/config.yaml?Expires=1694158192&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=LAyvGTY%2BONOT6OS4t6oItQUXioHLdDTmakDzhbIkeg0phlD8o9vHYqGncKswXj0pQ8UsTEvUQ69TuTGG5UpoVIrLxxJFxCedSsLDqz8feYmjt%2B7%2FMBHW0JIOsI%2Fpd5Nq%2FQs9DUEl%2Fca6yi%2Bw9hqWYLjQTnmO9jY5TvFhpmy5y8dDPE%2BaryuIORLgMYYQA3wOno9braoUXPWh7YJlZI9YTnk6ce%2FzSPb8zLX8dlAr24j8uHh1W427TGLZtlCtwuzEsqxbYO8DDMibGbkT0Q6leE3mMI%2Fu5L87rKF5WL8oLYaEjWSf7CYowb83K14qB9KhUgmVfK%2F5oQRemO0%2Bnx0HaQ%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 16:24:04,749 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1348'}
+2023-09-07 16:24:04,749 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 16:29:11,045 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip_dqn_with_goal/tmy0sd8i/config.yaml?Expires=1694158192&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=LAyvGTY%2BONOT6OS4t6oItQUXioHLdDTmakDzhbIkeg0phlD8o9vHYqGncKswXj0pQ8UsTEvUQ69TuTGG5UpoVIrLxxJFxCedSsLDqz8feYmjt%2B7%2FMBHW0JIOsI%2Fpd5Nq%2FQs9DUEl%2Fca6yi%2Bw9hqWYLjQTnmO9jY5TvFhpmy5y8dDPE%2BaryuIORLgMYYQA3wOno9braoUXPWh7YJlZI9YTnk6ce%2FzSPb8zLX8dlAr24j8uHh1W427TGLZtlCtwuzEsqxbYO8DDMibGbkT0Q6leE3mMI%2Fu5L87rKF5WL8oLYaEjWSf7CYowb83K14qB9KhUgmVfK%2F5oQRemO0%2Bnx0HaQ%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 16:29:11,045 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1348'}
+2023-09-07 16:29:11,045 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 16:34:31,643 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip_dqn_with_goal/tmy0sd8i/config.yaml?Expires=1694158192&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=LAyvGTY%2BONOT6OS4t6oItQUXioHLdDTmakDzhbIkeg0phlD8o9vHYqGncKswXj0pQ8UsTEvUQ69TuTGG5UpoVIrLxxJFxCedSsLDqz8feYmjt%2B7%2FMBHW0JIOsI%2Fpd5Nq%2FQs9DUEl%2Fca6yi%2Bw9hqWYLjQTnmO9jY5TvFhpmy5y8dDPE%2BaryuIORLgMYYQA3wOno9braoUXPWh7YJlZI9YTnk6ce%2FzSPb8zLX8dlAr24j8uHh1W427TGLZtlCtwuzEsqxbYO8DDMibGbkT0Q6leE3mMI%2Fu5L87rKF5WL8oLYaEjWSf7CYowb83K14qB9KhUgmVfK%2F5oQRemO0%2Bnx0HaQ%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 16:34:31,644 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1348'}
+2023-09-07 16:34:31,644 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 16:40:30,759 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip_dqn_with_goal/tmy0sd8i/config.yaml?Expires=1694158192&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=LAyvGTY%2BONOT6OS4t6oItQUXioHLdDTmakDzhbIkeg0phlD8o9vHYqGncKswXj0pQ8UsTEvUQ69TuTGG5UpoVIrLxxJFxCedSsLDqz8feYmjt%2B7%2FMBHW0JIOsI%2Fpd5Nq%2FQs9DUEl%2Fca6yi%2Bw9hqWYLjQTnmO9jY5TvFhpmy5y8dDPE%2BaryuIORLgMYYQA3wOno9braoUXPWh7YJlZI9YTnk6ce%2FzSPb8zLX8dlAr24j8uHh1W427TGLZtlCtwuzEsqxbYO8DDMibGbkT0Q6leE3mMI%2Fu5L87rKF5WL8oLYaEjWSf7CYowb83K14qB9KhUgmVfK%2F5oQRemO0%2Bnx0HaQ%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 16:40:30,759 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1348'}
+2023-09-07 16:40:30,760 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 16:46:41,879 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip_dqn_with_goal/tmy0sd8i/config.yaml?Expires=1694158192&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=LAyvGTY%2BONOT6OS4t6oItQUXioHLdDTmakDzhbIkeg0phlD8o9vHYqGncKswXj0pQ8UsTEvUQ69TuTGG5UpoVIrLxxJFxCedSsLDqz8feYmjt%2B7%2FMBHW0JIOsI%2Fpd5Nq%2FQs9DUEl%2Fca6yi%2Bw9hqWYLjQTnmO9jY5TvFhpmy5y8dDPE%2BaryuIORLgMYYQA3wOno9braoUXPWh7YJlZI9YTnk6ce%2FzSPb8zLX8dlAr24j8uHh1W427TGLZtlCtwuzEsqxbYO8DDMibGbkT0Q6leE3mMI%2Fu5L87rKF5WL8oLYaEjWSf7CYowb83K14qB9KhUgmVfK%2F5oQRemO0%2Bnx0HaQ%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 16:46:41,880 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1348'}
+2023-09-07 16:46:41,880 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 16:52:48,344 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip_dqn_with_goal/tmy0sd8i/config.yaml?Expires=1694158192&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=LAyvGTY%2BONOT6OS4t6oItQUXioHLdDTmakDzhbIkeg0phlD8o9vHYqGncKswXj0pQ8UsTEvUQ69TuTGG5UpoVIrLxxJFxCedSsLDqz8feYmjt%2B7%2FMBHW0JIOsI%2Fpd5Nq%2FQs9DUEl%2Fca6yi%2Bw9hqWYLjQTnmO9jY5TvFhpmy5y8dDPE%2BaryuIORLgMYYQA3wOno9braoUXPWh7YJlZI9YTnk6ce%2FzSPb8zLX8dlAr24j8uHh1W427TGLZtlCtwuzEsqxbYO8DDMibGbkT0Q6leE3mMI%2Fu5L87rKF5WL8oLYaEjWSf7CYowb83K14qB9KhUgmVfK%2F5oQRemO0%2Bnx0HaQ%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 16:52:48,345 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1348'}
+2023-09-07 16:52:48,345 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 16:58:20,647 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip_dqn_with_goal/tmy0sd8i/config.yaml?Expires=1694158192&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=LAyvGTY%2BONOT6OS4t6oItQUXioHLdDTmakDzhbIkeg0phlD8o9vHYqGncKswXj0pQ8UsTEvUQ69TuTGG5UpoVIrLxxJFxCedSsLDqz8feYmjt%2B7%2FMBHW0JIOsI%2Fpd5Nq%2FQs9DUEl%2Fca6yi%2Bw9hqWYLjQTnmO9jY5TvFhpmy5y8dDPE%2BaryuIORLgMYYQA3wOno9braoUXPWh7YJlZI9YTnk6ce%2FzSPb8zLX8dlAr24j8uHh1W427TGLZtlCtwuzEsqxbYO8DDMibGbkT0Q6leE3mMI%2Fu5L87rKF5WL8oLYaEjWSf7CYowb83K14qB9KhUgmVfK%2F5oQRemO0%2Bnx0HaQ%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 16:58:20,647 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1348'}
+2023-09-07 16:58:20,647 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 17:04:30,045 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip_dqn_with_goal/tmy0sd8i/config.yaml?Expires=1694158192&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=LAyvGTY%2BONOT6OS4t6oItQUXioHLdDTmakDzhbIkeg0phlD8o9vHYqGncKswXj0pQ8UsTEvUQ69TuTGG5UpoVIrLxxJFxCedSsLDqz8feYmjt%2B7%2FMBHW0JIOsI%2Fpd5Nq%2FQs9DUEl%2Fca6yi%2Bw9hqWYLjQTnmO9jY5TvFhpmy5y8dDPE%2BaryuIORLgMYYQA3wOno9braoUXPWh7YJlZI9YTnk6ce%2FzSPb8zLX8dlAr24j8uHh1W427TGLZtlCtwuzEsqxbYO8DDMibGbkT0Q6leE3mMI%2Fu5L87rKF5WL8oLYaEjWSf7CYowb83K14qB9KhUgmVfK%2F5oQRemO0%2Bnx0HaQ%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 17:04:30,045 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1348'}
+2023-09-07 17:04:30,045 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 17:10:25,418 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip_dqn_with_goal/tmy0sd8i/config.yaml?Expires=1694158192&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=LAyvGTY%2BONOT6OS4t6oItQUXioHLdDTmakDzhbIkeg0phlD8o9vHYqGncKswXj0pQ8UsTEvUQ69TuTGG5UpoVIrLxxJFxCedSsLDqz8feYmjt%2B7%2FMBHW0JIOsI%2Fpd5Nq%2FQs9DUEl%2Fca6yi%2Bw9hqWYLjQTnmO9jY5TvFhpmy5y8dDPE%2BaryuIORLgMYYQA3wOno9braoUXPWh7YJlZI9YTnk6ce%2FzSPb8zLX8dlAr24j8uHh1W427TGLZtlCtwuzEsqxbYO8DDMibGbkT0Q6leE3mMI%2Fu5L87rKF5WL8oLYaEjWSf7CYowb83K14qB9KhUgmVfK%2F5oQRemO0%2Bnx0HaQ%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 17:10:25,419 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1348'}
+2023-09-07 17:10:25,419 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 17:15:26,290 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip_dqn_with_goal/tmy0sd8i/config.yaml?Expires=1694158192&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=LAyvGTY%2BONOT6OS4t6oItQUXioHLdDTmakDzhbIkeg0phlD8o9vHYqGncKswXj0pQ8UsTEvUQ69TuTGG5UpoVIrLxxJFxCedSsLDqz8feYmjt%2B7%2FMBHW0JIOsI%2Fpd5Nq%2FQs9DUEl%2Fca6yi%2Bw9hqWYLjQTnmO9jY5TvFhpmy5y8dDPE%2BaryuIORLgMYYQA3wOno9braoUXPWh7YJlZI9YTnk6ce%2FzSPb8zLX8dlAr24j8uHh1W427TGLZtlCtwuzEsqxbYO8DDMibGbkT0Q6leE3mMI%2Fu5L87rKF5WL8oLYaEjWSf7CYowb83K14qB9KhUgmVfK%2F5oQRemO0%2Bnx0HaQ%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 17:15:26,290 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1348'}
+2023-09-07 17:15:26,290 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 17:22:53,911 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip_dqn_with_goal/tmy0sd8i/config.yaml?Expires=1694158192&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=LAyvGTY%2BONOT6OS4t6oItQUXioHLdDTmakDzhbIkeg0phlD8o9vHYqGncKswXj0pQ8UsTEvUQ69TuTGG5UpoVIrLxxJFxCedSsLDqz8feYmjt%2B7%2FMBHW0JIOsI%2Fpd5Nq%2FQs9DUEl%2Fca6yi%2Bw9hqWYLjQTnmO9jY5TvFhpmy5y8dDPE%2BaryuIORLgMYYQA3wOno9braoUXPWh7YJlZI9YTnk6ce%2FzSPb8zLX8dlAr24j8uHh1W427TGLZtlCtwuzEsqxbYO8DDMibGbkT0Q6leE3mMI%2Fu5L87rKF5WL8oLYaEjWSf7CYowb83K14qB9KhUgmVfK%2F5oQRemO0%2Bnx0HaQ%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 17:22:53,911 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1348'}
+2023-09-07 17:22:53,911 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 17:28:40,037 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip_dqn_with_goal/tmy0sd8i/config.yaml?Expires=1694158192&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=LAyvGTY%2BONOT6OS4t6oItQUXioHLdDTmakDzhbIkeg0phlD8o9vHYqGncKswXj0pQ8UsTEvUQ69TuTGG5UpoVIrLxxJFxCedSsLDqz8feYmjt%2B7%2FMBHW0JIOsI%2Fpd5Nq%2FQs9DUEl%2Fca6yi%2Bw9hqWYLjQTnmO9jY5TvFhpmy5y8dDPE%2BaryuIORLgMYYQA3wOno9braoUXPWh7YJlZI9YTnk6ce%2FzSPb8zLX8dlAr24j8uHh1W427TGLZtlCtwuzEsqxbYO8DDMibGbkT0Q6leE3mMI%2Fu5L87rKF5WL8oLYaEjWSf7CYowb83K14qB9KhUgmVfK%2F5oQRemO0%2Bnx0HaQ%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 17:28:40,038 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1348'}
+2023-09-07 17:28:40,038 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 17:33:54,737 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip_dqn_with_goal/tmy0sd8i/config.yaml?Expires=1694158192&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=LAyvGTY%2BONOT6OS4t6oItQUXioHLdDTmakDzhbIkeg0phlD8o9vHYqGncKswXj0pQ8UsTEvUQ69TuTGG5UpoVIrLxxJFxCedSsLDqz8feYmjt%2B7%2FMBHW0JIOsI%2Fpd5Nq%2FQs9DUEl%2Fca6yi%2Bw9hqWYLjQTnmO9jY5TvFhpmy5y8dDPE%2BaryuIORLgMYYQA3wOno9braoUXPWh7YJlZI9YTnk6ce%2FzSPb8zLX8dlAr24j8uHh1W427TGLZtlCtwuzEsqxbYO8DDMibGbkT0Q6leE3mMI%2Fu5L87rKF5WL8oLYaEjWSf7CYowb83K14qB9KhUgmVfK%2F5oQRemO0%2Bnx0HaQ%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 17:33:54,737 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1348'}
+2023-09-07 17:33:54,737 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 17:39:14,703 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip_dqn_with_goal/tmy0sd8i/config.yaml?Expires=1694158192&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=LAyvGTY%2BONOT6OS4t6oItQUXioHLdDTmakDzhbIkeg0phlD8o9vHYqGncKswXj0pQ8UsTEvUQ69TuTGG5UpoVIrLxxJFxCedSsLDqz8feYmjt%2B7%2FMBHW0JIOsI%2Fpd5Nq%2FQs9DUEl%2Fca6yi%2Bw9hqWYLjQTnmO9jY5TvFhpmy5y8dDPE%2BaryuIORLgMYYQA3wOno9braoUXPWh7YJlZI9YTnk6ce%2FzSPb8zLX8dlAr24j8uHh1W427TGLZtlCtwuzEsqxbYO8DDMibGbkT0Q6leE3mMI%2Fu5L87rKF5WL8oLYaEjWSf7CYowb83K14qB9KhUgmVfK%2F5oQRemO0%2Bnx0HaQ%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 17:39:14,703 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1348'}
+2023-09-07 17:39:14,703 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 17:44:20,536 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip_dqn_with_goal/tmy0sd8i/config.yaml?Expires=1694158192&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=LAyvGTY%2BONOT6OS4t6oItQUXioHLdDTmakDzhbIkeg0phlD8o9vHYqGncKswXj0pQ8UsTEvUQ69TuTGG5UpoVIrLxxJFxCedSsLDqz8feYmjt%2B7%2FMBHW0JIOsI%2Fpd5Nq%2FQs9DUEl%2Fca6yi%2Bw9hqWYLjQTnmO9jY5TvFhpmy5y8dDPE%2BaryuIORLgMYYQA3wOno9braoUXPWh7YJlZI9YTnk6ce%2FzSPb8zLX8dlAr24j8uHh1W427TGLZtlCtwuzEsqxbYO8DDMibGbkT0Q6leE3mMI%2Fu5L87rKF5WL8oLYaEjWSf7CYowb83K14qB9KhUgmVfK%2F5oQRemO0%2Bnx0HaQ%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 17:44:20,537 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1348'}
+2023-09-07 17:44:20,537 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 17:49:46,686 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip_dqn_with_goal/tmy0sd8i/config.yaml?Expires=1694158192&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=LAyvGTY%2BONOT6OS4t6oItQUXioHLdDTmakDzhbIkeg0phlD8o9vHYqGncKswXj0pQ8UsTEvUQ69TuTGG5UpoVIrLxxJFxCedSsLDqz8feYmjt%2B7%2FMBHW0JIOsI%2Fpd5Nq%2FQs9DUEl%2Fca6yi%2Bw9hqWYLjQTnmO9jY5TvFhpmy5y8dDPE%2BaryuIORLgMYYQA3wOno9braoUXPWh7YJlZI9YTnk6ce%2FzSPb8zLX8dlAr24j8uHh1W427TGLZtlCtwuzEsqxbYO8DDMibGbkT0Q6leE3mMI%2Fu5L87rKF5WL8oLYaEjWSf7CYowb83K14qB9KhUgmVfK%2F5oQRemO0%2Bnx0HaQ%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 17:49:46,687 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1348'}
+2023-09-07 17:49:46,687 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 17:57:03,977 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip_dqn_with_goal/tmy0sd8i/config.yaml?Expires=1694158192&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=LAyvGTY%2BONOT6OS4t6oItQUXioHLdDTmakDzhbIkeg0phlD8o9vHYqGncKswXj0pQ8UsTEvUQ69TuTGG5UpoVIrLxxJFxCedSsLDqz8feYmjt%2B7%2FMBHW0JIOsI%2Fpd5Nq%2FQs9DUEl%2Fca6yi%2Bw9hqWYLjQTnmO9jY5TvFhpmy5y8dDPE%2BaryuIORLgMYYQA3wOno9braoUXPWh7YJlZI9YTnk6ce%2FzSPb8zLX8dlAr24j8uHh1W427TGLZtlCtwuzEsqxbYO8DDMibGbkT0Q6leE3mMI%2Fu5L87rKF5WL8oLYaEjWSf7CYowb83K14qB9KhUgmVfK%2F5oQRemO0%2Bnx0HaQ%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 17:57:03,978 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1348'}
+2023-09-07 17:57:03,978 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 18:05:05,105 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip_dqn_with_goal/tmy0sd8i/config.yaml?Expires=1694158192&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=LAyvGTY%2BONOT6OS4t6oItQUXioHLdDTmakDzhbIkeg0phlD8o9vHYqGncKswXj0pQ8UsTEvUQ69TuTGG5UpoVIrLxxJFxCedSsLDqz8feYmjt%2B7%2FMBHW0JIOsI%2Fpd5Nq%2FQs9DUEl%2Fca6yi%2Bw9hqWYLjQTnmO9jY5TvFhpmy5y8dDPE%2BaryuIORLgMYYQA3wOno9braoUXPWh7YJlZI9YTnk6ce%2FzSPb8zLX8dlAr24j8uHh1W427TGLZtlCtwuzEsqxbYO8DDMibGbkT0Q6leE3mMI%2Fu5L87rKF5WL8oLYaEjWSf7CYowb83K14qB9KhUgmVfK%2F5oQRemO0%2Bnx0HaQ%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 18:05:05,105 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1348'}
+2023-09-07 18:05:05,105 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 18:10:06,894 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip_dqn_with_goal/tmy0sd8i/config.yaml?Expires=1694158192&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=LAyvGTY%2BONOT6OS4t6oItQUXioHLdDTmakDzhbIkeg0phlD8o9vHYqGncKswXj0pQ8UsTEvUQ69TuTGG5UpoVIrLxxJFxCedSsLDqz8feYmjt%2B7%2FMBHW0JIOsI%2Fpd5Nq%2FQs9DUEl%2Fca6yi%2Bw9hqWYLjQTnmO9jY5TvFhpmy5y8dDPE%2BaryuIORLgMYYQA3wOno9braoUXPWh7YJlZI9YTnk6ce%2FzSPb8zLX8dlAr24j8uHh1W427TGLZtlCtwuzEsqxbYO8DDMibGbkT0Q6leE3mMI%2Fu5L87rKF5WL8oLYaEjWSf7CYowb83K14qB9KhUgmVfK%2F5oQRemO0%2Bnx0HaQ%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 18:10:06,894 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1348'}
+2023-09-07 18:10:06,894 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 18:15:45,004 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip_dqn_with_goal/tmy0sd8i/config.yaml?Expires=1694158192&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=LAyvGTY%2BONOT6OS4t6oItQUXioHLdDTmakDzhbIkeg0phlD8o9vHYqGncKswXj0pQ8UsTEvUQ69TuTGG5UpoVIrLxxJFxCedSsLDqz8feYmjt%2B7%2FMBHW0JIOsI%2Fpd5Nq%2FQs9DUEl%2Fca6yi%2Bw9hqWYLjQTnmO9jY5TvFhpmy5y8dDPE%2BaryuIORLgMYYQA3wOno9braoUXPWh7YJlZI9YTnk6ce%2FzSPb8zLX8dlAr24j8uHh1W427TGLZtlCtwuzEsqxbYO8DDMibGbkT0Q6leE3mMI%2Fu5L87rKF5WL8oLYaEjWSf7CYowb83K14qB9KhUgmVfK%2F5oQRemO0%2Bnx0HaQ%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 18:15:45,004 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1348'}
+2023-09-07 18:15:45,004 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 18:23:57,791 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip_dqn_with_goal/tmy0sd8i/config.yaml?Expires=1694158192&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=LAyvGTY%2BONOT6OS4t6oItQUXioHLdDTmakDzhbIkeg0phlD8o9vHYqGncKswXj0pQ8UsTEvUQ69TuTGG5UpoVIrLxxJFxCedSsLDqz8feYmjt%2B7%2FMBHW0JIOsI%2Fpd5Nq%2FQs9DUEl%2Fca6yi%2Bw9hqWYLjQTnmO9jY5TvFhpmy5y8dDPE%2BaryuIORLgMYYQA3wOno9braoUXPWh7YJlZI9YTnk6ce%2FzSPb8zLX8dlAr24j8uHh1W427TGLZtlCtwuzEsqxbYO8DDMibGbkT0Q6leE3mMI%2Fu5L87rKF5WL8oLYaEjWSf7CYowb83K14qB9KhUgmVfK%2F5oQRemO0%2Bnx0HaQ%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 18:23:57,791 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1348'}
+2023-09-07 18:23:57,791 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 18:29:35,787 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip_dqn_with_goal/tmy0sd8i/config.yaml?Expires=1694158192&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=LAyvGTY%2BONOT6OS4t6oItQUXioHLdDTmakDzhbIkeg0phlD8o9vHYqGncKswXj0pQ8UsTEvUQ69TuTGG5UpoVIrLxxJFxCedSsLDqz8feYmjt%2B7%2FMBHW0JIOsI%2Fpd5Nq%2FQs9DUEl%2Fca6yi%2Bw9hqWYLjQTnmO9jY5TvFhpmy5y8dDPE%2BaryuIORLgMYYQA3wOno9braoUXPWh7YJlZI9YTnk6ce%2FzSPb8zLX8dlAr24j8uHh1W427TGLZtlCtwuzEsqxbYO8DDMibGbkT0Q6leE3mMI%2Fu5L87rKF5WL8oLYaEjWSf7CYowb83K14qB9KhUgmVfK%2F5oQRemO0%2Bnx0HaQ%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 18:29:35,789 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1348'}
+2023-09-07 18:29:35,789 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 18:35:20,144 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip_dqn_with_goal/tmy0sd8i/config.yaml?Expires=1694158192&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=LAyvGTY%2BONOT6OS4t6oItQUXioHLdDTmakDzhbIkeg0phlD8o9vHYqGncKswXj0pQ8UsTEvUQ69TuTGG5UpoVIrLxxJFxCedSsLDqz8feYmjt%2B7%2FMBHW0JIOsI%2Fpd5Nq%2FQs9DUEl%2Fca6yi%2Bw9hqWYLjQTnmO9jY5TvFhpmy5y8dDPE%2BaryuIORLgMYYQA3wOno9braoUXPWh7YJlZI9YTnk6ce%2FzSPb8zLX8dlAr24j8uHh1W427TGLZtlCtwuzEsqxbYO8DDMibGbkT0Q6leE3mMI%2Fu5L87rKF5WL8oLYaEjWSf7CYowb83K14qB9KhUgmVfK%2F5oQRemO0%2Bnx0HaQ%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 18:35:20,144 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1348'}
+2023-09-07 18:35:20,144 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 18:40:27,870 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip_dqn_with_goal/tmy0sd8i/config.yaml?Expires=1694158192&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=LAyvGTY%2BONOT6OS4t6oItQUXioHLdDTmakDzhbIkeg0phlD8o9vHYqGncKswXj0pQ8UsTEvUQ69TuTGG5UpoVIrLxxJFxCedSsLDqz8feYmjt%2B7%2FMBHW0JIOsI%2Fpd5Nq%2FQs9DUEl%2Fca6yi%2Bw9hqWYLjQTnmO9jY5TvFhpmy5y8dDPE%2BaryuIORLgMYYQA3wOno9braoUXPWh7YJlZI9YTnk6ce%2FzSPb8zLX8dlAr24j8uHh1W427TGLZtlCtwuzEsqxbYO8DDMibGbkT0Q6leE3mMI%2Fu5L87rKF5WL8oLYaEjWSf7CYowb83K14qB9KhUgmVfK%2F5oQRemO0%2Bnx0HaQ%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 18:40:27,870 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1348'}
+2023-09-07 18:40:27,870 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 18:46:00,250 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip_dqn_with_goal/tmy0sd8i/config.yaml?Expires=1694158192&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=LAyvGTY%2BONOT6OS4t6oItQUXioHLdDTmakDzhbIkeg0phlD8o9vHYqGncKswXj0pQ8UsTEvUQ69TuTGG5UpoVIrLxxJFxCedSsLDqz8feYmjt%2B7%2FMBHW0JIOsI%2Fpd5Nq%2FQs9DUEl%2Fca6yi%2Bw9hqWYLjQTnmO9jY5TvFhpmy5y8dDPE%2BaryuIORLgMYYQA3wOno9braoUXPWh7YJlZI9YTnk6ce%2FzSPb8zLX8dlAr24j8uHh1W427TGLZtlCtwuzEsqxbYO8DDMibGbkT0Q6leE3mMI%2Fu5L87rKF5WL8oLYaEjWSf7CYowb83K14qB9KhUgmVfK%2F5oQRemO0%2Bnx0HaQ%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 18:46:00,250 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1348'}
+2023-09-07 18:46:00,250 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 18:51:32,045 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip_dqn_with_goal/tmy0sd8i/config.yaml?Expires=1694158192&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=LAyvGTY%2BONOT6OS4t6oItQUXioHLdDTmakDzhbIkeg0phlD8o9vHYqGncKswXj0pQ8UsTEvUQ69TuTGG5UpoVIrLxxJFxCedSsLDqz8feYmjt%2B7%2FMBHW0JIOsI%2Fpd5Nq%2FQs9DUEl%2Fca6yi%2Bw9hqWYLjQTnmO9jY5TvFhpmy5y8dDPE%2BaryuIORLgMYYQA3wOno9braoUXPWh7YJlZI9YTnk6ce%2FzSPb8zLX8dlAr24j8uHh1W427TGLZtlCtwuzEsqxbYO8DDMibGbkT0Q6leE3mMI%2Fu5L87rKF5WL8oLYaEjWSf7CYowb83K14qB9KhUgmVfK%2F5oQRemO0%2Bnx0HaQ%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 18:51:32,045 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1348'}
+2023-09-07 18:51:32,045 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 18:57:09,985 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip_dqn_with_goal/tmy0sd8i/config.yaml?Expires=1694158192&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=LAyvGTY%2BONOT6OS4t6oItQUXioHLdDTmakDzhbIkeg0phlD8o9vHYqGncKswXj0pQ8UsTEvUQ69TuTGG5UpoVIrLxxJFxCedSsLDqz8feYmjt%2B7%2FMBHW0JIOsI%2Fpd5Nq%2FQs9DUEl%2Fca6yi%2Bw9hqWYLjQTnmO9jY5TvFhpmy5y8dDPE%2BaryuIORLgMYYQA3wOno9braoUXPWh7YJlZI9YTnk6ce%2FzSPb8zLX8dlAr24j8uHh1W427TGLZtlCtwuzEsqxbYO8DDMibGbkT0Q6leE3mMI%2Fu5L87rKF5WL8oLYaEjWSf7CYowb83K14qB9KhUgmVfK%2F5oQRemO0%2Bnx0HaQ%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 18:57:09,985 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1348'}
+2023-09-07 18:57:09,985 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 19:05:22,017 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip_dqn_with_goal/tmy0sd8i/config.yaml?Expires=1694158192&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=LAyvGTY%2BONOT6OS4t6oItQUXioHLdDTmakDzhbIkeg0phlD8o9vHYqGncKswXj0pQ8UsTEvUQ69TuTGG5UpoVIrLxxJFxCedSsLDqz8feYmjt%2B7%2FMBHW0JIOsI%2Fpd5Nq%2FQs9DUEl%2Fca6yi%2Bw9hqWYLjQTnmO9jY5TvFhpmy5y8dDPE%2BaryuIORLgMYYQA3wOno9braoUXPWh7YJlZI9YTnk6ce%2FzSPb8zLX8dlAr24j8uHh1W427TGLZtlCtwuzEsqxbYO8DDMibGbkT0Q6leE3mMI%2Fu5L87rKF5WL8oLYaEjWSf7CYowb83K14qB9KhUgmVfK%2F5oQRemO0%2Bnx0HaQ%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 19:05:22,017 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1348'}
+2023-09-07 19:05:22,017 ERROR   wandb-upload_2:87088 [internal_api.py:upload_file():2500] upload_file response body: 

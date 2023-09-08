@@ -1336,3 +1336,4 @@ Traceback (most recent call last):
   File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/adapters.py", line 501, in send
     raise ConnectionError(err, request=request)
 wandb.sdk.lib.retry.TransientError: None
+2023-09-07 13:30:07,921 WARNING FileStreamThread:33849 [file_stream.py:request_with_retry():666] requests_with_retry encountered retryable exception: 500 Server Error: Internal Server Error for url: https://api.wandb.ai/files/chenhaojun001/BitFlip_dqn_with_her/99f41z27/file_stream. func: functools.partial(<bound method Session.post of <requests.sessions.Session object at 0x7fa26c6d92b0>>, timeout=60.0), args: ('https://api.wandb.ai/files/chenhaojun001/BitFlip_dqn_with_her/99f41z27/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}

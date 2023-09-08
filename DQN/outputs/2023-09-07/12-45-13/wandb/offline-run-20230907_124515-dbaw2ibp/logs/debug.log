@@ -1,0 +1,25 @@
+2023-09-07 12:45:15,005 INFO    MainThread:268530 [wandb_setup.py:_flush():76] Current SDK version is 0.15.9
+2023-09-07 12:45:15,005 INFO    MainThread:268530 [wandb_setup.py:_flush():76] Configure stats pid to 268530
+2023-09-07 12:45:15,005 INFO    MainThread:268530 [wandb_setup.py:_flush():76] Loading settings from /root/.config/wandb/settings
+2023-09-07 12:45:15,005 INFO    MainThread:268530 [wandb_setup.py:_flush():76] Loading settings from /root/BitFlip/DQN/outputs/2023-09-07/12-45-13/wandb/settings
+2023-09-07 12:45:15,005 INFO    MainThread:268530 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'disabled': 'true'}
+2023-09-07 12:45:15,005 INFO    MainThread:268530 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-09-07 12:45:15,005 INFO    MainThread:268530 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'DQN/main.py', 'program': '/root/BitFlip/DQN/main.py'}
+2023-09-07 12:45:15,005 INFO    MainThread:268530 [wandb_init.py:_log_setup():524] Logging user logs to /root/BitFlip/DQN/outputs/2023-09-07/12-45-13/wandb/offline-run-20230907_124515-dbaw2ibp/logs/debug.log
+2023-09-07 12:45:15,005 INFO    MainThread:268530 [wandb_init.py:_log_setup():525] Logging internal logs to /root/BitFlip/DQN/outputs/2023-09-07/12-45-13/wandb/offline-run-20230907_124515-dbaw2ibp/logs/debug-internal.log
+2023-09-07 12:45:15,005 INFO    MainThread:268530 [wandb_init.py:init():564] calling init triggers
+2023-09-07 12:45:15,005 INFO    MainThread:268530 [wandb_init.py:init():571] wandb.init called with sweep_config: {}
+config: {'exp_name': 'dqn', 'use_wandb': False, 'model_name': 'dqn', 'length': 1, 'lr': 0.001, 'num_episodes': 30000, 'hidden_dim': 128, 'gamma': 0.99, 'target_update': 50, 'buffer_size': 10000, 'batch_size': 64, 'model_save_dir': 'save_model', 'max_steps': 100, 'eval': False, 'log_frequency': 500, 'minimal_size': 64, 'env_reward_type': 'idx', 'policy_type': 'vanila', 'minimal_epsilon': 0.1, 'epsilon': 0.9, 'delta_epsilon': 1e-05, 'reward_success': 0, 'reward_fail': -1, 'step_is_fast': False}
+2023-09-07 12:45:15,005 INFO    MainThread:268530 [wandb_init.py:init():613] starting backend
+2023-09-07 12:45:15,005 INFO    MainThread:268530 [wandb_init.py:init():617] setting up manager
+2023-09-07 12:45:15,006 INFO    MainThread:268530 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-09-07 12:45:15,007 INFO    MainThread:268530 [wandb_init.py:init():623] backend started and connected
+2023-09-07 12:45:15,010 INFO    MainThread:268530 [wandb_init.py:init():714] updated telemetry
+2023-09-07 12:45:15,034 INFO    MainThread:268530 [wandb_init.py:init():747] communicating run to backend with 60.0 second timeout
+2023-09-07 12:45:15,044 INFO    MainThread:268530 [wandb_init.py:init():798] starting run threads in backend
+2023-09-07 12:45:18,526 INFO    MainThread:268530 [wandb_run.py:_console_start():2159] atexit reg
+2023-09-07 12:45:18,526 INFO    MainThread:268530 [wandb_run.py:_redirect():2014] redirect: wrap_raw
+2023-09-07 12:45:18,526 INFO    MainThread:268530 [wandb_run.py:_redirect():2079] Wrapping output streams.
+2023-09-07 12:45:18,527 INFO    MainThread:268530 [wandb_run.py:_redirect():2104] Redirects installed.
+2023-09-07 12:45:18,527 INFO    MainThread:268530 [wandb_init.py:init():839] run started, returning control to user process
+2023-09-07 12:46:41,431 WARNING MsgRouterThr:268530 [router.py:message_loop():77] message_loop has been closed

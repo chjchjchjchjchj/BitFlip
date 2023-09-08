@@ -3043,3 +3043,92 @@ wandb.sdk.lib.retry.TransientError: None
 2023-09-07 12:27:58,603 ERROR   Thread-11 :92231 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip_dqn_with_goal/6bo6au4e/artifact/560747813/wandb_manifest.json?Expires=1694147276&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=WfOF4yP0B8TfRxyCGAgZfY4ETfIbJCoykcU%2F6jfQ2lrNMw8wTZ2ztgmmRNmSm7ChGXD%2Fthj7WDt8IGvXxREZojKLvMdfPCbWo%2BQsVpAy%2FsEJe5tnvk4AwVuUB60xfTlsJJLr8hdP056fVV1x3YAma0hMQNuBEoPfurdFEYsVQ6FnAxtWOGEu%2BIOSPqj5ytyBu4aSyfiMS0auvidA0dDu3vVo6zZo8EgufR5JT19Xf9vQs3C24tqu8OqysEqYXMEmnomywzVLPBc1wNlQifo7yLvL0ryUvwagpdmbq5upWUFJmkQQY8VWmRS3uaQsDtB76jUxGHH2truh3qV3YCDiTg%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
 2023-09-07 12:27:58,603 ERROR   Thread-11 :92231 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-MD5': 'xLX0xTMTTNeOWQ519DDHAQ==', 'Content-Length': '513'}
 2023-09-07 12:27:58,603 ERROR   Thread-11 :92231 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 12:30:12,194 ERROR   Thread-11 :92231 [internal_api.py:upload_file():2496] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/chenhaojun001/BitFlip_dqn_with_goal/6bo6au4e/artifact/560747813/wandb_manifest.json?Expires=1694147276&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=WfOF4yP0B8TfRxyCGAgZfY4ETfIbJCoykcU%2F6jfQ2lrNMw8wTZ2ztgmmRNmSm7ChGXD%2Fthj7WDt8IGvXxREZojKLvMdfPCbWo%2BQsVpAy%2FsEJe5tnvk4AwVuUB60xfTlsJJLr8hdP056fVV1x3YAma0hMQNuBEoPfurdFEYsVQ6FnAxtWOGEu%2BIOSPqj5ytyBu4aSyfiMS0auvidA0dDu3vVo6zZo8EgufR5JT19Xf9vQs3C24tqu8OqysEqYXMEmnomywzVLPBc1wNlQifo7yLvL0ryUvwagpdmbq5upWUFJmkQQY8VWmRS3uaQsDtB76jUxGHH2truh3qV3YCDiTg%3D%3D: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2023-09-07 12:30:12,194 ERROR   Thread-11 :92231 [internal_api.py:upload_file():2498] upload_file request headers: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-MD5': 'xLX0xTMTTNeOWQ519DDHAQ==', 'Content-Length': '513'}
+2023-09-07 12:30:12,194 ERROR   Thread-11 :92231 [internal_api.py:upload_file():2500] upload_file response body: 
+2023-09-07 12:30:12,195 INFO    Thread-11 :92231 [retry.py:__call__():172] Retry attempt failed:
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connectionpool.py", line 714, in urlopen
+    httplib_response = self._make_request(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connectionpool.py", line 403, in _make_request
+    self._validate_conn(conn)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connectionpool.py", line 1053, in _validate_conn
+    conn.connect()
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connection.py", line 419, in connect
+    self.sock = ssl_wrap_socket(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/root/miniconda3/envs/ling/lib/python3.9/ssl.py", line 501, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/root/miniconda3/envs/ling/lib/python3.9/ssl.py", line 1041, in _create
+    self.do_handshake()
+  File "/root/miniconda3/envs/ling/lib/python3.9/ssl.py", line 1310, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connectionpool.py", line 798, in urlopen
+    retries = retries.increment(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/util/retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/packages/six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connectionpool.py", line 714, in urlopen
+    httplib_response = self._make_request(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connectionpool.py", line 403, in _make_request
+    self._validate_conn(conn)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connectionpool.py", line 1053, in _validate_conn
+    conn.connect()
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/connection.py", line 419, in connect
+    self.sock = ssl_wrap_socket(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/root/miniconda3/envs/ling/lib/python3.9/ssl.py", line 501, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/root/miniconda3/envs/ling/lib/python3.9/ssl.py", line 1041, in _create
+    self.do_handshake()
+  File "/root/miniconda3/envs/ling/lib/python3.9/ssl.py", line 1310, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 2491, in upload_file
+    response = self._upload_file_session.put(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/sessions.py", line 649, in put
+    return self.request("PUT", url, data=data, **kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/adapters.py", line 501, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 2520, in upload_file
+    raise _e.with_traceback(sys.exc_info()[2])
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 2491, in upload_file
+    response = self._upload_file_session.put(
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/sessions.py", line 649, in put
+    return self.request("PUT", url, data=data, **kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/root/miniconda3/envs/ling/lib/python3.9/site-packages/requests/adapters.py", line 501, in send
+    raise ConnectionError(err, request=request)
+wandb.sdk.lib.retry.TransientError: None

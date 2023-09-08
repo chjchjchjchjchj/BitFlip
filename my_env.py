@@ -6,6 +6,9 @@ import ipdb
 class BitFlip(gym.Env):
     def __init__(self, render_mode=None, length=5, reward_type="default", reward_success=1, reward_fail=0, step_is_fast=False):
         super(BitFlip, self).__init__()
+        """
+        reward_type=["default", "euclidean", "idx"]
+        """
         self.length = length
         if step_is_fast:
             self.action_space = spaces.Discrete(1 << self.length)
@@ -44,6 +47,11 @@ class BitFlip(gym.Env):
             reward = self.reward_success if done else self.reward_fail
         elif self.reward_type == "euclidean":
             reward = -np.linalg.norm(self.state - self.goal)
+        elif self.reward_type == "idx":
+            if self.state[action] == self.goal[action]:
+                reward = self.reward_success
+            else:
+                reward = self.reward_fail
 
         return np.copy(self.state), reward, done, None  
     
